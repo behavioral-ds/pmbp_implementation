@@ -2,7 +2,7 @@ import ipopt, logging
 import numpy as np
 from time import perf_counter
 
-from pmbp_base import (
+from .pmbp_base import (
     exponential_kernel,
     exponential_kernel_integral,
     return_kernel_matrix_at_t,
@@ -26,14 +26,14 @@ from pmbp_base import (
     return_nll_with_gradients
 )
 
-from pmbp_utils import get_spectral_radius_from_flat_params, get_constraintEcEc, get_constraintCross
+from .pmbp_utils import get_spectral_radius_from_flat_params, get_constraintEcEc, get_constraintCross
 
 class PMBP(object):
-    def __init__(self, history, plist, gammas, pbs_index, hyparam_x0_index, dim_weights, nu_reg, E, logfit_label):
+    def __init__(self, history, plist, gammas, pbs_index, hyparam_x0_index, dim_weights, nu_reg, T, E, logfit_label):
         self.D = len(history)
         self.kernel = exponential_kernel
         self.kernel_integral = exponential_kernel_integral
-        self.T = len(history[0])
+        self.T = T
         self.E = E
         self.Ec = [x for x in range(self.D) if x not in self.E]
         self.h_dt = 0.01
@@ -51,7 +51,7 @@ class PMBP(object):
         
         self.logfit_label = logfit_label
         
-        logging.basicConfig(filename=f"log/{logfit_label}_{pbs_index}_{hyparam_x0_index}.log", level=logging.INFO, format='%(asctime)s | %(message)s', force=True)
+        logging.basicConfig(filename=f"log/{pbs_index}_{logfit_label}_{hyparam_x0_index}.log", level=logging.INFO, format='%(asctime)s | %(message)s', force=True)
         
         # calculate gradient at initial point. self.grad will cache values during objective evaluation
         D = len(history)
@@ -111,10 +111,9 @@ class PMBP(object):
     def objective(self, plist):
         start = perf_counter()
         D = len(self.history)
-#         print(get_spectral_radius_from_flat_params(plist, self.D), "PLIST", plist)
+
         sr = get_spectral_radius_from_flat_params(plist, self.D, self.E)
         if sr > 0.99:
-            print(f"\tFAIL - constraint, (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}")
             logging.info(f"\tFAIL - constraint, (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}")
             return np.nan
 
@@ -123,7 +122,6 @@ class PMBP(object):
         h_grid = np.arange(0, self.T+0.1*self.h_dt, self.h_dt)
         h, H, flag = return_h_and_H(self.kernel, self.kernel_integral, kp, h_grid, self.E, self.h_dt, self.T, self.h_tol)
         
-        print(f"\tcalculated h & H. calculating h_grad..., hyparam_x0_index: {self.hyparam_x0_index}")
         logging.info(f"\tcalculated h & H. calculating h_grad..., hyparam_x0_index: {self.hyparam_x0_index}")
         
         if flag != "divergent":
@@ -140,7 +138,6 @@ class PMBP(object):
                 True
             )
             
-            print(f"\tcalculated h_grad. calculating H_grad..., hyparam_x0_index: {self.hyparam_x0_index}")
             logging.info(f"\tcalculated h_grad. calculating H_grad..., hyparam_x0_index: {self.hyparam_x0_index}")
             
             if flag2 != "divergent":
@@ -153,10 +150,8 @@ class PMBP(object):
                     h_grid,
                     self.E,
                     self.h_dt)
-                print(f"\tcalculated H_grad, hyparam_x0_index: {self.hyparam_x0_index}")
                 logging.info(f"\tcalculated H_grad, hyparam_x0_index: {self.hyparam_x0_index}")
             else:
-                print(f"\tdivergent h_grad or hit 30s limit. resort to finite differencing..., hyparam_x0_index: {self.hyparam_x0_index}")
                 logging.info(f"\tdivergent h_grad or hit 30s limit. resort to finite differencing..., hyparam_x0_index: {self.hyparam_x0_index}")
                     
                 def numerical_difference(x):
@@ -186,21 +181,17 @@ class PMBP(object):
                 a=perf_counter()
                 self.grad = approx_fprime(plist, numerical_difference, 1e-5)
                 b=perf_counter()
-                print(f"\tfinite differencing took {b-a}s. calculated ll: {ll}. (SR = {get_spectral_radius_from_flat_params(plist, self.D)}), hyparam_x0_index: {self.hyparam_x0_index}")
-                print(f"\tobj and grad eval took {perf_counter()-start}s.")
                 logging.info(f"\tfinite differencing took {b-a}s. calculated ll: {ll}. (SR = {get_spectral_radius_from_flat_params(plist, self.D)}), hyparam_x0_index: {self.hyparam_x0_index}")
                 logging.info(f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}")
                 logging.info(f"\tCurrent pt: {str(plist)}., hyparam_x0_index: {self.hyparam_x0_index}")
                 return ll
         else: # divergent
-            print(f"\tdivergent h. return nan..., hyparam_x0_index: {self.hyparam_x0_index}")
             logging.info(f"\tdivergent h. return nan..., hyparam_x0_index: {self.hyparam_x0_index}. plist: {plist}")
             return np.nan
         
         gammas = self.gammas
         nus = plist[-self.D:]
 
-        print(f"\tcalculating ll..., hyparam_x0_index: {self.hyparam_x0_index}")
         logging.info(f"\tcalculating ll..., hyparam_x0_index: {self.hyparam_x0_index}")
         ll, grad = return_nll_with_gradients(
             self.kernel,
@@ -223,12 +214,10 @@ class PMBP(object):
             self.ll_weights_map,
             self.nu_regularization)
         sr = get_spectral_radius_from_flat_params(plist, self.D, self.E)
-        print(f"\tcalculated ll: {ll}. (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}")
         logging.info(f"\tcalculated ll: {ll}. (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}")
 
         self.grad = grad
 
-        print(f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}")
         logging.info(f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}")
         logging.info(f"\tCurrent pt: {str(plist)}., hyparam_x0_index: {self.hyparam_x0_index}")
 
@@ -238,8 +227,6 @@ class PMBP(object):
         #
         # The callback for calculating the gradient
         #
-#         print("GRADIENT",self.grad)
-#         print("grad")
         return self.grad
     
     def constraints(self, x):
@@ -272,30 +259,19 @@ class PMBP(object):
             ls_trials
             ):
 
-        #
-        # Example for the use of the intermediate callback.
-        #
-        print(f"Objective value at iteration #{iter_count} is - {obj_value}. Running time: {int(perf_counter() - self.start_time)}s, hyparam_x0_index: {self.hyparam_x0_index}")
         logging.info(f"Objective value at iteration #{iter_count} is - {obj_value}. Running time: {int(perf_counter() - self.start_time)}s, hyparam_x0_index: {self.hyparam_x0_index}")
         
 
 def run_optimization_one_sequence_given_starting_point(hyparam_x0, gammas, history, video_index, hyparam_x0_index, theta_ub, T, E, logfit_label="log"):   
     
-    dim_weights, nu_reg, nu_x0, _ = hyparam_x0[0]
-    x0 = np.hstack([hyparam_x0[1], nu_x0])
+    dim_weights, nu_reg, _ = hyparam_x0[0]
+    x0 = hyparam_x0[1]
     D = len(dim_weights)
-    
-    print("starting", x0)
-    
+        
     time_start = perf_counter()    
     
     lb = [1e-5] * (2*D*D) + [0] * (D)
-#     ub = [theta_ub] * (D*D) + [0.999] * (D*D) + list(x0[-3:] * 10)#+ [1e10] * (2*D)
-
-    if len(E) == 3:
-        ub = [theta_ub] * (D*D) + [1e10] * (D*D) + list(x0[-3:] * 10)#+ [1e10] * (2*D)
-    else:
-        ub = [theta_ub] * (D*D) + [0.95] + [1e10] * (D*D-1) + list(x0[-3:] * 10)#+ [1e10] * (2*D)
+    ub = [theta_ub] * (D*D) + [0.99] + [1e10] * (D*D-1) + list(x0[-3:] * 10)
  
     cl = [0] * 3
     cu = [0.99] * 3
@@ -303,7 +279,7 @@ def run_optimization_one_sequence_given_starting_point(hyparam_x0, gammas, histo
     nlp = ipopt.problem(
                 n=len(x0),
                 m=len(cl),
-                problem_obj=PMBP(history, x0, gammas, video_index, hyparam_x0_index, dim_weights, nu_reg, E, logfit_label),
+                problem_obj=PMBP(history, x0, gammas, video_index, hyparam_x0_index, dim_weights, nu_reg, T, E, logfit_label),
                 lb=lb,
                 ub=ub,
                 cl=cl,
@@ -324,8 +300,4 @@ def run_optimization_one_sequence_given_starting_point(hyparam_x0, gammas, histo
 
     x_opt, info = nlp.solve(x0)
     time_end = perf_counter()
-
-#     pickle.dump([x0, x_opt, info, time_end-time_start], open(f"results_{pbs_index}_{x0_index}.p", "wb"))
-
-    print("done", x0, time_end-time_start)
     return [x_opt, info, time_end-time_start]

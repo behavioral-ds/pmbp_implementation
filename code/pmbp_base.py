@@ -26,7 +26,7 @@ def pointwise_nu(t, nu_vec):
     return nu_vec*np.ones(shape=len(nu_vec))
 
 def pointwise_nu_integral(t, nu_vec):
-    return nu_vec*t*np.ones(shape=len(nu_vec)) #(nu_vec+mu_vec*t)*np.ones(shape=D)
+    return nu_vec*t*np.ones(shape=len(nu_vec))
 
 def convolve_matrices(A, B, increment):
     D = A.shape[0]
@@ -57,7 +57,7 @@ def get_approx_to_f(t_arr, h_dt, f, i = None, j = None):
     elif i is None and j is None:
         return f[:,:][:,:,t_index]
 
-def interval_censor_dimension(dim_history, T = 30, partition_length = 1):
+def interval_censor_dimension(dim_history, T, partition_length = 1):
     cs, edges = np.histogram(dim_history, bins=np.arange(0, T+0.01, partition_length))
     censored_data = []
     for i in range(len(cs)):
@@ -96,7 +96,6 @@ def get_effective_history(history, ic_dims, T, p_dt = 1):
     D = len(history)
     
     # convert history into a list of timestamps to iterate over (+ discretization for hawkes calc)
-    
     labeled_points, labeled_censors = preprocess_history(history, ic_dims)
     
     grid = np.arange(0, T+0.1*p_dt, p_dt)
@@ -181,7 +180,6 @@ def return_h_and_H(
 def return_derivative_of_phi(t, kernel_parameters, i,j, E_c, var = "kappa"):
     theta, kappa = kernel_parameters
     deriv = np.zeros(shape=(len(theta),len(theta),len(t)))
-    # exponential
     if var == "kappa":
         deriv[i,j,:] = theta[i,j] * np.exp(-theta[i,j] * t)
     elif var == "theta":
@@ -219,14 +217,11 @@ def return_gradient_of_h_recursive(
     pointwise_phi = lambda t: return_kernel_matrix_at_t(t, kernel, kernel_parameters)
     
     phi = return_kernel_matrix(x_range, pointwise_phi)
-
-    
     phi_E = phi.copy()
     phi_E[:,E_c,:] = 0
     
     deriv_phi_array = np.zeros(shape=(2,D,D, D, D, len(x_range)),dtype=object)
-#     print(deriv_phi_array.shape)
-    h_grad = np.zeros(shape=(2,D,D, D, D, len(x_range))) # (theta-kappa) x (3) x (3) x (deriv on 3x3xtime)
+    h_grad = np.zeros(shape=(2,D,D, D, D, len(x_range)))
     A = np.zeros(shape=(2,D, D, D,D,len(x_range)))
     B = np.zeros(shape=(2,D, D, D,D,len(x_range)))
     
@@ -252,7 +247,6 @@ def return_gradient_of_h_recursive(
                             
                     additionals.append(np.max(np.abs(A[index,i,j,:])))
                 
-#         print(n, np.max(additionals))#, additionals)
         if np.max(additionals) <= gamma:
             break
         if np.isnan(np.max(additionals)):
@@ -266,7 +260,6 @@ def return_gradient_of_h_recursive(
                 return h_grad, "return_at_N"
                 
         running = np.max(additionals)
-#         print("h_grad. ", n, np.max(additionals))
         n += 1
         
     return h_grad, flag
@@ -288,7 +281,7 @@ def return_gradient_of_H(
     Phi_E = return_kernel_matrix(x_range, pointwise_Phi)
     Phi_E[:,E_c,:] = 0
 
-    H_grad = np.zeros(shape=(2,D,D, D, D, len(x_range))) # (theta-kappa) x (3) x (3) x (deriv on 3x3xtime)
+    H_grad = np.zeros(shape=(2,D,D, D, D, len(x_range)))
     for index, var in enumerate(['theta', 'kappa']):
         for i in range(D):
             for j in range(D):

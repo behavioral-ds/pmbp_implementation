@@ -3,7 +3,7 @@ import numpy as np
 from scipy.signal import fftconvolve
 from time import perf_counter
 
-from pmbp_base import (
+from .pmbp_base import (
     exponential_kernel,
     exponential_kernel_integral,
     return_kernel_matrix_at_t,
@@ -17,9 +17,10 @@ from pmbp_base import (
     return_h_and_H
 )
 
-from pmbp_utils import get_percentile_error
-
-D=3
+from .pmbp_utils import (
+    get_percentile_error,
+    get_rmse_error
+)
 
 def return_Xi_at_s(
     s,
@@ -36,8 +37,9 @@ def return_Xi_at_s(
     p_dt=0.1,
     h_dt=0.01):
     
-    params = [x[:9].reshape(3,3), x[9:18].reshape(3,3)]
-    nus = x[18:21]
+    D = len(history)
+    params = [x[:D*D].reshape(D,D), x[D*D:2*D*D].reshape(D,D)]
+    nus = x[2*D*D:2*D*D+D]
 
     return_nu_integral_at_t = lambda t: pointwise_nu_integral(t, nus)
     return_nu_integral_over_time = lambda arr: np.moveaxis(np.stack([return_nu_integral_at_t(i) for i in arr]), 0, -1)
@@ -93,6 +95,7 @@ def return_Xi_at_s(
             
     return Xi
 
+
 def return_xi2_at_s(
     s,
     history, # dataset: interval-censored in the ic-dims
@@ -107,8 +110,9 @@ def return_xi2_at_s(
     p_dt=0.1,
     h_dt=0.01):
     
-    params = [x[:9].reshape(3,3), x[9:18].reshape(3,3)]
-    nus = x[18:21]
+    D = len(history)
+    params = [x[:D*D].reshape(D,D), x[D*D:2*D*D].reshape(D,D)]
+    nus = x[2*D*D:2*D*D+D]
 
     return_nu_at_t = lambda t: pointwise_nu(t, nus)
     return_nu_over_time = lambda arr: np.moveaxis(np.stack([return_nu_at_t(i) for i in arr]), 0, -1)
@@ -116,7 +120,7 @@ def return_xi2_at_s(
     Ec = [x for x in range(D) if x not in E]
     
     # only less than s
-    t_arr = get_effective_history(history, [0, 1], s, p_dt)
+    t_arr = get_effective_history(history, E, s, p_dt)
     t_arr = [x for x in t_arr if x[0] < s]
     
     a_matrix = np.zeros(shape=(D, len(t_arr)))
@@ -158,6 +162,7 @@ def return_xi2_at_s(
 
     return xi
 
+
 def return_ub2_at_s(
     s,
     history, # dataset: interval-censored in the ic-dims
@@ -173,9 +178,9 @@ def return_ub2_at_s(
     h_dt=0.01,
     T=120):
     
-    params = [x[:9].reshape(3,3), x[9:18].reshape(3,3)]
-    nus = x[18:21]
     D = len(history)
+    params = [x[:D*D].reshape(D,D), x[D*D:2*D*D].reshape(D,D)]
+    nus = x[2*D*D:2*D*D+D]
 
     return_nu_at_t = lambda t: pointwise_nu(t, nus)
     return_nu_over_time = lambda arr: np.moveaxis(np.stack([return_nu_at_t(i) for i in arr]), 0, -1)
@@ -183,7 +188,7 @@ def return_ub2_at_s(
     Ec = [x for x in range(D) if x not in E]
     
     # only less than s
-    t_arr = get_effective_history(history, [0, 1], T, p_dt)
+    t_arr = get_effective_history(history, E, T, p_dt)
     t_arr = [x for x in t_arr if x[0] <= s]
     t_arr_no_s = [x for x in t_arr if x[0] < s]
         
@@ -237,12 +242,11 @@ def return_ub2_at_s(
     H_hat = get_approx_to_f(T - s, h_dt, H_hat, 2, None)
     
     ub += np.dot(H_hat, a)
-    
-#     print("UB", ub, "COMPONENTS", nus[2], a[2], np.dot(h_max_past_s[2,:], gammas), np.dot(H[2,:,-1], nus), np.sum(((-1*(a_matrix[:,:]))[E].T) * delta_H[:,:,2]), np.dot(H_hat, a))
-#     print("HHAT", H_hat, a, params)
     return ub
 
+
 def return_H_hat(h, H, h_grid):
+    D = h.shape[0]
     h_max = np.max(h, axis=-1)
     t_max = np.array([[int(np.where(h[i,j] == h_max[i,j])[0][0]) for j in range(D)] for i in range(D)])
     
@@ -253,10 +257,11 @@ def return_H_hat(h, H, h_grid):
                 H_hat[i,j,:t_max[i,j]] = h_max[i,j] * h_grid[:t_max[i,j]]
             H_hat[i,j,t_max[i,j]:] = H[i,j, t_max[i,j]:] + h_grid[t_max[i,j]] * h_max[i,j] - H[i,j, t_max[i,j]]
     return H_hat
-            
+        
+    
 def return_history2(s_0, T, p_dt, kernel, plist, gammas, h, H, h_grid, history, E, hyper_index, video_index, run_index, to_log = True, max_time = 600, logfile_label = "pmbpthinning"):
 
-    logging.basicConfig(filename=f"log/{logfile_label}_{video_index}_{hyper_index}_{run_index}.log", level=logging.INFO, format='%(asctime)s | %(message)s', force=True)
+    logging.basicConfig(filename=f"log/{video_index}_{logfile_label}_{hyper_index}_{run_index}.log", level=logging.INFO, format='%(asctime)s | %(message)s', force=True)
     
     start = perf_counter()
     
@@ -315,11 +320,11 @@ def return_history2(s_0, T, p_dt, kernel, plist, gammas, h, H, h_grid, history, 
 
         if (rd * lambda_star) <= current_lambda:
             history[2].append(s)
-            logging.info(f"{s}. accept.")
-            print(s,"accept", current_lambda.round(2), lambda_star.round(2))
+            logging.info(f"run#{run_index}, hyperindex#{hyper_index}, {s}. accept.")
+#             print(f"run#{run_index}", s,"accept", current_lambda.round(2), lambda_star.round(2))
         else:
-            logging.info(f"{s}. reject.")
-            print("\t", s,"reject", current_lambda.round(2), lambda_star.round(2))
+            logging.info(f"run#{run_index}, hyperindex#{hyper_index}, {s}. reject.")
+#             print(f"run#{run_index}", "\t", s,"reject", current_lambda.round(2), lambda_star.round(2))
             continue
 
     if len(history[2]) != 0:
@@ -327,7 +332,7 @@ def return_history2(s_0, T, p_dt, kernel, plist, gammas, h, H, h_grid, history, 
             history[2] = history[2][:-1]
         
     if too_long:
-        print("TOOK TOO LONG. GO AS POISSON.")
+        print("Takes too long. Perform Poisson approximation.")
         history[2] = [x for x in history[2] if x < s_0]
         pts = np.array(history[2])
         # if too long, use history of last 15 days as sample instead.
@@ -344,14 +349,30 @@ def return_history2(s_0, T, p_dt, kernel, plist, gammas, h, H, h_grid, history, 
                 break
             else:
                 history[2].append(s)
-                print(f"poisson. {s}")
+#                 print(f"poisson. {s}")
         return history
     else:
         return history
 
+    
 # ex: a = 1, b = 90; to get volume at 1, 2, ..., 90
 def get_volume_per_unit_bet_a_b(a, b, history, plist, gammas, h, H, h_grid, E):
-    return np.diff([return_Xi_at_s(
+    
+    D = len(history)
+    if a == 0:
+        initial = [-1 * gammas + return_Xi_at_s(
+        1,
+        history, # dataset: interval-censored in the ic-dims
+        plist,
+        gammas,
+        h, 
+        H,
+        h_grid,
+        E)]     
+    else:
+        initial = np.empty(shape=(0,D))
+
+    return np.vstack([initial, np.diff([return_Xi_at_s(
         x,
         history, # dataset: interval-censored in the ic-dims
         plist,
@@ -359,130 +380,76 @@ def get_volume_per_unit_bet_a_b(a, b, history, plist, gammas, h, H, h_grid, E):
         h, 
         H,
         h_grid,
-        E) for x in range(a,b+1)], axis=0)
+        E) for x in range(max([a,1]),b+1)], axis=0)])
+
+def get_volume_per_unit_bet_a_b_recompute_h(a, b, history, plist, gammas, E, p_dt=1, h_dt=0.01, h_tol=1e-6, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral):
+    D = len(history)
+    kp = np.array(plist[:-D]).reshape(2,D,D)
+    
+    h_grid = np.arange(0, b+0.1*h_dt, h_dt)
+    h, H, flag = return_h_and_H(kernel, kernel_integral, kp, h_grid, E, h_dt, b, h_tol)
+    
+    if a == 0:
+        initial = [-1 * gammas + return_Xi_at_s(
+        1,
+        history, # dataset: interval-censored in the ic-dims
+        plist,
+        gammas,
+        h, 
+        H,
+        h_grid,
+        E)]        
+    else:
+        initial = np.empty(shape=(0,D))
+    
+    return np.vstack([initial, np.diff([return_Xi_at_s(
+        x,
+        history, # dataset: interval-censored in the ic-dims
+        plist,
+        gammas,
+        h, 
+        H,
+        h_grid,
+        E) for x in range(max([a,1]),b+1)], axis=0)])
+
 
 def sample_forward(s_0, T, hist, plist, gammas, h, H, h_grid, E, p_dt, kernel, hyper_index, video_index, run_index, max_time=600, logfile_label="pmbpthinning"):
     forward_history = return_history2(s_0, T, p_dt, kernel, plist, gammas, h, H, h_grid, hist, E, hyper_index, video_index, run_index, max_time=max_time, logfile_label = logfile_label)
     
-    if forward_history == "fail":
-        return "fail", "fail"
-    else:    
-        duration = perf_counter()
-        print("getting vol")
-        volumes = get_volume_per_unit_bet_a_b(s_0, T, hist, plist, gammas, h, H, h_grid, E)
-        print("...done getting vol")
-        duration = perf_counter() - duration
+    volumes = get_volume_per_unit_bet_a_b(s_0, T, hist, plist, gammas, h, H, h_grid, E)
+    print(f"...done with sample #{run_index}")
 
-        return volumes, duration
-
-
-def average_sample_forwards_with_percentile_comparison(n, s_0, T, input_history, plist, gammas, nll, video_index, hyper_index, actual_volume, percentile_refvals, E, p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6, folder="hypertuning"):
-    
-    D = len(input_history)
-    kp = np.array(plist[:-D]).reshape(2,D,D)
-
-    h_grid = np.arange(0, T+0.1*h_dt, h_dt)
-    h, H, flag = return_h_and_H(kernel, kernel_integral, kp, h_grid, E, h_dt, T, h_tol)
-    
-    collector = []
-    durations = []
-    for i in range(n):
-        np.random.seed(i)
-        hist = copy.deepcopy(input_history)
-        volumes, duration = sample_forward(s_0, T, hist, plist, gammas, h, H, h_grid, E, p_dt, kernel, hyper_index, video_index, i)
-        
-        if volumes == "fail":
-            break
-        
-        collector.append(volumes)
-        durations.append(duration)
-    
-    if volumes != "fail":
-        mean_volume = np.mean(collector, axis=0).T
-        val_view_volume = np.sum(mean_volume[0])
-        percentile_error = get_percentile_error(val_view_volume, actual_volume, percentile_refvals)
-
-        pickle.dump([nll, hyper_index, percentile_error, mean_volume, collector, durations], open(f"{folder}/v{video_index}_h{hyper_index}.p", "wb"))
-        return [nll, hyper_index, percentile_error, mean_volume, collector, durations]
-    
-    else:
-        return [1e9, hyper_index, 1e9, 1e9, [], []]
-    ###
-    
-        E = [0,1,2]
-        h, H, flag = return_h_and_H(kernel, kernel_integral, kp, h_grid, E, h_dt, T, h_tol)
-        end_Xi = return_Xi_at_s(
-                T,
-                input_history,
-                plist,
-                gammas,
-                h, 
-                H,
-                h_grid,
-                E,
-                kernel,
-                kernel_integral,
-                pointwise_nu=pointwise_nu,
-                p_dt=p_dt,
-                h_dt=h_dt)
-
-        start_Xi = return_Xi_at_s(
-            s_0,
-            input_history,
-            plist,
-            gammas,
-            h, 
-            H,
-            h_grid,
-            E,
-            kernel,
-            kernel_integral,
-            pointwise_nu=pointwise_nu,
-            p_dt=p_dt,
-            h_dt=h_dt)
-        
-        mean_volume = end_Xi - start_Xi
-        val_view_volume = mean_volume[0]
-        percentile_error = get_percentile_error(val_view_volume, actual_volume, percentile_refvals)
-        
-        pickle.dump([nll, hyper_index, percentile_error, mean_volume], open(f"{folder}/v{video_index}_h{hyper_index}.p", "wb"))
-        return [nll, hyper_index, percentile_error, mean_volume]
+    return volumes, hist    
     
 #### for final fitting ####    
     
-def sample_forward_once(i, s_0, T, input_history, plist, gammas, nll, video_index, hyper_index, actual_volume, percentile_refvals, E, p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6, max_time=600, logfile_label="finalthinning"):
+    
+def sample_forward_once(i, s_0, T, input_history, plist, gammas, video_index, hyper_index, actual_volume, E, p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6, max_time=600, logfile_label="thin"):
     
     D = len(input_history)
     kp = np.array(plist[:-D]).reshape(2,D,D)
-
+    
     h_grid = np.arange(0, T+0.1*h_dt, h_dt)
     h, H, flag = return_h_and_H(kernel, kernel_integral, kp, h_grid, E, h_dt, T, h_tol)
     
-    collector = []
-    durations = []
-    
     np.random.seed(i)
     hist = copy.deepcopy(input_history)
-    volumes, duration = sample_forward(s_0, T, hist, plist, gammas, h, H, h_grid, E, p_dt, kernel, hyper_index, video_index, i, max_time=max_time, logfile_label=logfile_label)
+    volumes, hist = sample_forward(s_0, T, hist, plist, gammas, h, H, h_grid, E, p_dt, kernel, hyper_index, video_index, i, max_time=max_time, logfile_label=logfile_label)
+    return volumes, hist
 
-    return [volumes, duration]
 
-def aggregate_sample_forwards(collector, durations, s_0, T, input_history, plist, gammas, nll, video_index, hyper_index, actual_volume, percentile_refvals, E, p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6, folder="hypertuning"):
-    if "fail" not in collector:
-        mean_volume = np.mean(collector, axis=0).T
-        val_view_volume = np.sum(mean_volume[0])
-        percentile_error = get_percentile_error(val_view_volume, actual_volume, percentile_refvals)
+def aggregate_sample_forwards(collector, s_0, T, input_history, plist, gammas, video_index, hyper_index, actual_volume, E, p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6, folder="hypertuning"):
+    mean_volume = np.mean(collector, axis=0).T
+    val_view_volume = np.sum(mean_volume[0])
 
-        pickle.dump([nll, hyper_index, percentile_error, mean_volume, collector, durations], open(f"{folder}/v{video_index}_h{hyper_index}.p", "wb"))
-        return [nll, hyper_index, percentile_error, mean_volume, collector, durations]
+    rmse_error = get_rmse_error(val_view_volume, actual_volume)
+#         percentile_error = get_percentile_error(val_view_volume, actual_volume, percentile_refvals)
+
+    pickle.dump([hyper_index, rmse_error, val_view_volume, collector], open(f"output/{video_index}_hypertuning.p", "wb"))
+    return [hyper_index, rmse_error, val_view_volume, collector]
     
-    else:
-        # fail. takes too long to sample
-        return [nll, hyper_index, 1e9, 1e9]
-                                                       
-########    
 
-def complete_mbp_percentile_comparison(s_0, T, input_history, plist, gammas, nll, video_index, hyper_index, actual_volume, percentile_refvals, E, folder="hypertuning", p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6):
+def complete_mbp_percentile_comparison(s_0, T, input_history, plist, gammas, video_index, hyper_index, actual_volume, E, folder="hypertuning", p_dt=1, h_dt=0.01, kernel = exponential_kernel, kernel_integral = exponential_kernel_integral, h_tol=1e-6):
     
     D = len(input_history)
     kp = np.array(plist[:-D]).reshape(2,D,D)
@@ -521,13 +488,12 @@ def complete_mbp_percentile_comparison(s_0, T, input_history, plist, gammas, nll
         h_dt=h_dt)
         
     mean_volume = end_Xi - start_Xi
-
     val_view_volume = mean_volume[0]
     
-    percentile_error = get_percentile_error(val_view_volume, actual_volume, percentile_refvals)
+    rmse_error = get_rmse_error(val_view_volume, actual_volume)
+#     percentile_error = get_percentile_error(val_view_volume, actual_volume, percentile_refvals)
+    pickle.dump([hyper_index, rmse_error, val_view_volume], open(f"output/{video_index}_hypertuning.p", "wb"))
     
-    pickle.dump([nll, hyper_index, percentile_error, mean_volume], open(f"{folder}/v{video_index}_h{hyper_index}.p", "wb"))
-    
-    return [nll, hyper_index, percentile_error, mean_volume]
+    return [hyper_index, rmse_error, val_view_volume]
 
 
