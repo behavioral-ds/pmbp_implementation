@@ -23,13 +23,32 @@ from .pmbp_base import (
     return_derivative_of_phi_at_t,
     return_derivative_of_Phi_at_t,
     return_nll_without_gradients,
-    return_nll_with_gradients
+    return_nll_with_gradients,
 )
 
-from .pmbp_utils import get_spectral_radius_from_flat_params, get_constraintEcEc, get_constraintCross
+from .pmbp_utils import (
+    get_spectral_radius_from_flat_params,
+    get_constraintEcEc,
+    get_constraintCross,
+)
+
 
 class PMBP(object):
-    def __init__(self, history, plist, gammas, pbs_index, hyparam_x0_index, dim_weights, nu_reg, T, E, logfit_label):
+    # model object to fitted as input to IPOPT
+
+    def __init__(
+        self,
+        history,
+        plist,
+        gammas,
+        pbs_index,
+        hyparam_x0_index,
+        dim_weights,
+        nu_reg,
+        T,
+        E,
+        logfit_label,
+    ):
         self.D = len(history)
         self.kernel = exponential_kernel
         self.kernel_integral = exponential_kernel_integral
@@ -43,24 +62,38 @@ class PMBP(object):
         self.history = history
         self.start_time = perf_counter()
         self.hyparam_x0_index = hyparam_x0_index
-        
+
         self.gammas = gammas
 
         self.ll_weights_map = dim_weights
         self.nu_regularization = nu_reg
-        
+
         self.logfit_label = logfit_label
-        
-        logging.basicConfig(filename=f"log/{pbs_index}_{logfit_label}_{hyparam_x0_index}.log", level=logging.INFO, format='%(asctime)s | %(message)s', force=True)
-        
+
+        logging.basicConfig(
+            filename=f"log/{pbs_index}_{logfit_label}_{hyparam_x0_index}.log",
+            level=logging.INFO,
+            format="%(asctime)s | %(message)s",
+            force=True,
+        )
+
         # calculate gradient at initial point. self.grad will cache values during objective evaluation
         D = len(history)
-        kp = np.array(plist[:-self.D]).reshape(2,self.D,self.D)
-        h_grid = np.arange(0, self.T+0.1*self.h_dt, self.h_dt)
-        h, H, flag = return_h_and_H(self.kernel, self.kernel_integral, kp, h_grid, self.E, self.h_dt, self.T, self.h_tol)
+        kp = np.array(plist[: -self.D]).reshape(2, self.D, self.D)
+        h_grid = np.arange(0, self.T + 0.1 * self.h_dt, self.h_dt)
+        h, H, flag = return_h_and_H(
+            self.kernel,
+            self.kernel_integral,
+            kp,
+            h_grid,
+            self.E,
+            self.h_dt,
+            self.T,
+            self.h_tol,
+        )
 
         logging.info(f"PLIST: {str(plist)}, hyparam_x0_index: {hyparam_x0_index}")
-        
+
         h_grad, flag2 = return_gradient_of_h_recursive(
             self.kernel,
             kp,
@@ -70,21 +103,22 @@ class PMBP(object):
             self.h_dt,
             self.T,
             self.h_grad_tol,
-            1000
+            1000,
         )
         gammas = self.gammas
-        nus = plist[-self.D:]
- 
+        nus = plist[-self.D :]
+
         H_grad = return_gradient_of_H(
             self.kernel_integral,
             kp,
             return_derivative_of_Phi,
-            h, 
+            h,
             h_grad,
             h_grid,
             self.E,
-            self.h_dt)
-        
+            self.h_dt,
+        )
+
         ll, grad = return_nll_with_gradients(
             self.kernel,
             self.kernel_integral,
@@ -93,9 +127,9 @@ class PMBP(object):
             nus,
             pointwise_nu,
             pointwise_nu_integral,
-            history, # dataset: interval-censored in the ic-dims
-            self.E, # the mbp dims
-            h, 
+            history,  # dataset: interval-censored in the ic-dims
+            self.E,  # the mbp dims
+            h,
             H,
             h_grad,
             H_grad,
@@ -104,9 +138,9 @@ class PMBP(object):
             self.h_dt,
             self.T,
             self.ll_weights_map,
-            self.nu_regularization)
+            self.nu_regularization,
+        )
         self.grad = grad
-                
 
     def objective(self, plist):
         start = perf_counter()
@@ -114,16 +148,29 @@ class PMBP(object):
 
         sr = get_spectral_radius_from_flat_params(plist, self.D, self.E)
         if sr > 0.99:
-            logging.info(f"\tFAIL - constraint, (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}")
+            logging.info(
+                f"\tFAIL - constraint, (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}"
+            )
             return np.nan
 
-        kp = np.array(plist[:-self.D]).reshape(2,self.D,self.D)
+        kp = np.array(plist[: -self.D]).reshape(2, self.D, self.D)
 
-        h_grid = np.arange(0, self.T+0.1*self.h_dt, self.h_dt)
-        h, H, flag = return_h_and_H(self.kernel, self.kernel_integral, kp, h_grid, self.E, self.h_dt, self.T, self.h_tol)
-        
-        logging.info(f"\tcalculated h & H. calculating h_grad..., hyparam_x0_index: {self.hyparam_x0_index}")
-        
+        h_grid = np.arange(0, self.T + 0.1 * self.h_dt, self.h_dt)
+        h, H, flag = return_h_and_H(
+            self.kernel,
+            self.kernel_integral,
+            kp,
+            h_grid,
+            self.E,
+            self.h_dt,
+            self.T,
+            self.h_tol,
+        )
+
+        logging.info(
+            f"\tcalculated h & H. calculating h_grad..., hyparam_x0_index: {self.hyparam_x0_index}"
+        )
+
         if flag != "divergent":
             h_grad, flag2 = return_gradient_of_h_recursive(
                 self.kernel,
@@ -135,29 +182,45 @@ class PMBP(object):
                 self.T,
                 self.h_grad_tol,
                 50,
-                True
+                True,
             )
-            
-            logging.info(f"\tcalculated h_grad. calculating H_grad..., hyparam_x0_index: {self.hyparam_x0_index}")
-            
+
+            logging.info(
+                f"\tcalculated h_grad. calculating H_grad..., hyparam_x0_index: {self.hyparam_x0_index}"
+            )
+
             if flag2 != "divergent":
                 H_grad = return_gradient_of_H(
                     self.kernel_integral,
                     kp,
                     return_derivative_of_Phi,
-                    h, 
+                    h,
                     h_grad,
                     h_grid,
                     self.E,
-                    self.h_dt)
-                logging.info(f"\tcalculated H_grad, hyparam_x0_index: {self.hyparam_x0_index}")
+                    self.h_dt,
+                )
+                logging.info(
+                    f"\tcalculated H_grad, hyparam_x0_index: {self.hyparam_x0_index}"
+                )
             else:
-                logging.info(f"\tdivergent h_grad or hit 30s limit. resort to finite differencing..., hyparam_x0_index: {self.hyparam_x0_index}")
-                    
+                logging.info(
+                    f"\tdivergent h_grad or hit 30s limit. resort to finite differencing..., hyparam_x0_index: {self.hyparam_x0_index}"
+                )
+
                 def numerical_difference(x):
-                    x_nd = np.array(x[:-2*self.D]).reshape(2,self.D,self.D)
-                    h_nd, H_nd, flag = return_h_and_H(self.kernel, self.kernel_integral, x_nd, h_grid, self.E, self.h_dt, self.T, self.h_tol)
-                    
+                    x_nd = np.array(x[: -2 * self.D]).reshape(2, self.D, self.D)
+                    h_nd, H_nd, flag = return_h_and_H(
+                        self.kernel,
+                        self.kernel_integral,
+                        x_nd,
+                        h_grid,
+                        self.E,
+                        self.h_dt,
+                        self.T,
+                        self.h_tol,
+                    )
+
                     ll = return_nll_without_gradients(
                         self.kernel,
                         self.kernel_integral,
@@ -165,32 +228,42 @@ class PMBP(object):
                         gammas,
                         pointwise_nu,
                         pointwise_nu_integral,
-                        self.history, # dataset: interval-censored in the ic-dims
-                        self.E, # the mbp dims
-                        h_nd, 
+                        self.history,  # dataset: interval-censored in the ic-dims
+                        self.E,  # the mbp dims
+                        h_nd,
                         H_nd,
                         h_grid,
                         self.p_dt,
                         self.h_dt,
                         self.T,
                         self.ll_weights_map,
-                        self.nu_regularization)
-                    
+                        self.nu_regularization,
+                    )
+
                     return ll
+
                 ll = numerical_difference(plist)
-                a=perf_counter()
+                a = perf_counter()
                 self.grad = approx_fprime(plist, numerical_difference, 1e-5)
-                b=perf_counter()
-                logging.info(f"\tfinite differencing took {b-a}s. calculated ll: {ll}. (SR = {get_spectral_radius_from_flat_params(plist, self.D)}), hyparam_x0_index: {self.hyparam_x0_index}")
-                logging.info(f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}")
-                logging.info(f"\tCurrent pt: {str(plist)}., hyparam_x0_index: {self.hyparam_x0_index}")
+                b = perf_counter()
+                logging.info(
+                    f"\tfinite differencing took {b-a}s. calculated ll: {ll}. (SR = {get_spectral_radius_from_flat_params(plist, self.D)}), hyparam_x0_index: {self.hyparam_x0_index}"
+                )
+                logging.info(
+                    f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}"
+                )
+                logging.info(
+                    f"\tCurrent pt: {str(plist)}., hyparam_x0_index: {self.hyparam_x0_index}"
+                )
                 return ll
-        else: # divergent
-            logging.info(f"\tdivergent h. return nan..., hyparam_x0_index: {self.hyparam_x0_index}. plist: {plist}")
+        else:  # divergent
+            logging.info(
+                f"\tdivergent h. return nan..., hyparam_x0_index: {self.hyparam_x0_index}. plist: {plist}"
+            )
             return np.nan
-        
+
         gammas = self.gammas
-        nus = plist[-self.D:]
+        nus = plist[-self.D :]
 
         logging.info(f"\tcalculating ll..., hyparam_x0_index: {self.hyparam_x0_index}")
         ll, grad = return_nll_with_gradients(
@@ -201,9 +274,9 @@ class PMBP(object):
             nus,
             pointwise_nu,
             pointwise_nu_integral,
-            self.history, # dataset: interval-censored in the ic-dims
-            self.E, # the mbp dims
-            h, 
+            self.history,  # dataset: interval-censored in the ic-dims
+            self.E,  # the mbp dims
+            h,
             H,
             h_grad,
             H_grad,
@@ -212,14 +285,21 @@ class PMBP(object):
             self.h_dt,
             self.T,
             self.ll_weights_map,
-            self.nu_regularization)
+            self.nu_regularization,
+        )
         sr = get_spectral_radius_from_flat_params(plist, self.D, self.E)
-        logging.info(f"\tcalculated ll: {ll}. (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}")
+        logging.info(
+            f"\tcalculated ll: {ll}. (SR = {sr}), hyparam_x0_index: {self.hyparam_x0_index}"
+        )
 
         self.grad = grad
 
-        logging.info(f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}")
-        logging.info(f"\tCurrent pt: {str(plist)}., hyparam_x0_index: {self.hyparam_x0_index}")
+        logging.info(
+            f"\tobj and grad eval took {perf_counter()-start}s., hyparam_x0_index: {self.hyparam_x0_index}"
+        )
+        logging.info(
+            f"\tCurrent pt: {str(plist)}., hyparam_x0_index: {self.hyparam_x0_index}"
+        )
 
         return ll
 
@@ -228,76 +308,107 @@ class PMBP(object):
         # The callback for calculating the gradient
         #
         return self.grad
-    
+
     def constraints(self, x):
         #
         # The callback for calculating the constraints
         #
         if len(self.E) == 3:
-            return np.array([get_spectral_radius_from_flat_params(x, self.D, self.E), 0.5, 0.5])
+            return np.array(
+                [get_spectral_radius_from_flat_params(x, self.D, self.E), 0.5, 0.5]
+            )
         else:
-            return np.array([get_spectral_radius_from_flat_params(x, self.D, self.E), get_constraintEcEc(x, self.D), get_constraintCross(x, self.D)])
-        
+            return np.array(
+                [
+                    get_spectral_radius_from_flat_params(x, self.D, self.E),
+                    get_constraintEcEc(x, self.D),
+                    get_constraintCross(x, self.D),
+                ]
+            )
+
     def jacobian(self, x):
         #
         # The callback for calculating the Jacobian
         #
         return None
-        
+
     def intermediate(
-            self,
-            alg_mod,
-            iter_count,
-            obj_value,
-            inf_pr,
-            inf_du,
-            mu,
-            d_norm,
-            regularization_size,
-            alpha_du,
-            alpha_pr,
-            ls_trials
-            ):
+        self,
+        alg_mod,
+        iter_count,
+        obj_value,
+        inf_pr,
+        inf_du,
+        mu,
+        d_norm,
+        regularization_size,
+        alpha_du,
+        alpha_pr,
+        ls_trials,
+    ):
 
-        logging.info(f"Objective value at iteration #{iter_count} is - {obj_value}. Running time: {int(perf_counter() - self.start_time)}s, hyparam_x0_index: {self.hyparam_x0_index}")
-        
+        logging.info(
+            f"Objective value at iteration #{iter_count} is - {obj_value}. Running time: {int(perf_counter() - self.start_time)}s, hyparam_x0_index: {self.hyparam_x0_index}"
+        )
 
-def run_optimization_one_sequence_given_starting_point(hyparam_x0, gammas, history, video_index, hyparam_x0_index, theta_ub, T, E, logfit_label="log"):   
-    
+
+def run_optimization_one_sequence_given_starting_point(
+    hyparam_x0,
+    gammas,
+    history,
+    video_index,
+    hyparam_x0_index,
+    theta_ub,
+    T,
+    E,
+    logfit_label="log",
+):
+
     dim_weights, nu_reg, _ = hyparam_x0[0]
     x0 = hyparam_x0[1]
     D = len(dim_weights)
-        
-    time_start = perf_counter()    
-    
-    lb = [1e-5] * (2*D*D) + [0] * (D)
-    ub = [theta_ub] * (D*D) + [0.99] + [1e10] * (D*D-1) + list(x0[-3:] * 10)
- 
+
+    time_start = perf_counter()
+
+    lb = [1e-5] * (2 * D * D) + [0] * (D)
+    ub = [theta_ub] * (D * D) + [0.99] + [1e10] * (D * D - 1) + list(x0[-3:] * 10)
+
     cl = [0] * 3
     cu = [0.99] * 3
 
     nlp = ipopt.problem(
-                n=len(x0),
-                m=len(cl),
-                problem_obj=PMBP(history, x0, gammas, video_index, hyparam_x0_index, dim_weights, nu_reg, T, E, logfit_label),
-                lb=lb,
-                ub=ub,
-                cl=cl,
-                cu=cu
-                )
-    nlp.addOption('mu_strategy', 'adaptive')
-    nlp.addOption('tol', 0.1)
-    nlp.addOption('jacobian_approximation', 'finite-difference-values')
-    nlp.addOption('hessian_approximation', 'limited-memory')    
-    nlp.addOption('gamma_theta', 0.01) 
-    nlp.addOption('acceptable_tol', 1e2)
-    nlp.addOption('acceptable_obj_change_tol', 1e-3)
-    nlp.addOption('acceptable_compl_inf_tol', 1e2)
-    nlp.addOption('acceptable_iter', 5)
-    nlp.addOption('print_level', 7)
-    nlp.addOption('max_iter', 100)
-    nlp.addOption('accept_after_max_steps', 2)
+        n=len(x0),
+        m=len(cl),
+        problem_obj=PMBP(
+            history,
+            x0,
+            gammas,
+            video_index,
+            hyparam_x0_index,
+            dim_weights,
+            nu_reg,
+            T,
+            E,
+            logfit_label,
+        ),
+        lb=lb,
+        ub=ub,
+        cl=cl,
+        cu=cu,
+    )
+    nlp.addOption("mu_strategy", "adaptive")
+    nlp.addOption("tol", 0.1)
+    nlp.addOption("jacobian_approximation", "finite-difference-values")
+    nlp.addOption("hessian_approximation", "limited-memory")
+    nlp.addOption("gamma_theta", 0.01)
+    nlp.addOption("acceptable_tol", 1e2)
+    nlp.addOption("acceptable_obj_change_tol", 1e-3)
+    nlp.addOption("acceptable_compl_inf_tol", 1e2)
+    nlp.addOption("acceptable_iter", 5)
+    nlp.addOption("print_level", 7)
+    nlp.addOption("max_iter", 100)
+    nlp.addOption("accept_after_max_steps", 2)
 
     x_opt, info = nlp.solve(x0)
     time_end = perf_counter()
-    return [x_opt, info, time_end-time_start]
+    return [x_opt, info, time_end - time_start]

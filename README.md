@@ -12,11 +12,11 @@ Create a conda environment from the provided YAML file `environment.yml` using t
 conda env create
 ```
 
+A sample script is provided in `sample.py`. Running this triggers the end-to-end pipeline on a sample dataset. The pipeline consists of PMBP (1) initialization, (2) fitting, and (3) evaluation.
+
 The PMBP class in `code/pmbp.py` is a wrapper for defining, fitting, and evaluating the PMBP(D,E) given input data and configuration.
 
-A sample script is provided in `sample.py`. Running this script triggers the entire pipeline, consisting of PMBP initialization, fitting, and evaluation.
-
-The basic procedure to define and fit the model is as follows:
+The basic commands to define and fit the model are:
 
 ```
 pmbp = PMBP()
@@ -24,13 +24,13 @@ pmbp.initialize(data_label, history, E, end_train, end_validation, end_test)
 pmbp.fit()
 ```
 
-Without any input to the `fit()` method, no hyperparameter tuning is performed. If one wishes to perform hyperparameter tuning, a grid of hyperparameters values to test must be provided, and the `fit()` command should be replaced with
+Without any input to the `fit()` method, hyperparameter tuning on the validation set is skipped and the default hyoerparameters are used. If one wishes to perform hyperparameter tuning, a grid of hyperparameters values must be provided. The `fit()` command should be replaced with
 
 ```
 pmbp.fit(perform_hyperparameter_tuning=True, grid=grid)
 ```
 
-where `grid` is a list of hyperparameter tuples (`dimension_weights`, `nu_regularization_weight`, `gamma_init`).
+where `grid` is a list of hyperparameter tuples (`dimension_weights`, `nu_regularization_weight`, `gamma_init`). Once the model is fitted, a `_fittedmodel.p` file is exported in `output/`, containing the PMBP object with the optimized parameters in `pmbp.parameters`. Log files are also written in `log/` for diagnostics.
 
 Once the model is fitted, the model can be evaluated in terms of RMSE error on the dimension 1 time series predictions using
 
@@ -38,7 +38,7 @@ Once the model is fitted, the model can be evaluated in terms of RMSE error on t
 pmbp.evaluate()
 ```
 
-This function implicitly samples the PMBP(D,E) process on the test set, with the number of samples controlled by the `pmbp.n` parameter (default set to 5).
+This function implicitly samples the PMBP(D,E) process on the test set, with the number of samples controlled by the `pmbp.n` parameter (default set to 5). Once the model is evaluated, an `_evaluatedmodel.p` file is exported in `output/`, containing the PMBP object with the sampled test set histories in `pmbp.sampled_histories`. Log files are also written in `log/` for diagnostics.
 
 Performance metrics and predictions can be printed out using the following two commands:
 
@@ -56,6 +56,7 @@ pmbp.plot_predictions()
 This saves a PDF plot to the `output/` folder.
 
 ![png](util/sample_E12.png)
+
 
 ## License
 
