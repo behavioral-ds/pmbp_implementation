@@ -4,7 +4,7 @@ from time import perf_counter
 
 # load data set and model configuration
 data_file = "dat/sample_E12.p"  # PMBP(3,2) configuration
-data_file = "dat/sample_E123.p"  # PMBP(3,3) configuration
+# data_file = "dat/sample_E123.p"  # PMBP(3,3) configuration
 
 # initialize PMBP model and data
 pmbp = PMBP()
