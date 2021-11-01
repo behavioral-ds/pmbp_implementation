@@ -1,0 +1,2074 @@
+2021-10-30 04:13:50,561 | PLIST: [0.40440459 1.56909521 1.72107448 0.6541704  0.49772095 1.62072743
+ 1.42686958 1.32265683 1.42098251 0.05645044 0.434986   0.23821391
+ 0.04013544 0.07438523 0.16201213 0.00337869 0.35844004 0.03253836
+ 0.42384574 0.80487959 0.02949612], hyparam_x0_index: 2
+2021-10-30 04:15:52,773 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:15:56,866 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:15:57,606 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:15:57,606 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:17:53,714 | 	calculated ll: -631337.6577924794. (SR = 0.19785185173263103), hyparam_x0_index: 2
+2021-10-30 04:17:53,715 | 	obj and grad eval took 121.40118312835693s., hyparam_x0_index: 2
+2021-10-30 04:17:53,715 | 	Current pt: [0.40440459 1.56909521 1.72107448 0.6541704  0.49772095 1.62072743
+ 1.42686958 1.32265683 1.42098251 0.05645044 0.434986   0.23821391
+ 0.04013544 0.07438523 0.16201213 0.01000999 0.35844004 0.03253836
+ 0.42384574 0.80487959 0.02949622]., hyparam_x0_index: 2
+2021-10-30 04:17:53,717 | Objective value at iteration #0 is - -631337.6577924794. Running time: 243s, hyparam_x0_index: 2
+2021-10-30 04:17:54,452 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:18:06,558 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:18:07,305 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:18:07,305 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:20:03,701 | 	calculated ll: -1164737.6858534676. (SR = 0.65316528275572), hyparam_x0_index: 2
+2021-10-30 04:20:03,702 | 	obj and grad eval took 129.9837572723627s., hyparam_x0_index: 2
+2021-10-30 04:20:03,703 | 	Current pt: [0.55598774 1.4256629  1.52496678 0.73512645 0.62100679 1.46060735
+ 1.32469415 1.24750907 1.3203944  0.28899523 0.56965743 0.51166136
+ 0.2227407  0.30474044 0.43008495 0.34249992 0.58578428 0.35337534
+ 0.61962137 0.9616777  0.29230659]., hyparam_x0_index: 2
+2021-10-30 04:20:03,707 | Objective value at iteration #1 is - -1164737.6858534676. Running time: 373s, hyparam_x0_index: 2
+2021-10-30 04:20:04,538 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:20:17,772 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:20:18,491 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:20:18,491 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:22:15,106 | 	calculated ll: -1185055.6412441023. (SR = 0.6766172163986344), hyparam_x0_index: 2
+2021-10-30 04:22:15,107 | 	obj and grad eval took 131.3634315468371s., hyparam_x0_index: 2
+2021-10-30 04:22:15,107 | 	Current pt: [0.57435772 1.40899974 1.50208866 0.74384056 0.63460927 1.44200424
+ 1.3130296  1.23901497 1.30891857 0.27664889 0.57905977 0.51402122
+ 0.24315455 0.3245868  0.44795852 0.37382807 0.60279574 0.41237444
+ 0.63919488 0.97572787 0.00292306]., hyparam_x0_index: 2
+2021-10-30 04:22:15,112 | Objective value at iteration #2 is - -1185055.6412441025. Running time: 505s, hyparam_x0_index: 2
+2021-10-30 04:22:15,716 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:22:23,462 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:22:24,165 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:22:24,165 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:24:21,552 | 	calculated ll: -1108928.4269581025. (SR = 0.4756702852391597), hyparam_x0_index: 2
+2021-10-30 04:24:21,553 | 	obj and grad eval took 126.43989508971572s., hyparam_x0_index: 2
+2021-10-30 04:24:21,554 | 	Current pt: [1.18473505 0.80552735 0.8860742  1.20971133 1.21285291 0.82778039
+ 0.77965229 0.79646926 0.77978557 0.18944315 0.34473094 0.8556821
+ 0.17915137 0.25990101 0.48525807 0.56592931 0.74299415 0.83134521
+ 1.69220746 2.69379083 0.29204086]., hyparam_x0_index: 2
+2021-10-30 04:24:21,558 | Objective value at iteration #3 is - -1108928.4269581025. Running time: 631s, hyparam_x0_index: 2
+2021-10-30 04:24:22,353 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:24:35,358 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:24:36,108 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:24:36,108 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:26:33,365 | 	calculated ll: -1228481.446155396. (SR = 0.6739274310886687), hyparam_x0_index: 2
+2021-10-30 04:26:33,366 | 	obj and grad eval took 131.80645121261477s., hyparam_x0_index: 2
+2021-10-30 04:26:33,366 | 	Current pt: [0.83004153 1.17435613 1.1178955  0.84648783 0.8209061  1.16226333
+ 1.17283759 1.14624266 1.17182425 0.25792447 0.54893055 0.30102697
+ 0.24951786 0.34467983 0.34188268 0.24481329 0.46911996 0.4695349
+ 2.72002182 6.06289419 0.18030223]., hyparam_x0_index: 2
+2021-10-30 04:26:33,370 | Objective value at iteration #4 is - -1228481.446155396. Running time: 763s, hyparam_x0_index: 2
+2021-10-30 04:26:34,122 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:26:47,205 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:26:47,912 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:26:47,912 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:28:44,099 | 	calculated ll: -1222386.5688673975. (SR = 0.6708644234678507), hyparam_x0_index: 2
+2021-10-30 04:28:44,100 | 	obj and grad eval took 130.7279951609671s., hyparam_x0_index: 2
+2021-10-30 04:28:44,100 | 	Current pt: [0.83003375 1.17436058 1.11790753 0.84648568 0.82090166 1.16227066
+ 1.17283911 1.14624271 1.17182566 0.25895439 0.54719572 0.2953602
+ 0.24897183 0.34012152 0.33039973 0.24098099 0.45362222 0.46952964
+ 2.72002488 6.06306462 0.18030213]., hyparam_x0_index: 2
+2021-10-30 04:28:44,104 | Objective value at iteration #5 is - -1222386.5688673975. Running time: 894s, hyparam_x0_index: 2
+2021-10-30 04:28:44,859 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:28:57,989 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:28:58,695 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:28:58,695 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:30:54,791 | 	calculated ll: -1221757.2592556204. (SR = 0.6703376608708774), hyparam_x0_index: 2
+2021-10-30 04:30:54,792 | 	obj and grad eval took 130.6857768073678s., hyparam_x0_index: 2
+2021-10-30 04:30:54,792 | 	Current pt: [0.83099201 1.17334237 1.1173553  0.84750092 0.82198527 1.16137396
+ 1.17172896 1.14525056 1.17071825 0.25877554 0.54684057 0.29647775
+ 0.24868129 0.33991606 0.33023537 0.24123625 0.4535663  0.47077452
+ 2.71646653 6.05206126 0.18001421]., hyparam_x0_index: 2
+2021-10-30 04:30:54,796 | Objective value at iteration #6 is - -1221757.2592556204. Running time: 1024s, hyparam_x0_index: 2
+2021-10-30 04:30:55,610 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:31:09,965 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:31:10,689 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:31:10,689 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:33:06,897 | 	calculated ll: -1259340.855845051. (SR = 0.6931155853486946), hyparam_x0_index: 2
+2021-10-30 04:33:06,898 | 	obj and grad eval took 132.0997285656631s., hyparam_x0_index: 2
+2021-10-30 04:33:06,898 | 	Current pt: [0.82547093 1.17217018 1.11800701 0.83791454 0.81351793 1.16233043
+ 1.17197721 1.1454438  1.17096718 0.26110803 0.60072392 0.27876229
+ 0.24676664 0.34997662 0.33178144 0.21538487 0.42572813 0.47067462
+ 2.7780918  6.20364757 0.17999193]., hyparam_x0_index: 2
+2021-10-30 04:33:06,902 | Objective value at iteration #7 is - -1259340.855845051. Running time: 1156s, hyparam_x0_index: 2
+2021-10-30 04:33:07,825 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:33:26,928 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:33:27,652 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:33:27,652 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:35:25,213 | 	calculated ll: -1380547.4386859278. (SR = 0.7398152748268122), hyparam_x0_index: 2
+2021-10-30 04:35:25,214 | 	obj and grad eval took 138.3099991120398s., hyparam_x0_index: 2
+2021-10-30 04:35:25,214 | 	Current pt: [0.85032013 1.05485012 1.04600937 0.84892108 0.85471276 1.06760712
+ 1.06480709 1.05485603 1.06443669 0.19845227 1.09707526 0.16323777
+ 0.20339796 0.32762814 0.27312561 0.1269052  0.22731391 0.60593413
+ 2.86790234 6.41737575 0.1558327 ]., hyparam_x0_index: 2
+2021-10-30 04:35:25,218 | Objective value at iteration #8 is - -1380547.4386859278. Running time: 1295s, hyparam_x0_index: 2
+2021-10-30 04:35:26,823 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:35:53,469 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:35:54,173 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:35:54,173 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:37:51,559 | 	calculated ll: -1639232.3650689593. (SR = 0.8785813426080136), hyparam_x0_index: 2
+2021-10-30 04:37:51,560 | 	obj and grad eval took 146.3402043879032s., hyparam_x0_index: 2
+2021-10-30 04:37:51,560 | 	Current pt: [0.8060247  1.04310331 1.03489672 0.78996019 0.81232768 1.06582647
+ 1.06637958 1.05875781 1.06619181 0.18690528 1.1652488  0.09766565
+ 0.28619583 0.39643461 0.22956478 0.0495685  0.10873305 0.6186674
+ 3.17618583 7.29591845 0.15231246]., hyparam_x0_index: 2
+2021-10-30 04:37:51,565 | Objective value at iteration #9 is - -1639232.3650689593. Running time: 1441s, hyparam_x0_index: 2
+2021-10-30 04:37:53,583 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:38:20,152 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:38:20,869 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:38:20,869 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:40:16,584 | 	calculated ll: -2219995.1928156856. (SR = 0.9869754603725305), hyparam_x0_index: 2
+2021-10-30 04:40:16,584 | 	obj and grad eval took 145.01777398213744s., hyparam_x0_index: 2
+2021-10-30 04:40:16,585 | 	Current pt: [0.68091018 1.08418917 1.09230199 0.68514587 0.71417704 1.12479391
+ 1.11647555 1.10132832 1.11593682 0.12706367 1.27407943 0.05779323
+ 0.34146482 0.48104764 0.09633153 0.03157395 0.06996874 0.59746804
+ 3.20586842 7.49287417 0.15109652]., hyparam_x0_index: 2
+2021-10-30 04:40:16,589 | Objective value at iteration #10 is - -2219995.1928156856. Running time: 1586s, hyparam_x0_index: 2
+2021-10-30 04:40:18,431 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:40:44,860 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:40:45,579 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:40:45,579 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:42:42,090 | 	calculated ll: -2079156.0301130365. (SR = 0.9633947366103772), hyparam_x0_index: 2
+2021-10-30 04:42:42,091 | 	obj and grad eval took 145.50009064376354s., hyparam_x0_index: 2
+2021-10-30 04:42:42,091 | 	Current pt: [0.62172269 1.15708211 1.17284446 0.61939351 0.629248   1.2060424
+ 1.18873471 1.16042584 1.18757282 0.15946339 1.12629068 0.08612292
+ 0.33909326 0.48833231 0.14817657 0.05424419 0.11662054 0.53454004
+ 2.99431898 7.04256619 0.13516769]., hyparam_x0_index: 2
+2021-10-30 04:42:42,095 | Objective value at iteration #11 is - -2079156.0301130365. Running time: 1732s, hyparam_x0_index: 2
+2021-10-30 04:42:43,012 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:43:03,222 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:43:03,924 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:43:03,924 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:45:00,388 | 	calculated ll: -2004488.0958825394. (SR = 0.9512147205106203), hyparam_x0_index: 2
+2021-10-30 04:45:00,389 | 	obj and grad eval took 138.2916833050549s., hyparam_x0_index: 2
+2021-10-30 04:45:00,389 | 	Current pt: [0.45844115 1.13165752 1.2848996  0.10773504 0.09477701 1.3225582
+ 1.29687891 1.25128018 1.29497911 0.28462024 0.98166725 0.13648161
+ 0.30924368 0.49580383 0.24392205 0.04345275 0.05849053 0.51152339
+ 2.80394192 6.79649524 0.13302553]., hyparam_x0_index: 2
+2021-10-30 04:45:00,394 | Objective value at iteration #12 is - -2004488.0958825394. Running time: 1870s, hyparam_x0_index: 2
+2021-10-30 04:45:02,132 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:45:28,998 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:45:29,724 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:45:29,724 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:47:26,205 | 	calculated ll: -2166049.8363963044. (SR = 0.9720642295842987), hyparam_x0_index: 2
+2021-10-30 04:47:26,206 | 	obj and grad eval took 145.80972922965884s., hyparam_x0_index: 2
+2021-10-30 04:47:26,206 | 	Current pt: [0.59223089 1.06753206 1.17692545 0.47555315 0.52358718 1.19844092
+ 1.17197577 1.14409844 1.17074787 0.31289582 1.02357238 0.2600054
+ 0.32749731 0.46351862 0.08305587 0.05886772 0.12031943 0.60354602
+ 2.81169573 6.55575022 0.14671094]., hyparam_x0_index: 2
+2021-10-30 04:47:26,210 | Objective value at iteration #13 is - -2166049.8363963044. Running time: 2016s, hyparam_x0_index: 2
+2021-10-30 04:47:26,213 | 	FAIL - constraint, (SR = 0.9980949331028068), hyparam_x0_index: 2
+2021-10-30 04:47:27,883 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:47:54,764 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:47:55,483 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:47:55,483 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:49:52,378 | 	calculated ll: -2256993.1440822394. (SR = 0.9829147345497735), hyparam_x0_index: 2
+2021-10-30 04:49:52,379 | 	obj and grad eval took 146.16575573012233s., hyparam_x0_index: 2
+2021-10-30 04:49:52,379 | 	Current pt: [0.64426259 0.95865352 1.11164523 0.41124663 0.50076591 1.12872846
+ 1.10803757 1.09108069 1.10732912 0.39907359 1.14304064 0.23600802
+ 0.29962132 0.39631792 0.11437871 0.035883   0.06076626 0.66881782
+ 2.89967722 6.73271445 0.14869352]., hyparam_x0_index: 2
+2021-10-30 04:49:52,383 | Objective value at iteration #14 is - -2256993.1440822394. Running time: 2162s, hyparam_x0_index: 2
+2021-10-30 04:49:53,171 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:50:10,774 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:50:11,500 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:50:11,500 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:52:08,510 | 	calculated ll: -1739147.772284693. (SR = 0.961082456368475), hyparam_x0_index: 2
+2021-10-30 04:52:08,511 | 	obj and grad eval took 136.12585984915495s., hyparam_x0_index: 2
+2021-10-30 04:52:08,511 | 	Current pt: [5.29664647e-01 7.78067010e-01 1.07989448e+00 4.12235643e-03
+ 5.33614030e-01 1.09882588e+00 1.08555040e+00 1.07352275e+00
+ 1.08523863e+00 5.65142802e-01 1.30183876e+00 2.36823919e-01
+ 1.71808969e-01 3.96179262e-01 1.55219117e-01 2.58044926e-02
+ 5.28270845e-02 6.67868241e-01 2.98329793e+00 7.00924872e+00
+ 1.47116796e-01]., hyparam_x0_index: 2
+2021-10-30 04:52:09,283 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:52:26,671 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:52:27,388 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:52:27,388 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:54:24,611 | 	calculated ll: -1753712.4381846976. (SR = 0.9805426177198779), hyparam_x0_index: 2
+2021-10-30 04:54:24,612 | 	obj and grad eval took 136.09812856465578s., hyparam_x0_index: 2
+2021-10-30 04:54:24,612 | 	Current pt: [5.34909845e-01 7.89762973e-01 1.08454461e+00 4.12235643e-03
+ 5.64087877e-01 1.10312298e+00 1.08903611e+00 1.07629211e+00
+ 1.08868072e+00 5.70838034e-01 1.26809680e+00 2.41921463e-01
+ 1.97467692e-01 3.69350652e-01 1.49880743e-01 2.09185027e-02
+ 4.81391955e-02 6.68079435e-01 2.96694836e+00 6.95981484e+00
+ 1.47358662e-01]., hyparam_x0_index: 2
+2021-10-30 04:54:25,399 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:54:42,807 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:54:43,512 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:54:43,512 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:56:40,420 | 	calculated ll: -1746871.2494421676. (SR = 0.9698787413597663), hyparam_x0_index: 2
+2021-10-30 04:56:40,421 | 	obj and grad eval took 135.8057763800025s., hyparam_x0_index: 2
+2021-10-30 04:56:40,421 | 	Current pt: [5.33913343e-01 7.83423384e-01 1.08175946e+00 4.12235643e-03
+ 5.49182474e-01 1.10057423e+00 1.08707630e+00 1.07471206e+00
+ 1.08674455e+00 5.66950319e-01 1.28178258e+00 2.49239941e-01
+ 1.83089120e-01 3.87441682e-01 1.63657531e-01 2.52162717e-02
+ 5.29503070e-02 6.67891417e-01 2.97271284e+00 6.97660496e+00
+ 1.47243624e-01]., hyparam_x0_index: 2
+2021-10-30 04:56:41,858 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:57:08,401 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:57:09,106 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:57:09,106 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 04:59:05,648 | 	calculated ll: -2265058.6115677073. (SR = 0.9776860756241827), hyparam_x0_index: 2
+2021-10-30 04:59:05,649 | 	obj and grad eval took 145.22586040571332s., hyparam_x0_index: 2
+2021-10-30 04:59:05,650 | 	Current pt: [0.58696362 0.86836026 1.09576986 0.20768449 0.51718997 1.11377717
+ 1.09679398 1.08230172 1.09628387 0.4821082  1.2224397  0.23641597
+ 0.23571515 0.39624859 0.13479891 0.03084375 0.05679667 0.66834303
+ 2.94148758 6.87098158 0.14790516]., hyparam_x0_index: 2
+2021-10-30 04:59:05,654 | Objective value at iteration #15 is - -2265058.6115677073. Running time: 2715s, hyparam_x0_index: 2
+2021-10-30 04:59:05,656 | 	FAIL - constraint, (SR = 0.9947158089518299), hyparam_x0_index: 2
+2021-10-30 04:59:07,041 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 04:59:33,582 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 04:59:34,294 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 04:59:34,294 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:01:30,988 | 	calculated ll: -2302868.614613497. (SR = 0.9847081704789968), hyparam_x0_index: 2
+2021-10-30 05:01:30,989 | 	obj and grad eval took 145.3326730839908s., hyparam_x0_index: 2
+2021-10-30 05:01:30,989 | 	Current pt: [0.59294823 0.83185    1.08138659 0.16836207 0.50998111 1.09869506
+ 1.083669   1.07135756 1.08328689 0.54080412 1.22810075 0.23833608
+ 0.22158133 0.37168336 0.15274579 0.02201185 0.04266939 0.67675487
+ 2.94624158 6.87490307 0.14760965]., hyparam_x0_index: 2
+2021-10-30 05:01:30,993 | Objective value at iteration #16 is - -2302868.614613497. Running time: 2860s, hyparam_x0_index: 2
+2021-10-30 05:01:30,996 | 	FAIL - constraint, (SR = 0.9901434386304904), hyparam_x0_index: 2
+2021-10-30 05:01:32,431 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:01:59,143 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:01:59,853 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:01:59,853 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:03:56,827 | 	calculated ll: -2333581.1242717486. (SR = 0.9873181642108938), hyparam_x0_index: 2
+2021-10-30 05:03:56,828 | 	obj and grad eval took 145.83243712037802s., hyparam_x0_index: 2
+2021-10-30 05:03:56,829 | 	Current pt: [0.62774444 0.78468918 1.04703221 0.1596469  0.50648108 1.06330534
+ 1.05238001 1.04546255 1.05228763 0.6178612  1.27073647 0.23881838
+ 0.18476345 0.35182966 0.15113345 0.02000335 0.03675675 0.70015983
+ 2.99636046 6.96721851 0.15049134]., hyparam_x0_index: 2
+2021-10-30 05:03:56,833 | Objective value at iteration #17 is - -2333581.1242717486. Running time: 3006s, hyparam_x0_index: 2
+2021-10-30 05:03:58,692 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:04:25,564 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:04:26,309 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:04:26,309 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:06:23,105 | 	calculated ll: -2247699.2164263907. (SR = 0.951728019659122), hyparam_x0_index: 2
+2021-10-30 05:06:23,106 | 	obj and grad eval took 146.27088912203908s., hyparam_x0_index: 2
+2021-10-30 05:06:23,106 | 	Current pt: [7.56414130e-01 6.68548282e-01 9.55285171e-01 1.34444379e-01
+ 5.29119303e-01 9.71512331e-01 9.74373771e-01 9.81122662e-01
+ 9.75181982e-01 9.47387949e-01 1.35358998e+00 2.93298875e-01
+ 1.85752462e-03 3.72399522e-01 1.55216421e-01 1.36829134e-02
+ 3.94850582e-02 7.22540112e-01 3.12879665e+00 7.20229588e+00
+ 1.53899538e-01]., hyparam_x0_index: 2
+2021-10-30 05:06:24,971 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:06:51,840 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:06:52,560 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:06:52,560 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:08:49,638 | 	calculated ll: -2360247.4656289313. (SR = 0.9740723414262165), hyparam_x0_index: 2
+2021-10-30 05:08:49,639 | 	obj and grad eval took 146.53057746216655s., hyparam_x0_index: 2
+2021-10-30 05:08:49,639 | 	Current pt: [7.18856501e-01 6.95667386e-01 9.89819407e-01 1.09997973e-01
+ 5.28780273e-01 1.00711721e+00 1.00642529e+00 1.00760493e+00
+ 1.00697477e+00 9.70009530e-01 1.25518062e+00 2.74942787e-01
+ 1.85752462e-03 4.00201505e-01 1.29039741e-01 7.26874075e-03
+ 3.76861258e-02 7.00717721e-01 3.05928934e+00 7.06983180e+00
+ 1.51701687e-01]., hyparam_x0_index: 2
+2021-10-30 05:08:51,199 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:09:17,554 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:09:18,258 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:09:18,259 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:11:15,008 | 	calculated ll: -2360519.7586008394. (SR = 0.9805922570607735), hyparam_x0_index: 2
+2021-10-30 05:11:15,009 | 	obj and grad eval took 145.36662751063704s., hyparam_x0_index: 2
+2021-10-30 05:11:15,009 | 	Current pt: [0.69207928 0.72661873 1.00115869 0.14704564 0.51780019 1.01740884
+ 1.01337689 1.01329261 1.01373481 0.78262457 1.31216322 0.26605863
+ 0.09331049 0.36211459 0.15317494 0.01684313 0.03812091 0.71134997
+ 3.06257856 7.0847572  0.15219544]., hyparam_x0_index: 2
+2021-10-30 05:11:15,015 | Objective value at iteration #18 is - -2360519.7586008394. Running time: 3444s, hyparam_x0_index: 2
+2021-10-30 05:11:16,692 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:11:43,335 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:11:44,043 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:11:44,043 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:13:40,587 | 	calculated ll: -2379427.8814806724. (SR = 0.9847893165386234), hyparam_x0_index: 2
+2021-10-30 05:13:40,588 | 	obj and grad eval took 145.57091849669814s., hyparam_x0_index: 2
+2021-10-30 05:13:40,588 | 	Current pt: [0.7121471  0.71080833 0.98975292 0.12473447 0.51424057 1.005001
+ 1.00184793 1.0037615  1.00233716 0.81021032 1.33851428 0.26779568
+ 0.08420953 0.33914662 0.16464506 0.01517504 0.02411771 0.71711174
+ 3.07748367 7.11822797 0.15074894]., hyparam_x0_index: 2
+2021-10-30 05:13:40,592 | Objective value at iteration #19 is - -2379427.8814806724. Running time: 3590s, hyparam_x0_index: 2
+2021-10-30 05:13:40,594 | 	FAIL - constraint, (SR = 0.9928607867646906), hyparam_x0_index: 2
+2021-10-30 05:13:42,255 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:14:09,215 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:14:09,934 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:14:09,934 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:16:07,616 | 	calculated ll: -2397089.150616647. (SR = 0.9878958935781952), hyparam_x0_index: 2
+2021-10-30 05:16:07,617 | 	obj and grad eval took 147.0226347334683s., hyparam_x0_index: 2
+2021-10-30 05:16:07,617 | 	Current pt: [0.72113345 0.66228378 0.95778831 0.07932708 0.5258324  0.97145407
+ 0.97136452 0.97869637 0.97215516 0.85683781 1.43188785 0.26586394
+ 0.06461447 0.28194425 0.17854239 0.01194164 0.02491283 0.7409936
+ 3.13877279 7.25869893 0.15202105]., hyparam_x0_index: 2
+2021-10-30 05:16:07,621 | Objective value at iteration #20 is - -2397089.150616647. Running time: 3737s, hyparam_x0_index: 2
+2021-10-30 05:16:09,207 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:16:35,952 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:16:36,669 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:16:36,669 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:18:32,500 | 	calculated ll: -2412704.3956916174. (SR = 0.9892694068796883), hyparam_x0_index: 2
+2021-10-30 05:18:32,504 | 	obj and grad eval took 144.88103223592043s., hyparam_x0_index: 2
+2021-10-30 05:18:32,505 | 	Current pt: [5.67163985e-01 6.58953676e-01 9.77358323e-01 8.48750823e-02
+ 5.39998753e-01 9.93192474e-01 9.92945292e-01 9.96671470e-01
+ 9.93827354e-01 9.49338040e-01 1.45120351e+00 3.57216016e-01
+ 1.96421236e-02 2.75426598e-01 2.70134105e-01 3.13263318e-03
+ 3.21262631e-02 6.87827924e-01 3.08624728e+00 7.16486800e+00
+ 1.42675320e-01]., hyparam_x0_index: 2
+2021-10-30 05:18:32,509 | Objective value at iteration #21 is - -2412704.3956916174. Running time: 3882s, hyparam_x0_index: 2
+2021-10-30 05:18:33,885 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:19:00,706 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:19:01,439 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:19:01,439 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:20:58,994 | 	calculated ll: -2428782.683567078. (SR = 0.9898675105512426), hyparam_x0_index: 2
+2021-10-30 05:20:58,995 | 	obj and grad eval took 146.4844698049128s., hyparam_x0_index: 2
+2021-10-30 05:20:58,996 | 	Current pt: [4.11145472e-01 5.82290724e-01 9.53800485e-01 8.86872219e-02
+ 4.94692716e-01 9.66352878e-01 9.66602202e-01 9.74864660e-01
+ 9.68051492e-01 9.89450042e-01 1.68350725e+00 4.68419133e-01
+ 2.06311336e-04 1.57883793e-01 4.66190557e-01 2.84329243e-03
+ 3.15667646e-02 6.89279747e-01 3.10079445e+00 7.22631127e+00
+ 1.35225350e-01]., hyparam_x0_index: 2
+2021-10-30 05:20:59,000 | Objective value at iteration #22 is - -2428782.683567078. Running time: 4028s, hyparam_x0_index: 2
+2021-10-30 05:20:59,002 | 	FAIL - constraint, (SR = 0.9904122910359199), hyparam_x0_index: 2
+2021-10-30 05:21:00,092 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:21:26,651 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:21:27,367 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:21:27,367 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:23:24,352 | 	calculated ll: -2426776.7013561176. (SR = 0.9899698344654453), hyparam_x0_index: 2
+2021-10-30 05:23:24,353 | 	obj and grad eval took 145.35121294856071s., hyparam_x0_index: 2
+2021-10-30 05:23:24,353 | 	Current pt: [2.56341528e-01 8.55479708e-01 1.14941255e+00 1.32240321e-01
+ 6.44485762e-01 1.16987755e+00 1.14809856e+00 1.12697611e+00
+ 1.14943285e+00 9.87091517e-01 1.81110885e+00 8.42499507e-01
+ 1.32219672e-03 1.58010934e-01 8.85246552e-01 1.87273647e-03
+ 4.74378424e-02 3.89967993e-01 2.85799564e+00 6.96251829e+00
+ 9.64485759e-02]., hyparam_x0_index: 2
+2021-10-30 05:23:24,358 | Objective value at iteration #23 is - -2426776.7013561176. Running time: 4174s, hyparam_x0_index: 2
+2021-10-30 05:23:25,616 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:23:52,309 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:23:53,017 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:23:53,017 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:25:50,704 | 	calculated ll: -2440502.959705528. (SR = 0.989595157840512), hyparam_x0_index: 2
+2021-10-30 05:25:50,705 | 	obj and grad eval took 146.3460156954825s., hyparam_x0_index: 2
+2021-10-30 05:25:50,705 | 	Current pt: [3.45845668e-01 1.29978389e+00 1.44566960e+00 6.00936823e-02
+ 7.17222509e-01 1.47639982e+00 1.42113552e+00 1.35347878e+00
+ 1.42160253e+00 9.81863601e-01 1.41042772e+00 1.25133181e+00
+ 3.61173408e-03 3.30725302e-01 1.34655556e+00 1.03890297e-03
+ 4.90839073e-02 1.56837249e-02 2.31707089e+00 6.01630227e+00
+ 6.63289990e-02]., hyparam_x0_index: 2
+2021-10-30 05:25:50,709 | Objective value at iteration #24 is - -2440502.959705528. Running time: 4320s, hyparam_x0_index: 2
+2021-10-30 05:25:51,964 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:26:18,698 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:26:19,409 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:26:19,409 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:28:15,712 | 	calculated ll: -2445578.644327765. (SR = 0.9896349218279621), hyparam_x0_index: 2
+2021-10-30 05:28:15,713 | 	obj and grad eval took 145.00203388929367s., hyparam_x0_index: 2
+2021-10-30 05:28:15,713 | 	Current pt: [3.32456768e-01 1.39612830e+00 1.51883792e+00 4.18411943e-02
+ 7.80618291e-01 1.55573745e+00 1.48985652e+00 1.41088563e+00
+ 1.48944905e+00 9.89536197e-01 1.34993180e+00 1.57924017e+00
+ 4.60074408e-05 3.60543563e-01 1.77628841e+00 9.49787459e-04
+ 6.28984862e-02 9.11401647e-02 2.12250219e+00 5.72300086e+00
+ 7.12114651e-02]., hyparam_x0_index: 2
+2021-10-30 05:28:15,717 | Objective value at iteration #25 is - -2445578.644327765. Running time: 4465s, hyparam_x0_index: 2
+2021-10-30 05:28:16,925 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:28:43,695 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:28:44,397 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:28:44,398 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:30:41,189 | 	calculated ll: -2453966.6311935647. (SR = 0.9897158170329257), hyparam_x0_index: 2
+2021-10-30 05:30:41,190 | 	obj and grad eval took 145.4703639820218s., hyparam_x0_index: 2
+2021-10-30 05:30:41,190 | 	Current pt: [2.97178205e-01 1.39970949e+00 1.53638541e+00 4.28302043e-04
+ 7.55498518e-01 1.58006561e+00 1.49968728e+00 1.42216294e+00
+ 1.50427125e+00 9.89205633e-01 1.19416295e+00 2.37938395e+00
+ 1.89429851e-04 5.46326750e-01 2.56928046e+00 3.34242989e-04
+ 3.93436158e-02 9.75861603e-02 1.51944034e+00 4.53962204e+00
+ 7.28273273e-02]., hyparam_x0_index: 2
+2021-10-30 05:30:41,194 | Objective value at iteration #26 is - -2453966.6311935647. Running time: 4611s, hyparam_x0_index: 2
+2021-10-30 05:30:42,283 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:31:08,381 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:31:09,091 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:31:09,091 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:33:05,528 | 	calculated ll: -2467035.692523054. (SR = 0.9898102469502564), hyparam_x0_index: 2
+2021-10-30 05:33:05,529 | 	obj and grad eval took 144.33211220800877s., hyparam_x0_index: 2
+2021-10-30 05:33:05,529 | 	Current pt: [2.40175590e-01 7.16160009e-01 1.22463682e+00 1.10351338e-02
+ 4.41113917e-01 1.30092466e+00 1.15256653e+00 1.09999845e+00
+ 1.17749694e+00 9.87659109e-01 1.53401937e+00 3.99802181e+00
+ 5.37317979e-04 6.06638097e-01 3.31834890e+00 1.39884848e-04
+ 2.66310294e-02 1.84919498e-01 1.51943935e-02 3.13560624e-01
+ 1.09729692e-01]., hyparam_x0_index: 2
+2021-10-30 05:33:05,533 | Objective value at iteration #27 is - -2467035.692523054. Running time: 4755s, hyparam_x0_index: 2
+2021-10-30 05:33:06,713 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:33:33,570 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:33:34,285 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:33:34,285 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:35:32,099 | 	calculated ll: -2469993.1752520245. (SR = 0.9889417698112064), hyparam_x0_index: 2
+2021-10-30 05:35:32,100 | 	obj and grad eval took 146.56501957774162s., hyparam_x0_index: 2
+2021-10-30 05:35:32,100 | 	Current pt: [2.14859762e-01 6.74210687e-01 1.23484006e+00 7.91612025e-03
+ 5.78548884e-01 1.32616458e+00 1.09696728e+00 1.05546487e+00
+ 1.13529890e+00 9.87059901e-01 1.36284677e+00 4.38992117e+00
+ 3.17113966e-04 7.59288257e-01 3.90867174e+00 1.05151845e-04
+ 1.86611294e-02 2.12193808e-01 5.43735158e-02 3.13559634e-03
+ 1.08793317e-01]., hyparam_x0_index: 2
+2021-10-30 05:35:32,104 | Objective value at iteration #28 is - -2469993.1752520245. Running time: 4902s, hyparam_x0_index: 2
+2021-10-30 05:35:33,223 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:35:59,471 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:36:00,195 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:36:00,195 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:37:57,953 | 	calculated ll: -2474881.1251637544. (SR = 0.9892299835940109), hyparam_x0_index: 2
+2021-10-30 05:37:57,954 | 	obj and grad eval took 145.84716591238976s., hyparam_x0_index: 2
+2021-10-30 05:37:57,954 | 	Current pt: [2.01568540e-01 9.20260280e-01 1.38235307e+00 2.34186973e-03
+ 6.68916183e-01 1.48075171e+00 1.21812992e+00 1.14615987e+00
+ 1.25759478e+00 9.85515242e-01 2.04209902e+00 4.53961890e+00
+ 5.19023625e-04 7.03907954e-01 3.91864092e+00 1.01207232e-04
+ 2.30964559e-02 1.19547410e-01 1.93698206e-02 3.13460634e-05
+ 9.38634842e-02]., hyparam_x0_index: 2
+2021-10-30 05:37:57,958 | Objective value at iteration #29 is - -2474881.1251637544. Running time: 5047s, hyparam_x0_index: 2
+2021-10-30 05:37:58,891 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:38:20,346 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:38:21,065 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:38:21,065 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:40:17,301 | 	calculated ll: -2479336.41900979. (SR = 0.987346402670633), hyparam_x0_index: 2
+2021-10-30 05:40:17,302 | 	obj and grad eval took 139.34175400435925s., hyparam_x0_index: 2
+2021-10-30 05:40:17,302 | 	Current pt: [1.60563526e-01 1.59447519e+00 1.84202611e+00 2.95832576e-03
+ 1.41122231e+00 1.99480754e+00 1.53159471e+00 1.37395306e+00
+ 1.58092883e+00 9.79662262e-01 3.11926130e+00 5.09839956e+00
+ 1.27931145e-03 4.68029138e-01 4.70942560e+00 8.63768686e-05
+ 3.72139777e-02 1.82443366e-01 3.40857338e-02 1.67655008e-03
+ 8.83011046e-02]., hyparam_x0_index: 2
+2021-10-30 05:40:17,306 | Objective value at iteration #30 is - -2479336.41900979. Running time: 5187s, hyparam_x0_index: 2
+2021-10-30 05:40:18,168 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:40:36,782 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:40:37,503 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:40:37,503 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:42:33,517 | 	calculated ll: -2482177.276992158. (SR = 0.964864123114137), hyparam_x0_index: 2
+2021-10-30 05:42:33,518 | 	obj and grad eval took 136.21016624197364s., hyparam_x0_index: 2
+2021-10-30 05:42:33,518 | 	Current pt: [1.45926127e-01 1.76751087e+00 1.80050322e+00 1.19784320e-02
+ 1.63344319e+00 1.62309354e+00 1.55985515e+00 1.42599739e+00
+ 1.61658761e+00 9.64747884e-01 3.56312992e+00 6.85213107e+00
+ 2.26832145e-05 2.69545406e-01 7.33691037e+00 1.56562647e-04
+ 8.52665417e-02 7.33588825e-01 5.24546685e-01 1.36554066e-01
+ 1.25294543e-01]., hyparam_x0_index: 2
+2021-10-30 05:42:33,522 | Objective value at iteration #31 is - -2482177.276992158. Running time: 5323s, hyparam_x0_index: 2
+2021-10-30 05:42:34,452 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:42:55,075 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:42:55,801 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:42:55,801 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:44:52,162 | 	calculated ll: -2484229.332064685. (SR = 0.9676040477064916), hyparam_x0_index: 2
+2021-10-30 05:44:52,162 | 	obj and grad eval took 138.6381059102714s., hyparam_x0_index: 2
+2021-10-30 05:44:52,163 | 	Current pt: [1.78866566e-01 1.63836265e+00 1.74361299e+00 3.17660231e-02
+ 1.52710456e+00 1.62531799e+00 1.47854967e+00 1.35142605e+00
+ 1.53147895e+00 9.65117124e-01 4.09519700e+00 7.20776022e+00
+ 5.85961900e-04 2.70534416e-03 7.65640278e+00 2.07544515e-04
+ 9.30176790e-02 7.25618929e-01 5.25769653e-01 1.68167274e-01
+ 1.27565044e-01]., hyparam_x0_index: 2
+2021-10-30 05:44:52,167 | Objective value at iteration #32 is - -2484229.332064685. Running time: 5462s, hyparam_x0_index: 2
+2021-10-30 05:44:52,998 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:45:11,117 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:45:11,848 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:45:11,849 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:47:08,976 | 	calculated ll: -2488293.0156942676. (SR = 0.9549177767792144), hyparam_x0_index: 2
+2021-10-30 05:47:08,977 | 	obj and grad eval took 136.8079976066947s., hyparam_x0_index: 2
+2021-10-30 05:47:08,977 | 	Current pt: [1.40953327e-01 1.74606162e+00 1.85372144e+00 3.09712548e-02
+ 1.60148217e+00 1.89073059e+00 1.42172294e+00 1.28244760e+00
+ 1.49010305e+00 9.52257535e-01 5.05914714e+00 7.97198769e+00
+ 5.01771721e-04 6.67419472e-04 8.48876496e+00 1.19655451e-05
+ 8.60789488e-02 6.66448371e-01 4.42400733e-01 6.73150881e-02
+ 1.14840982e-01]., hyparam_x0_index: 2
+2021-10-30 05:47:08,981 | Objective value at iteration #33 is - -2488293.0156942676. Running time: 5598s, hyparam_x0_index: 2
+2021-10-30 05:47:09,752 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:47:25,208 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:47:25,934 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:47:25,934 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:49:23,593 | 	calculated ll: -2490937.5776715735. (SR = 0.9301299371629865), hyparam_x0_index: 2
+2021-10-30 05:49:23,594 | 	obj and grad eval took 134.61037866398692s., hyparam_x0_index: 2
+2021-10-30 05:49:23,594 | 	Current pt: [1.11007403e-01 1.78976866e+00 1.81787974e+00 2.54250493e-02
+ 1.55811742e+00 1.88928143e+00 1.31146707e+00 1.18416439e+00
+ 1.39150744e+00 9.26076045e-01 5.79728143e+00 9.41924247e+00
+ 6.47835863e-04 3.69015330e-03 1.02341594e+01 7.02776885e-04
+ 8.70679588e-04 7.27642727e-01 4.05945174e-01 6.56653798e-02
+ 1.10330201e-01]., hyparam_x0_index: 2
+2021-10-30 05:49:23,598 | Objective value at iteration #34 is - -2490937.5776715735. Running time: 5733s, hyparam_x0_index: 2
+2021-10-30 05:49:24,096 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:49:29,732 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:49:30,450 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:49:30,450 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:51:26,702 | 	calculated ll: -2431029.6544289887. (SR = 0.8429891807258275), hyparam_x0_index: 2
+2021-10-30 05:51:26,703 | 	obj and grad eval took 123.10282195359468s., hyparam_x0_index: 2
+2021-10-30 05:51:26,703 | 	Current pt: [1.11996413e-03 1.79810659e+00 1.74470186e+00 3.06672242e-02
+ 1.42877448e+00 1.87456184e+00 1.16010074e+00 1.07605617e+00
+ 1.23966099e+00 7.53666015e-01 1.00803907e+01 1.52019864e+01
+ 7.40835826e-03 6.93343972e-03 1.72047988e+01 9.69947400e-04
+ 5.10095462e-03 7.61595847e-01 4.22279629e-01 7.94198162e-02
+ 1.11908117e-01]., hyparam_x0_index: 2
+2021-10-30 05:51:27,213 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:51:32,887 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:51:33,596 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:51:33,596 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:53:30,209 | 	calculated ll: -2431063.4882460316. (SR = 0.8424313161327661), hyparam_x0_index: 2
+2021-10-30 05:53:30,210 | 	obj and grad eval took 123.5038507245481s., hyparam_x0_index: 2
+2021-10-30 05:53:30,210 | 	Current pt: [1.11996413e-03 1.79836379e+00 1.74652307e+00 3.04104715e-02
+ 1.43206883e+00 1.87494479e+00 1.16221081e+00 1.07732225e+00
+ 1.24253796e+00 7.53367557e-01 1.00871045e+01 1.51930526e+01
+ 7.37759670e-03 6.86598521e-03 1.72067516e+01 9.37429657e-04
+ 4.93963711e-03 7.59435517e-01 4.22856211e-01 7.91350144e-02
+ 1.11845513e-01]., hyparam_x0_index: 2
+2021-10-30 05:53:30,712 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:53:36,372 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:53:37,102 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:53:37,102 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:55:33,479 | 	calculated ll: -2431063.1450278806. (SR = 0.8424365247598223), hyparam_x0_index: 2
+2021-10-30 05:55:33,480 | 	obj and grad eval took 123.26739725470543s., hyparam_x0_index: 2
+2021-10-30 05:55:33,481 | 	Current pt: [1.11996413e-03 1.79836143e+00 1.74650616e+00 3.04128940e-02
+ 1.43203802e+00 1.87494124e+00 1.16219111e+00 1.07731042e+00
+ 1.24251101e+00 7.53370420e-01 1.00870402e+01 1.51931362e+01
+ 7.37787858e-03 6.86661207e-03 1.72067335e+01 9.37744216e-04
+ 4.94116430e-03 7.59456045e-01 4.22850774e-01 7.91376490e-02
+ 1.11846101e-01]., hyparam_x0_index: 2
+2021-10-30 05:55:34,118 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:55:44,525 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:55:45,236 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:55:45,236 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:57:42,445 | 	calculated ll: -2493682.406761588. (SR = 0.876574541487336), hyparam_x0_index: 2
+2021-10-30 05:57:42,446 | 	obj and grad eval took 128.96331191807985s., hyparam_x0_index: 2
+2021-10-30 05:57:42,447 | 	Current pt: [5.60636833e-02 1.79393762e+00 1.78129080e+00 2.80461368e-02
+ 1.49344595e+00 1.88192163e+00 1.23578390e+00 1.13011028e+00
+ 1.31558422e+00 8.39871030e-01 7.93883607e+00 1.23106144e+01
+ 4.02809706e-03 5.31179651e-03 1.37194791e+01 8.36362142e-04
+ 2.98581711e-03 7.44619287e-01 4.14112401e-01 7.25425980e-02
+ 1.11119159e-01]., hyparam_x0_index: 2
+2021-10-30 05:57:42,451 | Objective value at iteration #35 is - -2493682.406761588. Running time: 6232s, hyparam_x0_index: 2
+2021-10-30 05:57:43,077 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 05:57:53,519 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 05:57:54,220 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 05:57:54,220 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 05:59:51,743 | 	calculated ll: -2492118.1720155226. (SR = 0.866327577740311), hyparam_x0_index: 2
+2021-10-30 05:59:51,744 | 	obj and grad eval took 129.29118324443698s., hyparam_x0_index: 2
+2021-10-30 05:59:51,744 | 	Current pt: [4.53275026e-02 1.36107962e+00 1.05431023e+00 4.18026470e-02
+ 7.22258897e-01 1.66731181e+00 7.07827435e-01 7.83081876e-01
+ 7.25489836e-01 8.06982823e-01 8.35446293e+00 1.35157067e+01
+ 5.90237495e-03 3.54003504e-02 1.46694777e+01 1.82537214e-05
+ 4.28596383e-02 6.40616835e-01 7.46166230e-01 2.35396657e-01
+ 1.52588108e-01]., hyparam_x0_index: 2
+2021-10-30 05:59:51,748 | Objective value at iteration #36 is - -2492118.1720155226. Running time: 6361s, hyparam_x0_index: 2
+2021-10-30 05:59:52,516 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:00:08,327 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:00:09,042 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:00:09,042 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:02:06,779 | 	calculated ll: -2491629.211031918. (SR = 0.9145809981811219), hyparam_x0_index: 2
+2021-10-30 06:02:06,780 | 	obj and grad eval took 135.03104077279568s., hyparam_x0_index: 2
+2021-10-30 06:02:06,781 | 	Current pt: [4.80754172e-02 1.35628881e+00 1.09758514e+00 2.67542197e-01
+ 8.29511701e-01 9.69378892e-01 8.46333819e-01 8.68662850e-01
+ 8.65586574e-01 7.89017480e-01 1.11753371e+01 1.25889297e+01
+ 9.18998007e-03 9.66593030e-02 8.87040383e+00 1.69335899e-04
+ 2.84432098e-02 6.23135323e-01 1.06609399e+00 1.07204271e+00
+ 1.44968584e-01]., hyparam_x0_index: 2
+2021-10-30 06:02:06,785 | Objective value at iteration #37 is - -2491629.2110319184. Running time: 6496s, hyparam_x0_index: 2
+2021-10-30 06:02:07,585 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:02:25,113 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:02:25,843 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:02:25,843 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:04:21,754 | 	calculated ll: -2488658.1010869737. (SR = 0.8561880308796579), hyparam_x0_index: 2
+2021-10-30 06:04:21,755 | 	obj and grad eval took 134.9696181230247s., hyparam_x0_index: 2
+2021-10-30 06:04:21,756 | 	Current pt: [5.60364401e-02 1.39062314e+00 1.04031906e+00 2.92253549e-01
+ 9.54397108e-01 1.43253365e+00 9.85072484e-01 1.01059382e+00
+ 9.86250309e-01 6.92995076e-01 1.13298631e+01 1.80026208e+01
+ 1.03106388e-02 1.40359786e-01 1.19015231e+01 3.32162301e-04
+ 1.64004994e-02 6.47564440e-01 1.49833145e+00 1.70537116e+00
+ 1.43860331e-01]., hyparam_x0_index: 2
+2021-10-30 06:04:21,760 | Objective value at iteration #38 is - -2488658.1010869737. Running time: 6631s, hyparam_x0_index: 2
+2021-10-30 06:04:22,359 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:04:33,099 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:04:33,813 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:04:33,813 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:06:30,389 | 	calculated ll: -2494643.972598437. (SR = 0.5001620134346977), hyparam_x0_index: 2
+2021-10-30 06:06:30,390 | 	obj and grad eval took 128.62877639755607s., hyparam_x0_index: 2
+2021-10-30 06:06:30,390 | 	Current pt: [5.35502414e-02 1.54397297e+00 1.14514027e+00 6.46198280e-01
+ 1.09343082e+00 1.60768901e+00 9.66718677e-01 9.60371522e-01
+ 9.89223885e-01 3.78820050e-01 1.30012046e+01 2.95843020e+01
+ 3.55751611e-03 1.18991365e-01 1.51424718e+01 6.48027158e-04
+ 3.74648230e-02 6.67982618e-01 1.63601062e+00 2.51021287e+00
+ 1.43599601e-01]., hyparam_x0_index: 2
+2021-10-30 06:06:30,394 | Objective value at iteration #39 is - -2494643.9725984377. Running time: 6760s, hyparam_x0_index: 2
+2021-10-30 06:06:31,025 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:06:42,649 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:06:43,394 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:06:43,394 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:08:40,448 | 	calculated ll: -2498491.4541780073. (SR = 0.6742105663023062), hyparam_x0_index: 2
+2021-10-30 06:08:40,448 | 	obj and grad eval took 130.05251433700323s., hyparam_x0_index: 2
+2021-10-30 06:08:40,449 | 	Current pt: [3.13354956e-02 1.56006647e+00 1.20683835e+00 5.84490837e-01
+ 1.05635615e+00 1.61067807e+00 9.68754187e-01 9.64533101e-01
+ 9.90469737e-01 5.64007597e-01 1.48907404e+01 2.34569499e+01
+ 4.19534580e-03 1.07331055e-01 1.11678064e+01 6.71777923e-04
+ 2.20675179e-02 6.54093203e-01 1.08809806e+00 9.31094927e-01
+ 1.41175963e-01]., hyparam_x0_index: 2
+2021-10-30 06:08:40,453 | Objective value at iteration #40 is - -2498491.4541780073. Running time: 6890s, hyparam_x0_index: 2
+2021-10-30 06:08:40,979 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:08:48,223 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:08:48,921 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:08:48,921 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:10:46,312 | 	calculated ll: -2498534.1901598936. (SR = 0.37243029057881827), hyparam_x0_index: 2
+2021-10-30 06:10:46,313 | 	obj and grad eval took 125.85760707780719s., hyparam_x0_index: 2
+2021-10-30 06:10:46,313 | 	Current pt: [1.88477145e-02 1.54108387e+00 1.20449842e+00 4.03601372e-01
+ 1.05788460e+00 1.61876487e+00 1.06217346e+00 1.06016677e+00
+ 1.06597378e+00 2.81457596e-01 2.05741715e+01 3.12778278e+01
+ 1.43713306e-03 4.74116427e-02 1.55928044e+01 8.07414346e-04
+ 2.07388747e-02 6.50554451e-01 1.04543520e+00 9.62486595e-01
+ 1.35814744e-01]., hyparam_x0_index: 2
+2021-10-30 06:10:46,317 | Objective value at iteration #41 is - -2498534.1901598936. Running time: 7016s, hyparam_x0_index: 2
+2021-10-30 06:10:47,048 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:11:02,395 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:11:03,116 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:11:03,116 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:13:01,122 | 	calculated ll: -2490323.8267319575. (SR = 0.608281912289024), hyparam_x0_index: 2
+2021-10-30 06:13:01,123 | 	obj and grad eval took 134.80371601879597s., hyparam_x0_index: 2
+2021-10-30 06:13:01,123 | 	Current pt: [6.69194813e-02 8.15517654e-01 8.32070353e-01 9.33984713e-01
+ 8.79976759e-01 1.10333791e+00 8.99911593e-01 9.03470177e-01
+ 8.98983722e-01 3.37094511e-01 1.83960023e+01 1.81485552e+01
+ 6.62955337e-03 1.58566039e-01 8.61679517e+00 5.14864179e-04
+ 3.13058539e-02 6.71478808e-01 1.51553827e+00 1.55484954e+00
+ 1.56459525e-01]., hyparam_x0_index: 2
+2021-10-30 06:13:01,127 | Objective value at iteration #42 is - -2490323.8267319575. Running time: 7151s, hyparam_x0_index: 2
+2021-10-30 06:13:01,816 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:13:15,658 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:13:16,390 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:13:16,390 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:15:12,938 | 	calculated ll: -2499871.7927426863. (SR = 0.6887858360471082), hyparam_x0_index: 2
+2021-10-30 06:15:12,939 | 	obj and grad eval took 131.81062050908804s., hyparam_x0_index: 2
+2021-10-30 06:15:12,939 | 	Current pt: [3.93798472e-02 1.77151848e+00 1.12221466e+00 8.28609529e-01
+ 9.90340208e-01 1.40611324e+00 9.78168522e-01 9.76240699e-01
+ 9.85802722e-01 5.26833353e-01 1.54763628e+01 2.60989959e+01
+ 5.96858654e-03 1.18420942e-01 1.14760057e+01 6.62975950e-04
+ 2.07919349e-02 6.58220641e-01 1.31810224e+00 1.58368826e+00
+ 1.44951218e-01]., hyparam_x0_index: 2
+2021-10-30 06:15:12,943 | Objective value at iteration #43 is - -2499871.7927426863. Running time: 7282s, hyparam_x0_index: 2
+2021-10-30 06:15:13,560 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:15:14,899 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:15:15,634 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:15:15,634 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:17:12,522 | 	calculated ll: -2504573.633633003. (SR = 0.5808981302936072), hyparam_x0_index: 2
+2021-10-30 06:17:12,523 | 	obj and grad eval took 119.57755582034588s., hyparam_x0_index: 2
+2021-10-30 06:17:12,523 | 	Current pt: [3.88730594e-02 1.79927550e+00 1.26262202e+00 8.60268521e-01
+ 1.02935104e+00 1.68014732e+00 9.90606565e-01 9.86430913e-01
+ 1.00505165e+00 4.73867729e-01 1.91189181e+01 2.61610638e+01
+ 2.87901885e-03 6.66169085e-02 1.11638648e+01 7.45704743e-04
+ 2.32889281e-02 6.54169116e-01 7.54893666e-01 3.45391371e-01
+ 1.40029968e-01]., hyparam_x0_index: 2
+2021-10-30 06:17:12,527 | Objective value at iteration #44 is - -2504573.633633003. Running time: 7402s, hyparam_x0_index: 2
+2021-10-30 06:17:13,103 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:17:14,415 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:17:15,119 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:17:15,119 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:19:11,898 | 	calculated ll: -2482014.4908376737. (SR = 0.6053094125911953), hyparam_x0_index: 2
+2021-10-30 06:19:11,899 | 	obj and grad eval took 119.37000948935747s., hyparam_x0_index: 2
+2021-10-30 06:19:11,900 | 	Current pt: [2.95512522e-02 1.72302418e+00 1.21682747e+00 3.28546681e-01
+ 9.10233825e-01 1.60025756e+00 9.76382226e-01 9.60890679e-01
+ 1.02123886e+00 5.47642330e-01 2.66104186e+01 1.63756944e+01
+ 1.17120084e-03 6.48599361e-02 5.46930887e+00 9.29825872e-04
+ 3.02500802e-02 6.38633576e-01 2.24717616e-01 2.02234878e-01
+ 1.22031932e-01]., hyparam_x0_index: 2
+2021-10-30 06:19:12,503 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:19:13,845 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:19:14,555 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:19:14,556 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:21:10,355 | 	calculated ll: -2481559.7175319. (SR = 0.6127550981261669), hyparam_x0_index: 2
+2021-10-30 06:21:10,356 | 	obj and grad eval took 118.45361196622252s., hyparam_x0_index: 2
+2021-10-30 06:21:10,356 | 	Current pt: [2.98419950e-02 1.72259110e+00 1.21746800e+00 3.33667252e-01
+ 9.11712014e-01 1.60099063e+00 9.76073103e-01 9.60331272e-01
+ 1.02109035e+00 5.54660000e-01 2.64837393e+01 1.68439629e+01
+ 1.20184268e-03 6.48725919e-02 5.39250498e+00 1.09415597e-03
+ 3.45159843e-02 6.38698074e-01 2.25564272e-01 2.02976131e-01
+ 1.22033045e-01]., hyparam_x0_index: 2
+2021-10-30 06:21:10,941 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:21:12,286 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:21:13,000 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:21:13,000 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:23:09,582 | 	calculated ll: -2481465.1660876386. (SR = 0.6142467639593646), hyparam_x0_index: 2
+2021-10-30 06:23:09,583 | 	obj and grad eval took 119.2245621457696s., hyparam_x0_index: 2
+2021-10-30 06:23:09,584 | 	Current pt: [2.99257642e-02 1.72243262e+00 1.21766897e+00 3.35372938e-01
+ 9.12108754e-01 1.60114650e+00 9.76032011e-01 9.60211818e-01
+ 1.02109357e+00 5.56104152e-01 2.64529106e+01 1.70109472e+01
+ 1.20749863e-03 6.48759582e-02 5.37406086e+00 1.14598033e-03
+ 3.58572221e-02 6.38708680e-01 2.25693935e-01 2.03086681e-01
+ 1.22033134e-01]., hyparam_x0_index: 2
+2021-10-30 06:23:09,588 | Objective value at iteration #45 is - -2481465.1660876386. Running time: 7759s, hyparam_x0_index: 2
+2021-10-30 06:23:10,190 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:23:11,546 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:23:12,274 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:23:12,274 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:25:09,581 | 	calculated ll: -2507876.3485901062. (SR = 0.7249743608722017), hyparam_x0_index: 2
+2021-10-30 06:25:09,582 | 	obj and grad eval took 119.99275138229132s., hyparam_x0_index: 2
+2021-10-30 06:25:09,582 | 	Current pt: [4.22764944e-02 1.61917329e+00 1.34520554e+00 5.28417582e-01
+ 9.53858005e-01 1.88093789e+00 9.91833797e-01 9.76117405e-01
+ 1.03605183e+00 7.00341470e-01 2.25285237e+01 2.09321478e+01
+ 7.91973313e-04 6.58649682e-04 7.77695643e+00 5.47869177e-04
+ 1.61379069e-02 6.25781018e-01 2.23436288e-01 1.52539846e-01
+ 1.11763102e-01]., hyparam_x0_index: 2
+2021-10-30 06:25:09,586 | Objective value at iteration #46 is - -2507876.3485901062. Running time: 7879s, hyparam_x0_index: 2
+2021-10-30 06:25:10,078 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:25:11,431 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:25:12,173 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:25:12,173 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:27:09,178 | 	calculated ll: -2473136.75470966. (SR = 0.6952889977273092), hyparam_x0_index: 2
+2021-10-30 06:27:09,179 | 	obj and grad eval took 119.59107646346092s., hyparam_x0_index: 2
+2021-10-30 06:27:09,179 | 	Current pt: [4.32655044e-04 1.15050980e+00 1.15619897e+00 8.54483725e-01
+ 8.90870311e-01 1.55116251e+00 1.00356523e+00 9.93302143e-01
+ 1.03113588e+00 6.53256354e-01 2.40884364e+01 2.37025203e+01
+ 1.16992388e-03 2.48187465e-02 9.32649055e+00 4.91919153e-04
+ 3.12382536e-02 6.60533078e-01 3.60376466e-01 2.41839295e-01
+ 1.28408611e-01]., hyparam_x0_index: 2
+2021-10-30 06:27:09,183 | Objective value at iteration #47 is - -2473136.75470966. Running time: 7999s, hyparam_x0_index: 2
+2021-10-30 06:27:09,751 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:27:11,099 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:27:11,934 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:27:11,934 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:29:09,259 | 	calculated ll: -2506025.640595952. (SR = 0.49333018766492703), hyparam_x0_index: 2
+2021-10-30 06:29:09,260 | 	obj and grad eval took 120.07573697343469s., hyparam_x0_index: 2
+2021-10-30 06:29:09,260 | 	Current pt: [3.17538032e-02 1.40076318e+00 1.24932883e+00 7.19252567e-01
+ 8.98890179e-01 1.73133013e+00 1.02349201e+00 1.00853602e+00
+ 1.06259309e+00 4.22360196e-01 2.60609602e+01 2.34014823e+01
+ 1.09142508e-03 9.25469134e-02 8.65504861e+00 6.70874828e-04
+ 4.15776390e-02 6.57404319e-01 1.64141740e-01 1.65132291e-01
+ 1.22357813e-01]., hyparam_x0_index: 2
+2021-10-30 06:29:09,264 | Objective value at iteration #48 is - -2506025.6405959516. Running time: 8119s, hyparam_x0_index: 2
+2021-10-30 06:29:09,857 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:29:11,190 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:29:11,906 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:29:11,907 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:31:10,749 | 	calculated ll: -2508511.2563736136. (SR = 0.5990386130922619), hyparam_x0_index: 2
+2021-10-30 06:31:10,749 | 	obj and grad eval took 121.48308124393225s., hyparam_x0_index: 2
+2021-10-30 06:31:10,750 | 	Current pt: [3.44796475e-02 1.40262335e+00 1.28355250e+00 7.03804256e-01
+ 8.96140468e-01 1.79875028e+00 1.02653288e+00 1.01013277e+00
+ 1.06928271e+00 5.56546325e-01 2.59939109e+01 2.34294705e+01
+ 9.29779886e-04 3.02620928e-02 8.60601220e+00 6.14157301e-04
+ 3.18280484e-02 6.49472018e-01 1.09321342e-01 1.20711831e-01
+ 1.11785133e-01]., hyparam_x0_index: 2
+2021-10-30 06:31:10,754 | Objective value at iteration #49 is - -2508511.2563736136. Running time: 8240s, hyparam_x0_index: 2
+2021-10-30 06:31:11,322 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:31:12,648 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:31:13,358 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:31:13,358 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:33:10,171 | 	calculated ll: -2509981.3862567716. (SR = 0.7139029037288689), hyparam_x0_index: 2
+2021-10-30 06:33:10,172 | 	obj and grad eval took 119.41615584492683s., hyparam_x0_index: 2
+2021-10-30 06:33:10,172 | 	Current pt: [3.83741570e-02 1.64100173e+00 1.39149864e+00 5.88929671e-01
+ 9.30221458e-01 1.98214103e+00 1.02425840e+00 1.00512210e+00
+ 1.07528176e+00 7.13218650e-01 2.51673417e+01 2.26891445e+01
+ 1.91878989e-05 8.15821006e-03 8.18123042e+00 6.26157149e-04
+ 2.91276523e-02 6.31077269e-01 3.66622333e-02 2.17274677e-02
+ 8.83655531e-02]., hyparam_x0_index: 2
+2021-10-30 06:33:10,176 | Objective value at iteration #50 is - -2509981.3862567716. Running time: 8360s, hyparam_x0_index: 2
+2021-10-30 06:33:10,743 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:33:12,085 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:33:12,788 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:33:12,788 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:35:09,635 | 	calculated ll: -2510224.843804215. (SR = 0.6981079589637506), hyparam_x0_index: 2
+2021-10-30 06:35:09,636 | 	obj and grad eval took 119.45775141566992s., hyparam_x0_index: 2
+2021-10-30 06:35:09,636 | 	Current pt: [3.42877556e-02 1.54770070e+00 1.15011954e+00 6.66055932e-01
+ 7.45668595e-01 1.97411680e+00 1.02304851e+00 9.97995551e-01
+ 1.08702798e+00 6.97372793e-01 3.48327337e+01 1.83859916e+01
+ 1.45339254e-05 9.47916647e-03 5.57786287e+00 6.69652027e-04
+ 1.71384389e-02 6.19966557e-01 1.34758925e-02 1.04175270e-02
+ 8.83645631e-04]., hyparam_x0_index: 2
+2021-10-30 06:35:09,640 | Objective value at iteration #51 is - -2510224.843804215. Running time: 8479s, hyparam_x0_index: 2
+2021-10-30 06:35:10,162 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:35:11,513 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:35:12,232 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:35:12,232 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:37:09,309 | 	calculated ll: -2403337.9382579904. (SR = 0.524983536008965), hyparam_x0_index: 2
+2021-10-30 06:37:09,310 | 	obj and grad eval took 119.66719003021717s., hyparam_x0_index: 2
+2021-10-30 06:37:09,310 | 	Current pt: [2.20252611e-02 9.63897420e-01 4.72248316e-01 1.12086471e+00
+ 6.95210611e-01 1.97510581e-02 1.01386256e+00 1.00954714e+00
+ 1.02197151e+00 5.15544455e-01 4.67928909e+01 1.87023855e+01
+ 1.00888400e-04 2.48437574e-02 5.29136203e+00 1.13774369e-03
+ 3.01396670e-02 7.10740405e-01 2.83303686e-02 2.42235013e-02
+ 2.36939051e-02]., hyparam_x0_index: 2
+2021-10-30 06:37:09,827 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:37:11,172 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:37:11,880 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:37:11,880 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:39:08,763 | 	calculated ll: -2403337.595957977. (SR = 0.524976267594931), hyparam_x0_index: 2
+2021-10-30 06:39:08,764 | 	obj and grad eval took 119.4513081908226s., hyparam_x0_index: 2
+2021-10-30 06:39:08,764 | 	Current pt: [2.20248958e-02 9.63889048e-01 4.72238770e-01 1.12087518e+00
+ 6.95204907e-01 1.97510581e-02 1.01386314e+00 1.00954775e+00
+ 1.02197193e+00 5.15536994e-01 4.67932171e+01 1.87024152e+01
+ 1.00888283e-04 2.48437664e-02 5.29136864e+00 1.13795127e-03
+ 3.01401297e-02 7.10740597e-01 2.83303523e-02 2.42234835e-02
+ 2.36938778e-02]., hyparam_x0_index: 2
+2021-10-30 06:39:09,302 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:39:10,636 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:39:11,356 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:39:11,356 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:41:09,520 | 	calculated ll: -2507046.1414145743. (SR = 0.6104287650756792), hyparam_x0_index: 2
+2021-10-30 06:41:09,521 | 	obj and grad eval took 120.75410058349371s., hyparam_x0_index: 2
+2021-10-30 06:41:09,521 | 	Current pt: [2.81565084e-02 1.25579906e+00 8.11183928e-01 8.93460321e-01
+ 7.20439603e-01 9.96933930e-01 1.01845553e+00 1.00377135e+00
+ 1.05449975e+00 6.06458624e-01 4.08128123e+01 1.85441886e+01
+ 5.77111627e-05 1.71614619e-02 5.43461245e+00 9.03697861e-04
+ 2.36390529e-02 6.65353481e-01 2.09031305e-02 1.73205141e-02
+ 1.22887754e-02]., hyparam_x0_index: 2
+2021-10-30 06:41:09,525 | Objective value at iteration #52 is - -2507046.1414145743. Running time: 8839s, hyparam_x0_index: 2
+2021-10-30 06:41:09,997 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:41:11,346 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:41:12,072 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:41:12,072 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:43:08,179 | 	calculated ll: -2503609.675627895. (SR = 0.1815160032478732), hyparam_x0_index: 2
+2021-10-30 06:43:08,180 | 	obj and grad eval took 118.65356091037393s., hyparam_x0_index: 2
+2021-10-30 06:43:08,180 | 	Current pt: [2.91455184e-04 1.47841597e+00 7.63022119e-01 1.35685962e+00
+ 6.10285354e-01 1.44506948e+00 1.03423372e+00 1.01257880e+00
+ 1.08602894e+00 9.56220377e-02 5.82019120e+01 2.02007669e+01
+ 2.15680028e-04 3.53708120e-02 7.05673539e+00 1.17183336e-03
+ 3.74803517e-02 6.58764077e-01 5.32498889e-02 4.06918869e-02
+ 3.26714136e-02]., hyparam_x0_index: 2
+2021-10-30 06:43:08,662 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:43:09,973 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:43:10,683 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:43:10,683 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:45:07,535 | 	calculated ll: -2503641.44024586. (SR = 0.18090983425708854), hyparam_x0_index: 2
+2021-10-30 06:45:07,536 | 	obj and grad eval took 119.35314210131764s., hyparam_x0_index: 2
+2021-10-30 06:45:07,536 | 	Current pt: [2.91455184e-04 1.47548042e+00 7.61766114e-01 1.35686427e+00
+ 6.09915662e-01 1.44298662e+00 1.03420438e+00 1.01261358e+00
+ 1.08581984e+00 9.54713086e-02 5.82247082e+01 2.01975635e+01
+ 2.13737860e-04 3.52516034e-02 7.05239316e+00 1.10248215e-03
+ 3.61470150e-02 6.58852463e-01 5.29248320e-02 4.04477619e-02
+ 3.24490844e-02]., hyparam_x0_index: 2
+2021-10-30 06:45:08,012 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:45:09,312 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:45:10,021 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:45:10,021 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:47:06,244 | 	calculated ll: -2503642.0259118997. (SR = 0.1809003245040957), hyparam_x0_index: 2
+2021-10-30 06:47:06,245 | 	obj and grad eval took 118.70584946125746s., hyparam_x0_index: 2
+2021-10-30 06:47:06,245 | 	Current pt: [2.91455184e-04 1.47543546e+00 7.61746163e-01 1.35686382e+00
+ 6.09911558e-01 1.44294508e+00 1.03420396e+00 1.01261419e+00
+ 1.08581661e+00 9.54679505e-02 5.82250691e+01 2.01975533e+01
+ 2.13710024e-04 3.52496730e-02 7.05233302e+00 1.10047608e-03
+ 3.61099551e-02 6.58854244e-01 5.29201176e-02 4.04442780e-02
+ 3.24458844e-02]., hyparam_x0_index: 2
+2021-10-30 06:47:06,745 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:47:08,060 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:47:08,774 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:47:08,774 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:49:05,288 | 	calculated ll: -2507874.180234516. (SR = 0.3706889655961028), hyparam_x0_index: 2
+2021-10-30 06:49:05,289 | 	obj and grad eval took 119.04146346449852s., hyparam_x0_index: 2
+2021-10-30 06:49:05,289 | 	Current pt: [1.42239818e-02 1.36710751e+00 7.87103023e-01 1.12515997e+00
+ 6.65362478e-01 1.22100171e+00 1.02634462e+00 1.00817507e+00
+ 1.07026434e+00 3.51040331e-01 4.95073621e+01 1.93724777e+01
+ 1.36695595e-04 2.62661370e-02 6.24567392e+00 1.03776561e-03
+ 3.05597023e-02 6.62058779e-01 3.70765097e-02 2.90062005e-02
+ 2.24800945e-02]., hyparam_x0_index: 2
+2021-10-30 06:49:05,294 | Objective value at iteration #53 is - -2507874.180234516. Running time: 9315s, hyparam_x0_index: 2
+2021-10-30 06:49:05,957 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:49:07,332 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:49:08,031 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:49:08,031 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:51:06,355 | 	calculated ll: -2509595.966329604. (SR = 0.6916074108465163), hyparam_x0_index: 2
+2021-10-30 06:51:06,356 | 	obj and grad eval took 121.05990109965205s., hyparam_x0_index: 2
+2021-10-30 06:51:06,356 | 	Current pt: [2.96999114e-02 1.91790663e+00 1.40244568e+00 8.86146409e-01
+ 5.74488950e-01 1.08315155e+00 1.04523263e+00 9.96638941e-01
+ 1.17715711e+00 6.38579912e-01 3.19144806e+01 2.42542573e+01
+ 9.87722478e-04 9.71488630e-02 6.50877690e+00 1.81412241e-04
+ 5.94417191e-02 5.85372424e-01 1.32414965e-01 9.54409956e-02
+ 7.43369420e-02]., hyparam_x0_index: 2
+2021-10-30 06:51:06,360 | Objective value at iteration #54 is - -2509595.966329604. Running time: 9436s, hyparam_x0_index: 2
+2021-10-30 06:51:06,915 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:51:08,259 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:51:08,964 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:51:08,964 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:53:04,531 | 	calculated ll: -2510191.7047452945. (SR = 0.6619083713445102), hyparam_x0_index: 2
+2021-10-30 06:53:04,533 | 	obj and grad eval took 118.17098160088062s., hyparam_x0_index: 2
+2021-10-30 06:53:04,533 | 	Current pt: [3.52387493e-02 1.85520102e+00 1.37549808e+00 9.47203519e-01
+ 5.77486281e-01 1.22957260e+00 1.04417945e+00 9.96162116e-01
+ 1.18097673e+00 6.60869709e-01 3.12649646e+01 2.56539481e+01
+ 1.97673248e-05 6.68883422e-02 6.57043800e+00 2.85363199e-04
+ 5.97086896e-02 5.94287128e-01 1.28911273e-01 9.42823960e-02
+ 7.43723031e-02]., hyparam_x0_index: 2
+2021-10-30 06:53:04,537 | Objective value at iteration #55 is - -2510191.7047452945. Running time: 9554s, hyparam_x0_index: 2
+2021-10-30 06:53:05,087 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:53:06,439 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:53:07,151 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:53:07,151 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:55:03,171 | 	calculated ll: -2509705.762509988. (SR = 0.4358610402942402), hyparam_x0_index: 2
+2021-10-30 06:55:03,172 | 	obj and grad eval took 118.63375879451632s., hyparam_x0_index: 2
+2021-10-30 06:55:03,172 | 	Current pt: [4.03271410e-02 1.99855203e+00 1.35708656e+00 1.05538501e+00
+ 6.41118980e-01 1.73217052e+00 1.03530738e+00 9.91910476e-01
+ 1.17244020e+00 4.10621458e-01 4.21327928e+01 3.09017430e+01
+ 2.20666978e-04 6.74985170e-02 5.36720790e+00 4.43404742e-04
+ 6.62329697e-02 5.96412528e-01 1.21363319e-01 9.03604045e-02
+ 7.38402684e-02]., hyparam_x0_index: 2
+2021-10-30 06:55:03,176 | Objective value at iteration #56 is - -2509705.762509988. Running time: 9673s, hyparam_x0_index: 2
+2021-10-30 06:55:03,816 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:55:05,136 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:55:05,952 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:55:05,952 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:57:02,480 | 	calculated ll: -2510863.9593387186. (SR = 0.7081853219348131), hyparam_x0_index: 2
+2021-10-30 06:57:02,480 | 	obj and grad eval took 119.30336463078856s., hyparam_x0_index: 2
+2021-10-30 06:57:02,481 | 	Current pt: [3.78998576e-02 1.80779477e+00 1.81568283e+00 9.85422941e-01
+ 6.33267597e-01 1.99732173e+00 1.03774022e+00 9.87593298e-01
+ 1.18522647e+00 6.49960942e-01 4.86984305e+01 2.50517887e+01
+ 7.73734882e-04 6.10393220e-02 3.37926983e+00 6.38838534e-04
+ 6.20777640e-02 5.78471791e-01 1.18088294e-01 9.04564809e-02
+ 7.37650003e-02]., hyparam_x0_index: 2
+2021-10-30 06:57:02,485 | Objective value at iteration #57 is - -2510863.9593387186. Running time: 9792s, hyparam_x0_index: 2
+2021-10-30 06:57:03,426 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:57:04,760 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:57:05,499 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:57:05,499 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 06:59:03,084 | 	calculated ll: -2509801.779323988. (SR = 0.8806514305686813), hyparam_x0_index: 2
+2021-10-30 06:59:03,085 | 	obj and grad eval took 120.59808326885104s., hyparam_x0_index: 2
+2021-10-30 06:59:03,085 | 	Current pt: [2.37051269e-02 1.79871181e+00 1.79077766e+00 1.11090915e+00
+ 6.36036522e-01 1.98442184e+00 1.03658636e+00 9.87985887e-01
+ 1.18521856e+00 5.19947082e-01 4.89868700e+01 2.40063294e+01
+ 6.06276057e-03 5.72744322e-02 3.21978367e+00 2.63406951e-04
+ 4.87500256e-02 5.89664814e-01 1.27475848e-01 9.89427424e-02
+ 7.81561867e-02]., hyparam_x0_index: 2
+2021-10-30 06:59:04,024 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 06:59:05,327 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 06:59:06,039 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 06:59:06,039 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:01:02,106 | 	calculated ll: -2509440.1169818714. (SR = 0.8844581623658583), hyparam_x0_index: 2
+2021-10-30 07:01:02,107 | 	obj and grad eval took 119.01929917559028s., hyparam_x0_index: 2
+2021-10-30 07:01:02,107 | 	Current pt: [2.32959289e-02 1.79849787e+00 1.79017985e+00 1.11444007e+00
+ 6.36140592e-01 1.98407109e+00 1.03656779e+00 9.87996199e-01
+ 1.18526046e+00 5.16185755e-01 4.89958559e+01 2.39706797e+01
+ 6.21850685e-03 5.71329013e-02 3.21461806e+00 2.46472695e-04
+ 4.81490795e-02 5.89971426e-01 1.27732748e-01 9.91744517e-02
+ 7.82761260e-02]., hyparam_x0_index: 2
+2021-10-30 07:01:03,078 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:01:04,384 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:01:05,088 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:01:05,088 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:03:02,541 | 	calculated ll: -2509421.884652345. (SR = 0.8846426659421577), hyparam_x0_index: 2
+2021-10-30 07:03:02,543 | 	obj and grad eval took 120.4327912516892s., hyparam_x0_index: 2
+2021-10-30 07:03:02,543 | 	Current pt: [2.32763136e-02 1.79849050e+00 1.79015754e+00 1.11460254e+00
+ 6.36144095e-01 1.98405559e+00 1.03656743e+00 9.87996623e-01
+ 1.18526410e+00 5.16003322e-01 4.89963161e+01 2.39688235e+01
+ 6.22608804e-03 5.71255191e-02 3.21434612e+00 2.45838282e-04
+ 4.81265783e-02 5.89984984e-01 1.27744170e-01 9.91846697e-02
+ 7.82814518e-02]., hyparam_x0_index: 2
+2021-10-30 07:03:03,343 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:03:04,688 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:03:05,410 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:03:05,411 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:05:01,463 | 	calculated ll: -2512583.2762827147. (SR = 0.8079277888743575), hyparam_x0_index: 2
+2021-10-30 07:05:01,464 | 	obj and grad eval took 118.91820639744401s., hyparam_x0_index: 2
+2021-10-30 07:05:01,464 | 	Current pt: [3.08024922e-02 1.80325329e+00 1.80323024e+00 1.04816605e+00
+ 6.34652059e-01 1.99087178e+00 1.03716329e+00 9.87789593e-01
+ 1.18522252e+00 5.84954012e-01 4.88426502e+01 2.45290590e+01
+ 3.41824773e-03 5.91568771e-02 3.29952675e+00 4.51122743e-04
+ 5.54138948e-02 5.84068303e-01 1.22782071e-01 9.46996117e-02
+ 7.59605935e-02]., hyparam_x0_index: 2
+2021-10-30 07:05:01,469 | Objective value at iteration #58 is - -2512583.2762827147. Running time: 10271s, hyparam_x0_index: 2
+2021-10-30 07:05:02,142 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:05:03,466 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:05:04,175 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:05:04,175 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:07:01,278 | 	calculated ll: -2509212.2505516624. (SR = 0.6582703533556089), hyparam_x0_index: 2
+2021-10-30 07:07:01,478 | 	obj and grad eval took 120.00759813189507s., hyparam_x0_index: 2
+2021-10-30 07:07:01,479 | 	Current pt: [1.38991392e-02 1.62854043e+00 1.09178871e+00 1.38514088e+00
+ 8.65653566e-01 1.79236062e+00 1.00390589e+00 9.92855576e-01
+ 1.07413737e+00 4.21613038e-01 5.17662048e+01 3.54325309e+01
+ 2.39975759e-03 1.33349573e-01 3.81240928e+00 6.06487433e-04
+ 7.07201852e-02 7.05278255e-01 3.95646923e-01 3.50082373e-01
+ 1.77868282e-01]., hyparam_x0_index: 2
+2021-10-30 07:07:01,483 | Objective value at iteration #59 is - -2509212.2505516624. Running time: 10391s, hyparam_x0_index: 2
+2021-10-30 07:07:02,071 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:07:03,413 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:07:04,129 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:07:04,129 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:09:00,577 | 	calculated ll: -2505592.699181365. (SR = 0.34218874456522635), hyparam_x0_index: 2
+2021-10-30 07:09:00,578 | 	obj and grad eval took 119.09427110850811s., hyparam_x0_index: 2
+2021-10-30 07:09:00,578 | 	Current pt: [2.49522785e-02 1.60330739e+00 1.36137789e+00 1.41551747e+00
+ 8.53941709e-01 1.73111068e+00 1.00501794e+00 9.97138695e-01
+ 1.04879793e+00 1.75389998e-02 5.91680979e+01 3.20331817e+01
+ 1.24279544e-03 1.15686665e-01 4.86427565e+00 7.64595709e-04
+ 8.59532292e-02 6.59207954e-01 3.99201803e-01 3.17480953e-01
+ 1.33311565e-01]., hyparam_x0_index: 2
+2021-10-30 07:09:01,153 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:09:02,482 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:09:03,181 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:09:03,181 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:10:59,440 | 	calculated ll: -2505282.0548009477. (SR = 0.31878971220280194), hyparam_x0_index: 2
+2021-10-30 07:10:59,441 | 	obj and grad eval took 118.86025070771575s., hyparam_x0_index: 2
+2021-10-30 07:10:59,442 | 	Current pt: [2.52284702e-02 1.60224197e+00 1.35629551e+00 1.41413681e+00
+ 8.53829486e-01 1.73108257e+00 1.00492758e+00 9.97161505e-01
+ 1.04839564e+00 6.14613758e-03 5.96525257e+01 3.18859207e+01
+ 1.08789128e-03 1.11219599e-01 4.91880443e+00 6.80802722e-04
+ 7.45040722e-02 6.59252688e-01 3.99350496e-01 3.18350521e-01
+ 1.33316182e-01]., hyparam_x0_index: 2
+2021-10-30 07:10:59,445 | Objective value at iteration #60 is - -2505282.0548009477. Running time: 10629s, hyparam_x0_index: 2
+2021-10-30 07:11:00,084 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:11:01,422 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:11:02,149 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:11:02,149 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:12:58,716 | 	calculated ll: -2509278.0654141377. (SR = 0.5345137214589604), hyparam_x0_index: 2
+2021-10-30 07:12:58,717 | 	obj and grad eval took 119.27025125548244s., hyparam_x0_index: 2
+2021-10-30 07:12:58,717 | 	Current pt: [2.34951021e-02 1.44478806e+00 1.27449133e+00 1.36360344e+00
+ 5.49201274e-01 1.63948400e+00 1.00799032e+00 9.96313518e-01
+ 1.06247040e+00 2.35400833e-01 5.23062926e+01 4.07364798e+01
+ 1.93222508e-03 1.96622798e-01 4.00877188e+00 7.48558298e-04
+ 6.21529814e-02 6.41130330e-01 3.92637969e-01 3.27589841e-01
+ 1.23723297e-01]., hyparam_x0_index: 2
+2021-10-30 07:12:58,721 | Objective value at iteration #61 is - -2509278.065414138. Running time: 10748s, hyparam_x0_index: 2
+2021-10-30 07:12:59,292 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:13:00,629 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:13:01,349 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:13:01,349 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:14:59,069 | 	calculated ll: -2477348.0778553374. (SR = 0.6782686508066976), hyparam_x0_index: 2
+2021-10-30 07:14:59,070 | 	obj and grad eval took 120.347869399935s., hyparam_x0_index: 2
+2021-10-30 07:14:59,070 | 	Current pt: [1.52980698e-02 1.87033343e+00 1.43582432e+00 1.35129602e+00
+ 3.18254169e-01 1.74922564e+00 1.00949847e+00 9.96550504e-01
+ 1.06049755e+00 6.30910565e-01 7.99229020e+01 8.39971758e+01
+ 4.00735197e-04 1.97611808e-03 1.12558773e+00 9.26361726e-04
+ 7.97523045e-02 6.39381921e-01 3.90479802e-01 2.98690626e-01
+ 1.23500838e-01]., hyparam_x0_index: 2
+2021-10-30 07:14:59,615 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:15:00,936 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:15:01,665 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:15:01,665 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:16:57,465 | 	calculated ll: -2476541.1281955144. (SR = 0.6761772600718493), hyparam_x0_index: 2
+2021-10-30 07:16:57,466 | 	obj and grad eval took 118.39279489964247s., hyparam_x0_index: 2
+2021-10-30 07:16:57,466 | 	Current pt: [1.52383960e-02 1.87203162e+00 1.43707307e+00 1.35078682e+00
+ 3.15748076e-01 1.74910695e+00 1.00950124e+00 9.96553141e-01
+ 1.06043352e+00 6.32740584e-01 8.00329487e+01 8.42561823e+01
+ 3.65912504e-04 1.97611808e-03 1.11598573e+00 9.55647078e-04
+ 8.27169481e-02 6.39324299e-01 3.90507470e-01 2.98502604e-01
+ 1.23498831e-01]., hyparam_x0_index: 2
+2021-10-30 07:16:58,029 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:16:59,348 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:17:00,049 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:17:00,049 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:18:56,831 | 	calculated ll: -2476453.580280602. (SR = 0.6764947519453862), hyparam_x0_index: 2
+2021-10-30 07:18:56,832 | 	obj and grad eval took 119.36337909847498s., hyparam_x0_index: 2
+2021-10-30 07:18:56,833 | 	Current pt: [1.52282824e-02 1.87279556e+00 1.43739482e+00 1.35081343e+00
+ 3.15356984e-01 1.74929676e+00 1.00950372e+00 9.96554413e-01
+ 1.06042839e+00 6.33019277e-01 8.00438875e+01 8.42860702e+01
+ 3.66361738e-04 1.97611808e-03 1.11382857e+00 9.60473881e-04
+ 8.32136012e-02 6.39320289e-01 3.90507053e-01 2.98422562e-01
+ 1.23498543e-01]., hyparam_x0_index: 2
+2021-10-30 07:18:57,420 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:18:58,768 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:18:59,471 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:18:59,471 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:20:55,338 | 	calculated ll: -2476440.3172555408. (SR = 0.6765299972882003), hyparam_x0_index: 2
+2021-10-30 07:20:55,339 | 	obj and grad eval took 118.50395865365863s., hyparam_x0_index: 2
+2021-10-30 07:20:55,340 | 	Current pt: [1.52268391e-02 1.87289749e+00 1.43743909e+00 1.35081555e+00
+ 3.15300667e-01 1.74932071e+00 1.00950404e+00 9.96554582e-01
+ 1.06042757e+00 6.33059520e-01 8.00455637e+01 8.42905446e+01
+ 3.66331093e-04 1.97611808e-03 1.11352862e+00 9.61164772e-04
+ 8.32845674e-02 6.39319631e-01 3.90507070e-01 2.98411858e-01
+ 1.23498501e-01]., hyparam_x0_index: 2
+2021-10-30 07:20:55,976 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:20:57,334 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:20:58,041 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:20:58,041 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:22:54,212 | 	calculated ll: -2508810.00102346. (SR = 0.5902435684621304), hyparam_x0_index: 2
+2021-10-30 07:22:54,213 | 	obj and grad eval took 118.87098744139075s., hyparam_x0_index: 2
+2021-10-30 07:22:54,213 | 	Current pt: [1.93965859e-02 1.65756075e+00 1.35515783e+00 1.35744973e+00
+ 4.33727721e-01 1.69435482e+00 1.00874440e+00 9.96432011e-01
+ 1.06148398e+00 4.33155699e-01 6.61145973e+01 6.23668278e+01
+ 1.16648014e-03 9.92994583e-02 2.56717981e+00 8.37460012e-04
+ 7.09526430e-02 6.40256126e-01 3.91558885e-01 3.13140233e-01
+ 1.23612068e-01]., hyparam_x0_index: 2
+2021-10-30 07:22:54,217 | Objective value at iteration #62 is - -2508810.00102346. Running time: 11344s, hyparam_x0_index: 2
+2021-10-30 07:22:54,826 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:22:56,151 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:22:56,864 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:22:56,864 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:24:54,136 | 	calculated ll: -2509951.333930314. (SR = 0.774620092612182), hyparam_x0_index: 2
+2021-10-30 07:24:54,137 | 	obj and grad eval took 119.91780854016542s., hyparam_x0_index: 2
+2021-10-30 07:24:54,137 | 	Current pt: [2.85325564e-02 1.82516954e+00 1.60371188e+00 1.45827722e+00
+ 1.42017687e-01 1.75065273e+00 1.01371416e+00 9.96619111e-01
+ 1.07701654e+00 7.31564644e-01 2.52682809e+01 9.95380347e+01
+ 1.19504923e-03 7.32723945e-02 3.70484600e+00 5.45158898e-04
+ 3.78170851e-02 6.26020117e-01 2.23603305e-01 1.63774461e-01
+ 1.11611080e-01]., hyparam_x0_index: 2
+2021-10-30 07:24:54,141 | Objective value at iteration #63 is - -2509951.333930314. Running time: 11464s, hyparam_x0_index: 2
+2021-10-30 07:24:55,002 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:24:56,406 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:24:57,118 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:24:57,118 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:26:53,360 | 	calculated ll: -2499832.125951757. (SR = 0.909297860237169), hyparam_x0_index: 2
+2021-10-30 07:26:53,360 | 	obj and grad eval took 119.21776716411114s., hyparam_x0_index: 2
+2021-10-30 07:26:53,361 | 	Current pt: [1.04690858e-01 1.77194155e+00 1.55210688e+00 1.52248445e+00
+ 1.92294060e-01 1.66872250e+00 1.01704471e+00 9.96811276e-01
+ 1.09100231e+00 8.44633338e-01 2.63042571e+01 9.95390237e-01
+ 2.08023993e-03 6.30971243e-02 2.99764434e+00 5.44781076e-04
+ 4.07935853e-02 6.29726724e-01 2.05244548e-01 1.53879508e-01
+ 1.07068193e-01]., hyparam_x0_index: 2
+2021-10-30 07:26:53,365 | Objective value at iteration #64 is - -2499832.125951757. Running time: 11583s, hyparam_x0_index: 2
+2021-10-30 07:26:54,101 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:26:55,422 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:26:56,151 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:26:56,151 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:28:52,716 | 	calculated ll: -2480589.9843047066. (SR = 0.8205202445619147), hyparam_x0_index: 2
+2021-10-30 07:28:52,717 | 	obj and grad eval took 119.35132605582476s., hyparam_x0_index: 2
+2021-10-30 07:28:52,718 | 	Current pt: [1.09179031e-01 1.76974838e+00 1.55833566e+00 1.51490590e+00
+ 1.90113888e-01 1.66909648e+00 1.01747550e+00 9.96672124e-01
+ 1.09234650e+00 8.18824591e-01 4.15519930e+01 1.63989945e+00
+ 3.06924993e-05 6.84004792e-02 4.01574010e+00 3.93653309e-04
+ 3.45493003e-02 6.27922687e-01 2.04400990e-01 1.54417652e-01
+ 1.06874042e-01]., hyparam_x0_index: 2
+2021-10-30 07:28:53,480 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:28:54,801 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:28:55,509 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:28:55,509 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:30:52,419 | 	calculated ll: -2480551.1100202627. (SR = 0.8207206562331858), hyparam_x0_index: 2
+2021-10-30 07:30:52,420 | 	obj and grad eval took 119.69975004717708s., hyparam_x0_index: 2
+2021-10-30 07:30:52,420 | 	Current pt: [1.09160547e-01 1.76990440e+00 1.55842158e+00 1.51497141e+00
+ 1.90099614e-01 1.66934211e+00 1.01747810e+00 9.96673321e-01
+ 1.09234980e+00 8.19025854e-01 4.15447275e+01 1.64023587e+00
+ 3.06924993e-05 6.83548462e-02 4.01579129e+00 3.94214431e-04
+ 3.45728109e-02 6.27926413e-01 2.04399944e-01 1.54404257e-01
+ 1.06874040e-01]., hyparam_x0_index: 2
+2021-10-30 07:30:53,249 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:30:54,550 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:30:55,254 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:30:55,255 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:32:51,843 | 	calculated ll: -2495715.542097517. (SR = 0.8759289957120303), hyparam_x0_index: 2
+2021-10-30 07:32:51,844 | 	obj and grad eval took 119.42172740399837s., hyparam_x0_index: 2
+2021-10-30 07:32:51,845 | 	Current pt: [1.06934944e-01 1.77084497e+00 1.55522127e+00 1.51869517e+00
+ 1.91203974e-01 1.66890949e+00 1.01726011e+00 9.96741700e-01
+ 1.09167440e+00 8.31728965e-01 3.39281251e+01 1.31764485e+00
+ 1.05546621e-03 6.57488017e-02 3.50669222e+00 4.69217193e-04
+ 3.76714428e-02 6.28824705e-01 2.04822769e-01 1.54148580e-01
+ 1.06971118e-01]., hyparam_x0_index: 2
+2021-10-30 07:32:52,715 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:32:54,021 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:32:54,718 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:32:54,718 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:34:50,453 | 	calculated ll: -2500278.5358088915. (SR = 0.8950285454185468), hyparam_x0_index: 2
+2021-10-30 07:34:50,454 | 	obj and grad eval took 118.60664300248027s., hyparam_x0_index: 2
+2021-10-30 07:34:50,454 | 	Current pt: [1.05812901e-01 1.77139326e+00 1.55366407e+00 1.52058981e+00
+ 1.91749017e-01 1.66881600e+00 1.01715241e+00 9.96776488e-01
+ 1.09133835e+00 8.38181152e-01 3.01161911e+01 1.15651754e+00
+ 1.56785307e-03 6.44229630e-02 3.25216828e+00 5.06999134e-04
+ 3.92325141e-02 6.29275715e-01 2.05033658e-01 1.54014044e-01
+ 1.07019655e-01]., hyparam_x0_index: 2
+2021-10-30 07:34:50,458 | Objective value at iteration #65 is - -2500278.5358088915. Running time: 12060s, hyparam_x0_index: 2
+2021-10-30 07:34:50,459 | 	FAIL - constraint, (SR = 1.1021547719408997), hyparam_x0_index: 2
+2021-10-30 07:34:52,057 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:34:53,374 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:34:54,078 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:34:54,078 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:36:50,463 | 	calculated ll: -2454566.877632933. (SR = 0.9507854976514432), hyparam_x0_index: 2
+2021-10-30 07:36:50,464 | 	obj and grad eval took 120.00416345894337s., hyparam_x0_index: 2
+2021-10-30 07:36:50,464 | 	Current pt: [1.18741735e-01 1.83272388e+00 1.52342427e+00 1.52374359e+00
+ 2.09579098e-01 1.73656768e+00 1.01766231e+00 9.95124993e-01
+ 1.10288744e+00 4.93587290e-01 4.66004110e+01 8.51909039e+00
+ 8.83044582e-03 5.07329648e-02 1.64234993e+00 6.01581542e-04
+ 4.43207444e-02 6.38211583e-01 1.96828996e-01 1.43491735e-01
+ 1.06331187e-01]., hyparam_x0_index: 2
+2021-10-30 07:36:51,627 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:36:52,965 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:36:53,670 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:36:53,670 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:38:49,877 | 	calculated ll: -2495571.9952535457. (SR = 0.902045505652646), hyparam_x0_index: 2
+2021-10-30 07:38:49,878 | 	obj and grad eval took 119.41182368248701s., hyparam_x0_index: 2
+2021-10-30 07:38:49,878 | 	Current pt: [1.12277318e-01 1.80205857e+00 1.53854417e+00 1.52216670e+00
+ 2.00664058e-01 1.70269184e+00 1.01740736e+00 9.95950740e-01
+ 1.09711290e+00 6.65884221e-01 3.83583011e+01 4.83780397e+00
+ 5.19914945e-03 5.75779639e-02 2.44725910e+00 5.54290338e-04
+ 4.17766292e-02 6.33743649e-01 2.00931327e-01 1.48752890e-01
+ 1.06675421e-01]., hyparam_x0_index: 2
+2021-10-30 07:38:49,882 | Objective value at iteration #66 is - -2495571.9952535457. Running time: 12299s, hyparam_x0_index: 2
+2021-10-30 07:38:51,674 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:38:53,042 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:38:53,756 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:38:53,756 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:40:51,222 | 	calculated ll: -2436085.0965062287. (SR = 0.9577465097271329), hyparam_x0_index: 2
+2021-10-30 07:40:51,223 | 	obj and grad eval took 121.33902255818248s., hyparam_x0_index: 2
+2021-10-30 07:40:51,223 | 	Current pt: [1.21125667e-01 1.81887789e+00 1.53379800e+00 1.53082899e+00
+ 2.02373305e-01 1.70859620e+00 1.01766882e+00 9.95352618e-01
+ 1.10143652e+00 4.43175817e-01 5.05519530e+01 4.83879298e-02
+ 9.17609306e-03 5.62777102e-02 1.60290420e+00 4.93906285e-04
+ 3.77152066e-02 6.36356318e-01 1.99189827e-01 1.46470265e-01
+ 1.06726807e-01]., hyparam_x0_index: 2
+2021-10-30 07:40:52,993 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:40:54,314 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:40:55,021 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:40:55,021 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:42:52,212 | 	calculated ll: -2438259.3609272284. (SR = 0.9567387283305514), hyparam_x0_index: 2
+2021-10-30 07:42:52,213 | 	obj and grad eval took 120.98703412339091s., hyparam_x0_index: 2
+2021-10-30 07:42:52,213 | 	Current pt: [1.21075251e-01 1.81821439e+00 1.53347242e+00 1.53057950e+00
+ 2.02524911e-01 1.70783757e+00 1.01766179e+00 9.95354276e-01
+ 1.10140278e+00 4.44868831e-01 5.04511437e+01 4.83879298e-02
+ 9.13457952e-03 5.64123247e-02 1.61200064e+00 4.91470119e-04
+ 3.75546012e-02 6.36333508e-01 1.99211690e-01 1.46544622e-01
+ 1.06726407e-01]., hyparam_x0_index: 2
+2021-10-30 07:42:53,931 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:42:55,239 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:42:55,957 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:42:55,957 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:44:52,702 | 	calculated ll: -2438152.372237116. (SR = 0.956789145989988), hyparam_x0_index: 2
+2021-10-30 07:44:52,703 | 	obj and grad eval took 120.48690551146865s., hyparam_x0_index: 2
+2021-10-30 07:44:52,703 | 	Current pt: [1.21077781e-01 1.81824758e+00 1.53348868e+00 1.53059199e+00
+ 2.02517328e-01 1.70787550e+00 1.01766214e+00 9.95354192e-01
+ 1.10140447e+00 4.44783942e-01 5.04561958e+01 4.83879298e-02
+ 9.13665916e-03 5.64055959e-02 1.61154494e+00 4.91598552e-04
+ 3.75630593e-02 6.36334653e-01 1.99210592e-01 1.46540870e-01
+ 1.06726426e-01]., hyparam_x0_index: 2
+2021-10-30 07:44:54,073 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:44:55,389 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:44:56,106 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:44:56,106 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:46:53,303 | 	calculated ll: -2483396.9937071195. (SR = 0.9233279876399406), hyparam_x0_index: 2
+2021-10-30 07:46:53,304 | 	obj and grad eval took 120.59844550862908s., hyparam_x0_index: 2
+2021-10-30 07:46:53,304 | 	Current pt: [1.16701492e-01 1.81046823e+00 1.53617108e+00 1.52649784e+00
+ 2.01518681e-01 1.70564402e+00 1.01753809e+00 9.95651679e-01
+ 1.09927471e+00 5.54530019e-01 4.44551270e+01 2.44309595e+00
+ 7.18762125e-03 5.69278371e-02 2.02508165e+00 5.24098312e-04
+ 3.97459179e-02 6.35049984e-01 2.00060577e-01 1.47611577e-01
+ 1.06701114e-01]., hyparam_x0_index: 2
+2021-10-30 07:46:54,511 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:46:55,821 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:46:56,534 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:46:56,534 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:48:53,362 | 	calculated ll: -2491336.2788917297. (SR = 0.9106938983041923), hyparam_x0_index: 2
+2021-10-30 07:48:53,363 | 	obj and grad eval took 120.0561507679522s., hyparam_x0_index: 2
+2021-10-30 07:48:53,363 | 	Current pt: [1.14489405e-01 1.80626340e+00 1.53735763e+00 1.52433227e+00
+ 2.01091369e-01 1.70416793e+00 1.01747272e+00 9.95801210e-01
+ 1.09819380e+00 6.10207120e-01 4.14067140e+01 3.64044996e+00
+ 6.19338535e-03 5.72529005e-02 2.23617038e+00 5.39194325e-04
+ 4.07612736e-02 6.34396816e-01 2.00495952e-01 1.48182234e-01
+ 1.06688268e-01]., hyparam_x0_index: 2
+2021-10-30 07:48:53,367 | Objective value at iteration #67 is - -2491336.2788917297. Running time: 12903s, hyparam_x0_index: 2
+2021-10-30 07:48:53,368 | 	FAIL - constraint, (SR = 1.0829574006977856), hyparam_x0_index: 2
+2021-10-30 07:48:55,442 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:48:56,767 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:48:57,483 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:48:57,483 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:50:53,622 | 	calculated ll: -2345676.9468212673. (SR = 0.9806611678513809), hyparam_x0_index: 2
+2021-10-30 07:50:53,623 | 	obj and grad eval took 120.25484381616116s., hyparam_x0_index: 2
+2021-10-30 07:50:53,623 | 	Current pt: [1.24482388e-01 1.81434178e+00 1.52157147e+00 1.53028967e+00
+ 2.04452741e-01 1.69721014e+00 1.01751909e+00 9.94863704e-01
+ 1.10386700e+00 3.70410293e-01 5.37098978e+01 1.83843217e+00
+ 1.04781928e-02 5.84459108e-02 1.29410670e+00 4.24724545e-04
+ 3.22260270e-02 6.37957943e-01 1.98653719e-01 1.47042097e-01
+ 1.06914868e-01]., hyparam_x0_index: 2
+2021-10-30 07:50:55,155 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:50:56,518 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:50:57,239 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:50:57,239 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:52:53,573 | 	calculated ll: -2467257.649319269. (SR = 0.9398051783183392), hyparam_x0_index: 2
+2021-10-30 07:52:53,574 | 	obj and grad eval took 119.94800468161702s., hyparam_x0_index: 2
+2021-10-30 07:52:53,574 | 	Current pt: [1.19485897e-01 1.81030259e+00 1.52946455e+00 1.52731097e+00
+ 2.02772055e-01 1.70068903e+00 1.01749591e+00 9.95332457e-01
+ 1.10103040e+00 4.90308706e-01 4.75583059e+01 2.73944106e+00
+ 8.33578910e-03 5.78494056e-02 1.76513854e+00 4.81959435e-04
+ 3.64936503e-02 6.36177380e-01 1.99574836e-01 1.47612165e-01
+ 1.06801568e-01]., hyparam_x0_index: 2
+2021-10-30 07:52:53,578 | Objective value at iteration #68 is - -2467257.649319269. Running time: 13143s, hyparam_x0_index: 2
+2021-10-30 07:52:54,620 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:52:55,931 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:52:56,685 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:52:56,685 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:54:52,594 | 	calculated ll: -2418064.3912065607. (SR = 0.9295495558009516), hyparam_x0_index: 2
+2021-10-30 07:54:52,595 | 	obj and grad eval took 119.01626363396645s., hyparam_x0_index: 2
+2021-10-30 07:54:52,595 | 	Current pt: [1.20474907e-03 1.81169154e+00 1.52888389e+00 1.53064993e+00
+ 1.95377540e-01 1.70062411e+00 1.01751041e+00 9.95340352e-01
+ 1.10107059e+00 3.69394817e-01 4.75518238e+01 2.73566535e+00
+ 1.07394653e-02 1.78708273e-02 1.56250920e+00 5.77903373e-04
+ 4.43123443e-02 6.35993289e-01 1.98695616e-01 1.32180611e-01
+ 1.06469920e-01]., hyparam_x0_index: 2
+2021-10-30 07:54:54,018 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:54:55,326 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:54:56,039 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:54:56,039 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:56:51,643 | 	calculated ll: -2502845.5700711375. (SR = 0.935266547697077), hyparam_x0_index: 2
+2021-10-30 07:56:51,644 | 	obj and grad eval took 119.04569848626852s., hyparam_x0_index: 2
+2021-10-30 07:56:51,644 | 	Current pt: [6.03453229e-02 1.81099706e+00 1.52917422e+00 1.52898045e+00
+ 1.99074798e-01 1.70065657e+00 1.01750316e+00 9.95336404e-01
+ 1.10105050e+00 4.29851762e-01 4.75550648e+01 2.73755321e+00
+ 9.53762719e-03 3.78601164e-02 1.66382387e+00 5.29931404e-04
+ 4.04029973e-02 6.36085334e-01 1.99135226e-01 1.39896388e-01
+ 1.06635744e-01]., hyparam_x0_index: 2
+2021-10-30 07:56:51,649 | Objective value at iteration #69 is - -2502845.5700711375. Running time: 13381s, hyparam_x0_index: 2
+2021-10-30 07:56:53,001 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:56:54,306 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:56:55,009 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:56:55,009 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 07:58:51,624 | 	calculated ll: -2496578.9322861913. (SR = 0.9701158152851305), hyparam_x0_index: 2
+2021-10-30 07:58:51,624 | 	obj and grad eval took 119.97445102781057s., hyparam_x0_index: 2
+2021-10-30 07:58:51,625 | 	Current pt: [1.53083347e-02 1.81169431e+00 1.52897639e+00 1.53021550e+00
+ 1.97175067e-01 1.70079630e+00 1.01750833e+00 9.95339183e-01
+ 1.10106463e+00 3.93925252e-01 4.75532266e+01 2.73648995e+00
+ 1.13542313e-02 3.30467853e-02 1.60579214e+00 1.51894140e-05
+ 4.12895605e-02 6.36028164e-01 1.98841225e-01 1.35598889e-01
+ 1.06489486e-01]., hyparam_x0_index: 2
+2021-10-30 07:58:53,024 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 07:58:54,355 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 07:58:55,058 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 07:58:55,058 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:00:51,161 | 	calculated ll: -2496891.095036275. (SR = 0.9699224905039844), hyparam_x0_index: 2
+2021-10-30 08:00:51,161 | 	obj and grad eval took 119.53419000282884s., hyparam_x0_index: 2
+2021-10-30 08:00:51,162 | 	Current pt: [1.55374272e-02 1.81169094e+00 1.52897744e+00 1.53020910e+00
+ 1.97185992e-01 1.70079579e+00 1.01750830e+00 9.95339169e-01
+ 1.10106456e+00 3.94122625e-01 4.75532369e+01 2.73649589e+00
+ 1.13438074e-02 3.30782976e-02 1.60611466e+00 1.51894140e-05
+ 4.12769725e-02 6.36028475e-01 1.98842788e-01 1.35622905e-01
+ 1.06490212e-01]., hyparam_x0_index: 2
+2021-10-30 08:00:52,565 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:00:53,907 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:00:54,621 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:00:54,621 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:02:51,279 | 	calculated ll: -2496867.1134483884. (SR = 0.9699383316191478), hyparam_x0_index: 2
+2021-10-30 08:02:51,280 | 	obj and grad eval took 120.11534371972084s., hyparam_x0_index: 2
+2021-10-30 08:02:51,280 | 	Current pt: [1.55194196e-02 1.81169120e+00 1.52897736e+00 1.53020961e+00
+ 1.97185105e-01 1.70079583e+00 1.01750831e+00 9.95339170e-01
+ 1.10106456e+00 3.94106783e-01 4.75532360e+01 2.73649541e+00
+ 1.13446556e-02 3.30756572e-02 1.60608868e+00 1.51894140e-05
+ 4.12779829e-02 6.36028450e-01 1.98842663e-01 1.35620969e-01
+ 1.06490155e-01]., hyparam_x0_index: 2
+2021-10-30 08:02:52,761 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:02:54,094 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:02:54,805 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:02:54,805 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:04:51,626 | 	calculated ll: -2505962.5596139757. (SR = 0.953172917507612), hyparam_x0_index: 2
+2021-10-30 08:04:51,627 | 	obj and grad eval took 120.34462662413716s., hyparam_x0_index: 2
+2021-10-30 08:04:51,627 | 	Current pt: [3.78268288e-02 1.81134569e+00 1.52907531e+00 1.52959797e+00
+ 1.98124932e-01 1.70072643e+00 1.01750575e+00 9.95337794e-01
+ 1.10105756e+00 4.11888507e-01 4.75541457e+01 2.73702158e+00
+ 1.04459292e-02 3.54534509e-02 1.63480800e+00 2.72560409e-04
+ 4.08462789e-02 6.36056749e-01 1.98988225e-01 1.37747639e-01
+ 1.06562615e-01]., hyparam_x0_index: 2
+2021-10-30 08:04:51,631 | Objective value at iteration #70 is - -2505962.5596139757. Running time: 13861s, hyparam_x0_index: 2
+2021-10-30 08:04:52,639 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:04:53,974 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:04:54,685 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:04:54,685 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:06:51,716 | 	calculated ll: -2415504.20357724. (SR = 0.9276063863974968), hyparam_x0_index: 2
+2021-10-30 08:06:51,717 | 	obj and grad eval took 120.08463357388973s., hyparam_x0_index: 2
+2021-10-30 08:06:51,717 | 	Current pt: [3.88158388e-04 1.82485351e+00 1.52763147e+00 1.54370064e+00
+ 2.02235617e-01 1.70741374e+00 1.01750351e+00 9.95367745e-01
+ 1.10122912e+00 3.98049270e-01 4.75563122e+01 2.73866675e+00
+ 9.91134485e-03 3.75286289e-02 1.67054365e+00 3.39814946e-04
+ 6.15782046e-02 6.36832948e-01 1.96912899e-01 1.33109772e-01
+ 1.04615120e-01]., hyparam_x0_index: 2
+2021-10-30 08:06:52,985 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:06:54,340 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:06:55,058 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:06:55,058 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:08:52,397 | 	calculated ll: -2491796.2777047884. (SR = 0.9404461557214584), hyparam_x0_index: 2
+2021-10-30 08:08:52,398 | 	obj and grad eval took 120.67827210575342s., hyparam_x0_index: 2
+2021-10-30 08:08:52,398 | 	Current pt: [1.91074936e-02 1.81809960e+00 1.52835339e+00 1.53664931e+00
+ 2.00180274e-01 1.70407009e+00 1.01750463e+00 9.95352769e-01
+ 1.10114334e+00 4.04968889e-01 4.75552290e+01 2.73784416e+00
+ 1.01786370e-02 3.64910399e-02 1.65267583e+00 3.06187677e-04
+ 5.12122417e-02 6.36444849e-01 1.97950562e-01 1.35428705e-01
+ 1.05588868e-01]., hyparam_x0_index: 2
+2021-10-30 08:08:52,403 | Objective value at iteration #71 is - -2491796.2777047884. Running time: 14102s, hyparam_x0_index: 2
+2021-10-30 08:08:53,261 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:08:54,595 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:08:55,303 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:08:55,303 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:10:52,608 | 	calculated ll: -2426307.274403922. (SR = 0.6539441644348218), hyparam_x0_index: 2
+2021-10-30 08:10:52,609 | 	obj and grad eval took 120.20441998168826s., hyparam_x0_index: 2
+2021-10-30 08:10:52,609 | 	Current pt: [3.76483276e-02 1.87222573e+00 1.52296009e+00 1.59161808e+00
+ 2.23160854e-01 1.73151714e+00 1.01747679e+00 9.95469147e-01
+ 1.10181625e+00 4.63983672e-01 4.75702631e+01 2.74817493e+00
+ 2.43953034e-03 4.30323983e-02 1.99035073e+00 1.74556834e-03
+ 1.41009580e-01 6.39905619e-01 1.90220111e-01 1.29192210e-01
+ 9.79501269e-02]., hyparam_x0_index: 2
+2021-10-30 08:10:53,292 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:10:54,624 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:10:55,341 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:10:55,341 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:12:51,597 | 	calculated ll: -2422032.21795992. (SR = 0.6315142990173833), hyparam_x0_index: 2
+2021-10-30 08:12:51,598 | 	obj and grad eval took 118.98600675165653s., hyparam_x0_index: 2
+2021-10-30 08:12:51,599 | 	Current pt: [3.83673535e-02 1.87120390e+00 1.52308491e+00 1.59046413e+00
+ 2.23201430e-01 1.73104375e+00 1.01747707e+00 9.95466624e-01
+ 1.10180177e+00 4.68652491e-01 4.75703182e+01 2.74817892e+00
+ 1.99766281e-03 4.80168109e-02 1.99446500e+00 1.51519696e-03
+ 1.37899335e-01 6.39843406e-01 1.90402955e-01 1.30205662e-01
+ 9.80972431e-02]., hyparam_x0_index: 2
+2021-10-30 08:12:52,382 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:12:53,722 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:12:54,438 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:12:54,438 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:14:51,580 | 	calculated ll: -2416761.2210757025. (SR = 0.6010507712780068), hyparam_x0_index: 2
+2021-10-30 08:14:51,581 | 	obj and grad eval took 119.97987374663353s., hyparam_x0_index: 2
+2021-10-30 08:14:51,581 | 	Current pt: [3.89298672e-02 1.87245172e+00 1.52297335e+00 1.59166621e+00
+ 2.23999224e-01 1.73170179e+00 1.01747632e+00 9.95469122e-01
+ 1.10181627e+00 4.73212920e-01 4.75708520e+01 2.74852705e+00
+ 1.47749045e-03 5.12489797e-02 2.00805073e+00 1.42480925e-03
+ 1.39117747e-01 6.39924419e-01 1.90245463e-01 1.30570519e-01
+ 9.79228323e-02]., hyparam_x0_index: 2
+2021-10-30 08:14:52,244 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:14:53,588 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:14:54,299 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:14:54,299 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:16:50,048 | 	calculated ll: -2413947.566581396. (SR = 0.5831543438505351), hyparam_x0_index: 2
+2021-10-30 08:16:50,049 | 	obj and grad eval took 118.46477985754609s., hyparam_x0_index: 2
+2021-10-30 08:16:50,049 | 	Current pt: [3.92775516e-02 1.87276273e+00 1.52295143e+00 1.59193599e+00
+ 2.24320111e-01 1.73187732e+00 1.01747607e+00 9.95469661e-01
+ 1.10181943e+00 4.75827569e-01 4.75710716e+01 2.74866467e+00
+ 1.19520477e-03 5.33967677e-02 2.01411725e+00 1.34874423e-03
+ 1.39049881e-01 6.39945338e-01 1.90215685e-01 1.30892255e-01
+ 9.78801164e-02]., hyparam_x0_index: 2
+2021-10-30 08:16:50,663 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:16:51,997 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:16:52,736 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:16:52,737 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:18:49,109 | 	calculated ll: -2412037.9234308526. (SR = 0.5702098646706452), hyparam_x0_index: 2
+2021-10-30 08:18:49,110 | 	obj and grad eval took 119.05794404447079s., hyparam_x0_index: 2
+2021-10-30 08:18:49,110 | 	Current pt: [3.95106688e-02 1.87300109e+00 1.52293368e+00 1.59214755e+00
+ 2.24546424e-01 1.73200999e+00 1.01747589e+00 9.95470088e-01
+ 1.10182192e+00 4.77593881e-01 4.75712260e+01 2.74876196e+00
+ 1.00339397e-03 5.48271043e-02 2.01833582e+00 1.29905283e-03
+ 1.39057586e-01 6.39961252e-01 1.90191340e-01 1.31101737e-01
+ 9.78472576e-02]., hyparam_x0_index: 2
+2021-10-30 08:18:49,114 | Objective value at iteration #72 is - -2412037.9234308526. Running time: 14699s, hyparam_x0_index: 2
+2021-10-30 08:18:49,717 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:18:51,074 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:18:51,795 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:18:51,795 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:20:48,208 | 	calculated ll: -2421999.655522068. (SR = 0.501129120525088), hyparam_x0_index: 2
+2021-10-30 08:20:48,209 | 	obj and grad eval took 119.09425902739167s., hyparam_x0_index: 2
+2021-10-30 08:20:48,210 | 	Current pt: [6.98148148e-02 1.92177805e+00 1.51765688e+00 1.64443184e+00
+ 2.38903684e-01 1.75659670e+00 1.01744754e+00 9.95582459e-01
+ 1.10247286e+00 4.59253916e-01 4.75809397e+01 2.75589594e+00
+ 4.40544286e-04 5.58161143e-04 2.20180249e+00 2.48801252e-04
+ 2.35579575e-01 6.43221886e-01 1.82655595e-01 1.14011376e-01
+ 9.11776336e-02]., hyparam_x0_index: 2
+2021-10-30 08:20:48,214 | Objective value at iteration #73 is - -2421999.6555220685. Running time: 14818s, hyparam_x0_index: 2
+2021-10-30 08:20:49,231 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:20:50,570 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:20:51,348 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:20:51,348 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:22:47,833 | 	calculated ll: -2487651.419992077. (SR = 0.8004948027096523), hyparam_x0_index: 2
+2021-10-30 08:22:47,834 | 	obj and grad eval took 119.61948740109801s., hyparam_x0_index: 2
+2021-10-30 08:22:47,835 | 	Current pt: [7.57863656e-02 1.88868539e+00 1.51995799e+00 1.61731517e+00
+ 2.14265772e-01 1.74238133e+00 1.01746689e+00 9.95523517e-01
+ 1.10216312e+00 4.27811062e-01 4.75721308e+01 2.74988514e+00
+ 6.22915877e-03 5.35854352e-03 1.96698781e+00 1.39971286e-03
+ 1.99258950e-01 6.40888726e-01 1.86371689e-01 1.09897921e-01
+ 9.66659419e-02]., hyparam_x0_index: 2
+2021-10-30 08:22:48,790 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:22:50,127 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:22:50,836 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:22:50,836 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:24:47,468 | 	calculated ll: -2478545.5738902255. (SR = 0.767352327693659), hyparam_x0_index: 2
+2021-10-30 08:24:47,469 | 	obj and grad eval took 119.63166670501232s., hyparam_x0_index: 2
+2021-10-30 08:24:47,469 | 	Current pt: [7.50339229e-02 1.89272554e+00 1.51972019e+00 1.62033963e+00
+ 2.17699219e-01 1.74402931e+00 1.01746426e+00 9.95530124e-01
+ 1.10219673e+00 4.33967715e-01 4.75733035e+01 2.75067056e+00
+ 5.34482178e-03 4.65717371e-03 1.99976310e+00 1.18688075e-03
+ 2.01686712e-01 6.41179889e-01 1.85967303e-01 1.10935698e-01
+ 9.59731572e-02]., hyparam_x0_index: 2
+2021-10-30 08:24:48,453 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:24:49,769 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:24:50,482 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:24:50,482 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:26:46,522 | 	calculated ll: -2483244.3563216627. (SR = 0.784375408886417), hyparam_x0_index: 2
+2021-10-30 08:26:46,523 | 	obj and grad eval took 119.0508367344737s., hyparam_x0_index: 2
+2021-10-30 08:26:46,523 | 	Current pt: [7.54340068e-02 1.89053763e+00 1.51985794e+00 1.61864266e+00
+ 2.15928315e-01 1.74311857e+00 1.01746563e+00 9.95526425e-01
+ 1.10217766e+00 4.31099694e-01 4.75726881e+01 2.75025563e+00
+ 5.78756321e-03 5.01263904e-03 1.98285301e+00 1.28715310e-03
+ 1.99955848e-01 6.41023578e-01 1.86196564e-01 1.10484502e-01
+ 9.63437526e-02]., hyparam_x0_index: 2
+2021-10-30 08:26:47,361 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:26:48,673 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:26:49,375 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:26:49,375 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:28:45,510 | 	calculated ll: -2455321.4701494365. (SR = 0.6784234888648274), hyparam_x0_index: 2
+2021-10-30 08:28:45,511 | 	obj and grad eval took 118.9858500175178s., hyparam_x0_index: 2
+2021-10-30 08:28:45,512 | 	Current pt: [7.28005902e-02 1.90523172e+00 1.51880743e+00 1.63087351e+00
+ 2.26584728e-01 1.74948902e+00 1.01745722e+00 9.95552988e-01
+ 1.10231799e+00 4.43532489e-01 4.75765352e+01 2.75289054e+00
+ 3.33485153e-03 2.95835233e-03 2.08439515e+00 8.24257058e-04
+ 2.17419262e-01 6.42055306e-01 1.84513642e-01 1.11954648e-01
+ 9.39217878e-02]., hyparam_x0_index: 2
+2021-10-30 08:28:46,243 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:28:47,597 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:28:48,307 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:28:48,307 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:30:44,457 | 	calculated ll: -2438478.5022909776. (SR = 0.6012184652936641), hyparam_x0_index: 2
+2021-10-30 08:30:44,458 | 	obj and grad eval took 118.9442558735609s., hyparam_x0_index: 2
+2021-10-30 08:30:44,458 | 	Current pt: [7.13077025e-02 1.91350488e+00 1.51823216e+00 1.63765267e+00
+ 2.32744206e-01 1.75304286e+00 1.01745238e+00 9.95567724e-01
+ 1.10239542e+00 4.51393203e-01 4.75787375e+01 2.75439324e+00
+ 1.88769791e-03 1.75825674e-03 2.14309882e+00 5.36529155e-04
+ 2.26499419e-01 6.42638596e-01 1.83584618e-01 1.12983012e-01
+ 9.25497107e-02]., hyparam_x0_index: 2
+2021-10-30 08:30:44,462 | Objective value at iteration #74 is - -2438478.5022909776. Running time: 15414s, hyparam_x0_index: 2
+2021-10-30 08:30:45,296 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:30:46,691 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:30:47,473 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:30:47,473 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:32:43,522 | 	calculated ll: -2464005.3046676493. (SR = 0.7029252107887225), hyparam_x0_index: 2
+2021-10-30 08:32:43,523 | 	obj and grad eval took 119.05928759649396s., hyparam_x0_index: 2
+2021-10-30 08:32:43,523 | 	Current pt: [7.92131851e-02 1.90230620e+00 1.51876806e+00 1.62932630e+00
+ 2.21847145e-01 1.74903472e+00 1.01747584e+00 9.95548956e-01
+ 1.10229294e+00 4.55598784e-01 4.75767512e+01 2.75258351e+00
+ 3.60913166e-03 8.65747312e-03 2.06416361e+00 1.55357718e-03
+ 2.19189346e-01 6.41379151e-01 1.84554110e-01 1.09201038e-01
+ 9.43293779e-02]., hyparam_x0_index: 2
+2021-10-30 08:32:43,527 | Objective value at iteration #75 is - -2464005.3046676493. Running time: 15533s, hyparam_x0_index: 2
+2021-10-30 08:32:44,284 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:32:45,598 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:32:46,324 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:32:46,324 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:34:44,147 | 	calculated ll: -2462129.982001128. (SR = 0.682931004139094), hyparam_x0_index: 2
+2021-10-30 08:34:44,148 | 	obj and grad eval took 120.61984996497631s., hyparam_x0_index: 2
+2021-10-30 08:34:44,149 | 	Current pt: [9.45646772e-02 1.79059429e+00 1.53109406e+00 1.50727567e+00
+ 1.90900314e-01 1.69320304e+00 1.01754929e+00 9.95283609e-01
+ 1.10076533e+00 5.73199923e-01 4.75587376e+01 2.73861038e+00
+ 1.21025776e-03 1.58391098e-01 1.76388979e+00 4.00393541e-03
+ 2.20178356e-03 6.33450984e-01 2.02182568e-01 1.55296534e-01
+ 1.09602263e-01]., hyparam_x0_index: 2
+2021-10-30 08:34:44,900 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:34:46,220 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:34:46,940 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:34:46,940 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:36:43,518 | 	calculated ll: -2462158.80016549. (SR = 0.6833769589508258), hyparam_x0_index: 2
+2021-10-30 08:36:43,519 | 	obj and grad eval took 119.36814906075597s., hyparam_x0_index: 2
+2021-10-30 08:36:43,520 | 	Current pt: [9.45631756e-02 1.79056802e+00 1.53109508e+00 1.50725894e+00
+ 1.90864120e-01 1.69318960e+00 1.01754930e+00 9.95283580e-01
+ 1.10076516e+00 5.72966215e-01 4.75587184e+01 2.73859818e+00
+ 1.21921131e-03 1.58209523e-01 1.76331631e+00 3.93616604e-03
+ 2.20178356e-03 6.33449607e-01 2.02184210e-01 1.55260553e-01
+ 1.09606648e-01]., hyparam_x0_index: 2
+2021-10-30 08:36:44,287 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:36:45,629 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:36:46,345 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:36:46,346 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:38:42,945 | 	calculated ll: -2462158.560051564. (SR = 0.6833732564991133), hyparam_x0_index: 2
+2021-10-30 08:38:42,946 | 	obj and grad eval took 119.42321494966745s., hyparam_x0_index: 2
+2021-10-30 08:38:42,946 | 	Current pt: [9.45631881e-02 1.79056824e+00 1.53109507e+00 1.50725908e+00
+ 1.90864420e-01 1.69318971e+00 1.01754930e+00 9.95283580e-01
+ 1.10076516e+00 5.72968155e-01 4.75587186e+01 2.73859828e+00
+ 1.21913690e-03 1.58211029e-01 1.76332108e+00 3.93672831e-03
+ 2.20178356e-03 6.33449618e-01 2.02184197e-01 1.55260851e-01
+ 1.09606612e-01]., hyparam_x0_index: 2
+2021-10-30 08:38:43,770 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:38:45,106 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:38:45,823 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:38:45,823 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:40:43,081 | 	calculated ll: -2464454.1513378005. (SR = 0.7002560667586543), hyparam_x0_index: 2
+2021-10-30 08:40:43,082 | 	obj and grad eval took 120.13394762948155s., hyparam_x0_index: 2
+2021-10-30 08:40:43,083 | 	Current pt: [8.68889312e-02 1.84645025e+00 1.52493106e+00 1.56830098e+00
+ 2.06373730e-01 1.72111888e+00 1.01751257e+00 9.95416282e-01
+ 1.10152913e+00 5.14399353e-01 4.75677444e+01 2.74559694e+00
+ 2.40969471e-03 8.35242854e-02 1.91402670e+00 2.77875630e-03
+ 1.10695565e-01 6.37415068e-01 1.93368339e-01 1.32248786e-01
+ 1.01965821e-01]., hyparam_x0_index: 2
+2021-10-30 08:40:43,086 | Objective value at iteration #76 is - -2464454.1513378005. Running time: 16012s, hyparam_x0_index: 2
+2021-10-30 08:40:43,708 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:40:45,023 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:40:45,741 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:40:45,741 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:42:42,325 | 	calculated ll: -2467984.872566915. (SR = 0.5774652395466624), hyparam_x0_index: 2
+2021-10-30 08:42:42,325 | 	obj and grad eval took 119.2377706579864s., hyparam_x0_index: 2
+2021-10-30 08:42:42,326 | 	Current pt: [8.54812224e-02 1.87466437e+00 1.52250029e+00 1.59408242e+00
+ 2.13180594e-01 1.73446057e+00 1.01751184e+00 9.95467567e-01
+ 1.10181991e+00 5.73697765e-01 4.75793426e+01 2.75275921e+00
+ 3.39870471e-05 1.48243620e-01 2.18002538e+00 2.46026428e-03
+ 1.34970065e-01 6.38509362e-01 1.90266145e-01 1.36884218e-01
+ 9.94369494e-02]., hyparam_x0_index: 2
+2021-10-30 08:42:42,330 | Objective value at iteration #77 is - -2467984.872566915. Running time: 16132s, hyparam_x0_index: 2
+2021-10-30 08:42:43,145 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:42:44,478 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:42:45,176 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:42:45,176 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:44:41,870 | 	calculated ll: -2499548.3325029057. (SR = 0.6636114392504229), hyparam_x0_index: 2
+2021-10-30 08:44:41,871 | 	obj and grad eval took 119.540068205446s., hyparam_x0_index: 2
+2021-10-30 08:44:41,871 | 	Current pt: [1.09350449e-01 1.88318353e+00 1.52395730e+00 1.56415976e+00
+ 1.95536234e-01 1.73193674e+00 1.01796507e+00 9.95374944e-01
+ 1.10100948e+00 6.08930044e-01 4.76107356e+01 2.76232267e+00
+ 2.08985099e-04 4.81649470e-01 2.62886729e+00 1.11903598e-03
+ 1.35959075e-03 6.22900572e-01 1.97516814e-01 1.40277269e-01
+ 1.15795227e-01]., hyparam_x0_index: 2
+2021-10-30 08:44:41,875 | Objective value at iteration #78 is - -2499548.3325029057. Running time: 16251s, hyparam_x0_index: 2
+2021-10-30 08:44:42,827 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:44:44,132 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:44:44,830 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:44:44,830 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:46:41,826 | 	calculated ll: -2500306.300742656. (SR = 0.7769034924199212), hyparam_x0_index: 2
+2021-10-30 08:46:41,827 | 	obj and grad eval took 119.95027627795935s., hyparam_x0_index: 2
+2021-10-30 08:46:41,827 | 	Current pt: [1.16706073e-01 1.93428432e+00 1.51606615e+00 1.63361498e+00
+ 1.57563115e-01 1.76264905e+00 1.01793763e+00 9.95523731e-01
+ 1.10193407e+00 4.98959551e-01 4.76179688e+01 2.76835855e+00
+ 2.26051245e-03 3.89627515e-01 2.63632739e+00 1.97299903e-04
+ 1.17098598e-01 6.26175862e-01 1.87142452e-01 9.83609353e-02
+ 1.10064161e-01]., hyparam_x0_index: 2
+2021-10-30 08:46:41,831 | Objective value at iteration #79 is - -2500306.300742656. Running time: 16371s, hyparam_x0_index: 2
+2021-10-30 08:46:42,684 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:46:44,008 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:46:44,704 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:46:44,704 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:48:40,361 | 	calculated ll: -2495792.1757925996. (SR = 0.6887397813423206), hyparam_x0_index: 2
+2021-10-30 08:48:40,362 | 	obj and grad eval took 118.52917988225818s., hyparam_x0_index: 2
+2021-10-30 08:48:40,362 | 	Current pt: [2.03677742e-01 1.99934286e+00 1.50839478e+00 1.71111895e+00
+ 2.37129698e-02 1.79155301e+00 1.01771829e+00 9.95708624e-01
+ 1.10295005e+00 3.02894499e-01 4.76215009e+01 2.77493564e+00
+ 4.46559445e-03 1.37590603e-01 2.77668569e+00 1.98673116e-04
+ 1.59833475e-01 6.27708162e-01 1.77477426e-01 7.62230730e-02
+ 1.02679121e-01]., hyparam_x0_index: 2
+2021-10-30 08:48:40,366 | Objective value at iteration #80 is - -2495792.1757925996. Running time: 16490s, hyparam_x0_index: 2
+2021-10-30 08:48:41,336 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:48:42,660 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:48:43,355 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:48:43,355 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:50:39,825 | 	calculated ll: -2501685.814143579. (SR = 0.7199102658042054), hyparam_x0_index: 2
+2021-10-30 08:50:39,826 | 	obj and grad eval took 119.45872601866722s., hyparam_x0_index: 2
+2021-10-30 08:50:39,826 | 	Current pt: [1.80369678e-01 1.90586201e+00 1.51843340e+00 1.62835327e+00
+ 5.65904624e-02 1.75232689e+00 1.01759937e+00 9.95539874e-01
+ 1.10197534e+00 3.30633097e-01 4.76031893e+01 2.76534290e+00
+ 4.73189476e-03 1.41265279e-01 2.67806106e+00 2.09614930e-03
+ 1.60822485e-03 6.27772089e-01 1.89842325e-01 1.33266380e-01
+ 1.06927497e-01]., hyparam_x0_index: 2
+2021-10-30 08:50:39,831 | Objective value at iteration #81 is - -2501685.814143579. Running time: 16609s, hyparam_x0_index: 2
+2021-10-30 08:50:40,786 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:50:42,124 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:50:42,853 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:50:42,853 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:52:39,164 | 	calculated ll: -2502205.974958826. (SR = 0.7189971042483922), hyparam_x0_index: 2
+2021-10-30 08:52:39,165 | 	obj and grad eval took 119.33265813067555s., hyparam_x0_index: 2
+2021-10-30 08:52:39,166 | 	Current pt: [1.91773988e-01 1.94388732e+00 1.51216748e+00 1.68767935e+00
+ 4.73288416e-02 1.77681619e+00 1.01748556e+00 9.95669690e-01
+ 1.10287179e+00 3.72283433e-01 4.76064180e+01 2.77013608e+00
+ 4.56444690e-03 9.22639091e-02 2.69061993e+00 3.08515930e-05
+ 1.49784110e-01 6.34357280e-01 1.80416049e-01 1.11292505e-01
+ 9.94369810e-02]., hyparam_x0_index: 2
+2021-10-30 08:52:39,170 | Objective value at iteration #82 is - -2502205.974958826. Running time: 16729s, hyparam_x0_index: 2
+2021-10-30 08:52:40,057 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:52:41,382 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:52:42,098 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:52:42,098 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:54:39,861 | 	calculated ll: -2502712.8754262743. (SR = 0.7025054520319944), hyparam_x0_index: 2
+2021-10-30 08:54:39,862 | 	obj and grad eval took 120.69111678376794s., hyparam_x0_index: 2
+2021-10-30 08:54:39,862 | 	Current pt: [1.82061915e-01 1.93594130e+00 1.51403151e+00 1.65286056e+00
+ 6.84287146e-02 1.77391814e+00 1.01786423e+00 9.95583675e-01
+ 1.10213359e+00 2.58800505e-01 4.76243304e+01 2.77274831e+00
+ 4.25644353e-03 2.45647185e-01 2.81831406e+00 1.21437317e-03
+ 8.36310222e-02 6.23416314e-01 1.85994654e-01 1.00220652e-01
+ 1.07671444e-01]., hyparam_x0_index: 2
+2021-10-30 08:54:39,866 | Objective value at iteration #83 is - -2502712.8754262743. Running time: 16849s, hyparam_x0_index: 2
+2021-10-30 08:54:40,861 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:54:42,238 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:54:42,972 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:54:42,972 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:56:40,141 | 	calculated ll: -2508067.5704940166. (SR = 0.7753604734099988), hyparam_x0_index: 2
+2021-10-30 08:56:40,143 | 	obj and grad eval took 120.27553233504295s., hyparam_x0_index: 2
+2021-10-30 08:56:40,143 | 	Current pt: [1.80674530e-01 1.93423946e+00 1.51327883e+00 1.63018191e+00
+ 1.22461755e-01 1.78060619e+00 1.01856791e+00 9.95494517e-01
+ 1.10128019e+00 2.59789515e-03 4.76556547e+01 2.77851994e+00
+ 4.27693836e-03 5.11605080e-01 2.96812958e+00 9.51865614e-04
+ 5.64863811e-02 6.05741719e-01 1.90662555e-01 5.98642524e-02
+ 1.21374193e-01]., hyparam_x0_index: 2
+2021-10-30 08:56:40,147 | Objective value at iteration #84 is - -2508067.5704940166. Running time: 16970s, hyparam_x0_index: 2
+2021-10-30 08:56:40,929 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:56:42,282 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:56:42,993 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:56:42,993 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 08:58:38,263 | 	calculated ll: -2483174.5268601. (SR = 0.7783257074784056), hyparam_x0_index: 2
+2021-10-30 08:58:38,264 | 	obj and grad eval took 118.11614694818854s., hyparam_x0_index: 2
+2021-10-30 08:58:38,264 | 	Current pt: [2.10061945e-01 1.93146044e+00 1.50565605e+00 1.64187909e+00
+ 1.23450765e-03 1.80908894e+00 1.01892345e+00 9.95512534e-01
+ 1.10161464e+00 1.69478619e-01 4.76663955e+01 2.78471462e+00
+ 5.63620480e-03 3.37069484e-01 3.04913925e+00 1.04451258e-03
+ 5.68622622e-02 6.00483371e-01 1.83798002e-01 6.48713092e-02
+ 1.10770348e-01]., hyparam_x0_index: 2
+2021-10-30 08:58:39,043 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 08:58:40,381 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 08:58:41,096 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 08:58:41,096 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:00:36,741 | 	calculated ll: -2481811.704157242. (SR = 0.7702571123886917), hyparam_x0_index: 2
+2021-10-30 09:00:36,742 | 	obj and grad eval took 118.47521748766303s., hyparam_x0_index: 2
+2021-10-30 09:00:36,742 | 	Current pt: [2.10061945e-01 1.93146044e+00 1.50565605e+00 1.64187909e+00
+ 1.23450765e-03 1.80908894e+00 1.01892345e+00 9.95512534e-01
+ 1.10161464e+00 1.69410927e-01 4.76663720e+01 2.78471277e+00
+ 5.50322923e-03 3.33674543e-01 3.04887271e+00 1.03329811e-03
+ 5.65867002e-02 6.00483371e-01 1.83798002e-01 6.48713092e-02
+ 1.10770348e-01]., hyparam_x0_index: 2
+2021-10-30 09:00:37,524 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:00:38,842 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:00:39,535 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:00:39,536 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:02:35,184 | 	calculated ll: -2481766.7186240084. (SR = 0.769987847182354), hyparam_x0_index: 2
+2021-10-30 09:02:35,185 | 	obj and grad eval took 118.4402778558433s., hyparam_x0_index: 2
+2021-10-30 09:02:35,185 | 	Current pt: [2.10061945e-01 1.93146044e+00 1.50565605e+00 1.64187909e+00
+ 1.23450765e-03 1.80908894e+00 1.01892345e+00 9.95512534e-01
+ 1.10161464e+00 1.69408562e-01 4.76663711e+01 2.78471268e+00
+ 5.49889574e-03 3.33555203e-01 3.04886014e+00 1.03276917e-03
+ 5.65737029e-02 6.00483371e-01 1.83798002e-01 6.48713092e-02
+ 1.10770348e-01]., hyparam_x0_index: 2
+2021-10-30 09:02:36,006 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:02:37,395 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:02:38,139 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:02:38,140 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:04:34,806 | 	calculated ll: -2481764.6726861936. (SR = 0.7699755186411892), hyparam_x0_index: 2
+2021-10-30 09:04:34,807 | 	obj and grad eval took 119.61895461007953s., hyparam_x0_index: 2
+2021-10-30 09:04:34,807 | 	Current pt: [2.10061945e-01 1.93146044e+00 1.50565605e+00 1.64187909e+00
+ 1.23450765e-03 1.80908894e+00 1.01892345e+00 9.95512534e-01
+ 1.10161464e+00 1.69408451e-01 4.76663711e+01 2.78471268e+00
+ 5.49869924e-03 3.33549593e-01 3.04885948e+00 1.03274144e-03
+ 5.65730216e-02 6.00483371e-01 1.83798002e-01 6.48713092e-02
+ 1.10770348e-01]., hyparam_x0_index: 2
+2021-10-30 09:04:35,810 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:04:37,230 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:04:37,966 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:04:37,966 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:06:33,975 | 	calculated ll: -2508376.5540583376. (SR = 0.7698204930248482), hyparam_x0_index: 2
+2021-10-30 09:06:33,976 | 	obj and grad eval took 119.16571968793869s., hyparam_x0_index: 2
+2021-10-30 09:06:33,976 | 	Current pt: [1.95368237e-01 1.93284995e+00 1.50946744e+00 1.63603050e+00
+ 6.18481311e-02 1.79484757e+00 1.01874568e+00 9.95503525e-01
+ 1.10144742e+00 8.60382571e-02 4.76610251e+01 2.78161728e+00
+ 4.95657158e-03 4.24337282e-01 3.00863442e+00 9.98189097e-04
+ 5.66743217e-02 6.03112545e-01 1.87230278e-01 6.23677808e-02
+ 1.16072270e-01]., hyparam_x0_index: 2
+2021-10-30 09:06:33,980 | Objective value at iteration #85 is - -2508376.5540583376. Running time: 17563s, hyparam_x0_index: 2
+2021-10-30 09:06:35,198 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:06:36,547 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:06:37,263 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:06:37,263 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:08:33,025 | 	calculated ll: -2503200.7217528312. (SR = 0.884393995356727), hyparam_x0_index: 2
+2021-10-30 09:08:33,026 | 	obj and grad eval took 119.04506043717265s., hyparam_x0_index: 2
+2021-10-30 09:08:33,026 | 	Current pt: [2.14509068e-01 1.92966968e+00 1.50482437e+00 1.64322347e+00
+ 2.28350524e-02 1.81243478e+00 1.01896175e+00 9.95514601e-01
+ 1.10165089e+00 1.61793933e-01 4.76677299e+01 2.78542534e+00
+ 8.51490207e-03 3.22691785e-01 3.06115791e+00 1.98719910e-05
+ 3.98951173e-02 5.99899046e-01 1.82925628e-01 6.74122939e-02
+ 1.09136399e-01]., hyparam_x0_index: 2
+2021-10-30 09:08:33,030 | Objective value at iteration #86 is - -2503200.7217528312. Running time: 17682s, hyparam_x0_index: 2
+2021-10-30 09:08:33,904 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:08:35,212 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:08:35,923 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:08:35,923 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:10:32,821 | 	calculated ll: -2497679.993604573. (SR = 0.8959183929530476), hyparam_x0_index: 2
+2021-10-30 09:10:32,822 | 	obj and grad eval took 119.79103153198957s., hyparam_x0_index: 2
+2021-10-30 09:10:32,822 | 	Current pt: [2.44921965e-01 1.92787692e+00 1.49815656e+00 1.65362681e+00
+ 2.38240624e-04 1.82145237e+00 1.01922191e+00 9.95559398e-01
+ 1.10209271e+00 1.86305490e-01 4.76798865e+01 2.79205573e+00
+ 6.68822985e-03 4.46526846e-01 3.20596394e+00 7.65599043e-05
+ 2.92063074e-02 5.98164251e-01 1.79847894e-01 7.01143765e-02
+ 1.06873753e-01]., hyparam_x0_index: 2
+2021-10-30 09:10:33,722 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:10:35,079 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:10:35,786 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:10:35,786 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:12:32,170 | 	calculated ll: -2497689.3397086184. (SR = 0.8960370684464389), hyparam_x0_index: 2
+2021-10-30 09:12:32,171 | 	obj and grad eval took 119.34546641632915s., hyparam_x0_index: 2
+2021-10-30 09:12:32,171 | 	Current pt: [2.44903106e-01 1.92787756e+00 1.49816040e+00 1.65362144e+00
+ 2.38240624e-04 1.82144709e+00 1.01922173e+00 9.95559379e-01
+ 1.10209249e+00 1.86189716e-01 4.76798772e+01 2.79205109e+00
+ 6.69243011e-03 4.46511907e-01 3.20584700e+00 7.65415533e-05
+ 2.92284402e-02 5.98165658e-01 1.79849482e-01 7.01129077e-02
+ 1.06874829e-01]., hyparam_x0_index: 2
+2021-10-30 09:12:33,072 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:12:34,402 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:12:35,112 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:12:35,112 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:14:31,747 | 	calculated ll: -2497689.1432909775. (SR = 0.896034271751768), hyparam_x0_index: 2
+2021-10-30 09:14:31,747 | 	obj and grad eval took 119.57383691892028s., hyparam_x0_index: 2
+2021-10-30 09:14:31,748 | 	Current pt: [2.44903539e-01 1.92787755e+00 1.49816031e+00 1.65362157e+00
+ 2.38240624e-04 1.82144721e+00 1.01922173e+00 9.95559380e-01
+ 1.10209249e+00 1.86192570e-01 4.76798774e+01 2.79205120e+00
+ 6.69233254e-03 4.46512083e-01 3.20584961e+00 7.65419267e-05
+ 2.92277813e-02 5.98165625e-01 1.79849446e-01 7.01129410e-02
+ 1.06874805e-01]., hyparam_x0_index: 2
+2021-10-30 09:14:32,850 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:14:34,183 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:14:34,894 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:14:34,895 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:16:30,392 | 	calculated ll: -2509622.4072954054. (SR = 0.8904591515185657), hyparam_x0_index: 2
+2021-10-30 09:16:30,393 | 	obj and grad eval took 118.642701651901s., hyparam_x0_index: 2
+2021-10-30 09:16:30,393 | 	Current pt: [2.29715516e-01 1.92877330e+00 1.50149047e+00 1.64842514e+00
+ 1.15366465e-02 1.81694358e+00 1.01909183e+00 9.95536999e-01
+ 1.10187180e+00 1.74049711e-01 4.76738082e+01 2.78874054e+00
+ 7.60156596e-03 3.84609315e-01 3.13356092e+00 4.82159476e-05
+ 3.45507123e-02 5.99031649e-01 1.81386761e-01 6.87633352e-02
+ 1.08005076e-01]., hyparam_x0_index: 2
+2021-10-30 09:16:30,397 | Objective value at iteration #87 is - -2509622.4072954054. Running time: 18160s, hyparam_x0_index: 2
+2021-10-30 09:16:31,128 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:16:32,454 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:16:33,173 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:16:33,173 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:18:28,588 | 	calculated ll: -2471085.8759179073. (SR = 0.871010790021064), hyparam_x0_index: 2
+2021-10-30 09:18:28,589 | 	obj and grad eval took 118.19090613350272s., hyparam_x0_index: 2
+2021-10-30 09:18:28,589 | 	Current pt: [2.59302018e-01 1.92770009e+00 1.49533917e+00 1.65800071e+00
+ 1.25256565e-04 1.81942447e+00 1.01931625e+00 9.95589448e-01
+ 1.10233138e+00 1.49700980e-01 4.76855946e+01 2.79519414e+00
+ 4.14849908e-03 5.96754648e-01 3.28774233e+00 7.93943891e-05
+ 3.16600188e-02 5.98340075e-01 1.79652059e-01 6.95455739e-02
+ 1.08200285e-01]., hyparam_x0_index: 2
+2021-10-30 09:18:28,593 | Objective value at iteration #88 is - -2471085.8759179073. Running time: 18278s, hyparam_x0_index: 2
+2021-10-30 09:18:29,685 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:18:31,032 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:18:31,754 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:18:31,754 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:20:27,581 | 	calculated ll: -2505927.3762702853. (SR = 0.8405393007313993), hyparam_x0_index: 2
+2021-10-30 09:20:27,582 | 	obj and grad eval took 118.98785927891731s., hyparam_x0_index: 2
+2021-10-30 09:20:27,582 | 	Current pt: [2.32531927e-01 1.92920623e+00 1.49935611e+00 1.65222187e+00
+ 3.66622679e-03 1.82992768e+00 1.01917710e+00 9.95528906e-01
+ 1.10194535e+00 3.62472557e-01 4.76784296e+01 2.79068481e+00
+ 5.98870706e-03 2.43275108e-01 3.16587251e+00 6.63857629e-04
+ 2.79289407e-02 5.97950234e-01 1.78474334e-01 7.33439428e-02
+ 1.05822960e-01]., hyparam_x0_index: 2
+2021-10-30 09:20:28,656 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:20:29,995 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:20:30,701 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:20:30,701 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:22:26,136 | 	calculated ll: -2506155.38191784. (SR = 0.8324627694382731), hyparam_x0_index: 2
+2021-10-30 09:22:26,137 | 	obj and grad eval took 118.55218360945582s., hyparam_x0_index: 2
+2021-10-30 09:22:26,138 | 	Current pt: [2.34017191e-01 1.92917944e+00 1.49902029e+00 1.65275964e+00
+ 3.59220122e-03 1.83106025e+00 1.01919204e+00 9.95529484e-01
+ 1.10196087e+00 3.75913365e-01 4.76791365e+01 2.79101589e+00
+ 5.68751200e-03 2.38494936e-01 3.17297698e+00 6.10361509e-04
+ 2.15941164e-02 5.97773559e-01 1.78194114e-01 7.37620424e-02
+ 1.05651819e-01]., hyparam_x0_index: 2
+2021-10-30 09:22:27,214 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:22:28,546 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:22:29,251 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:22:29,251 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:24:24,681 | 	calculated ll: -2506228.946425115. (SR = 0.8295994300875353), hyparam_x0_index: 2
+2021-10-30 09:24:24,682 | 	obj and grad eval took 118.54170811921358s., hyparam_x0_index: 2
+2021-10-30 09:24:24,682 | 	Current pt: [2.34539273e-01 1.92916963e+00 1.49890227e+00 1.65294868e+00
+ 3.56609247e-03 1.83145894e+00 1.01919730e+00 9.95529686e-01
+ 1.10196632e+00 3.80633652e-01 4.76793848e+01 2.79113219e+00
+ 5.58194152e-03 2.36806949e-01 3.17547105e+00 5.91316622e-04
+ 1.93462003e-02 5.97711376e-01 1.78095480e-01 7.39095204e-02
+ 1.05591312e-01]., hyparam_x0_index: 2
+2021-10-30 09:24:24,686 | Objective value at iteration #89 is - -2506228.946425115. Running time: 18634s, hyparam_x0_index: 2
+2021-10-30 09:24:25,669 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:24:27,016 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:24:27,748 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:24:27,748 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:26:23,346 | 	calculated ll: -2510946.245199812. (SR = 0.9490627178993256), hyparam_x0_index: 2
+2021-10-30 09:26:23,347 | 	obj and grad eval took 118.65943751484156s., hyparam_x0_index: 2
+2021-10-30 09:26:23,347 | 	Current pt: [2.35926967e-01 1.92713241e+00 1.50124861e+00 1.64864220e+00
+ 1.89440958e-02 1.80618636e+00 1.01907643e+00 9.95564810e-01
+ 1.10198602e+00 3.81622662e-03 4.76734858e+01 2.78915965e+00
+ 7.21580586e-03 5.85133709e-01 3.15526055e+00 3.11224170e-04
+ 4.10794967e-02 6.00305438e-01 1.83189248e-01 6.63547672e-02
+ 1.09505301e-01]., hyparam_x0_index: 2
+2021-10-30 09:26:23,351 | Objective value at iteration #90 is - -2510946.2451998126. Running time: 18753s, hyparam_x0_index: 2
+2021-10-30 09:26:24,017 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:26:25,321 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:26:26,071 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:26:26,071 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:28:22,370 | 	calculated ll: -2495390.0797719792. (SR = 0.7694375892963788), hyparam_x0_index: 2
+2021-10-30 09:28:22,371 | 	obj and grad eval took 119.0184782370925s., hyparam_x0_index: 2
+2021-10-30 09:28:22,371 | 	Current pt: [2.71055312e-01 1.91780689e+00 1.49165214e+00 1.66484291e+00
+ 2.08921789e-02 1.82378448e+00 1.01941382e+00 9.95641301e-01
+ 1.10262922e+00 1.43812426e-01 4.76829456e+01 2.79553787e+00
+ 1.57198561e-03 6.49626385e-01 3.23180730e+00 7.90155666e-04
+ 9.83586037e-02 5.97004431e-01 1.76068517e-01 7.59048505e-02
+ 9.91993121e-02]., hyparam_x0_index: 2
+2021-10-30 09:28:23,201 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:28:24,504 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:28:25,202 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:28:25,203 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:30:21,595 | 	calculated ll: -2505416.5314000095. (SR = 0.8779119731844337), hyparam_x0_index: 2
+2021-10-30 09:30:21,595 | 	obj and grad eval took 119.22177661955357s., hyparam_x0_index: 2
+2021-10-30 09:30:21,596 | 	Current pt: [2.53491139e-01 1.92246965e+00 1.49645038e+00 1.65674255e+00
+ 1.99181374e-02 1.81498542e+00 1.01924513e+00 9.95603055e-01
+ 1.10230762e+00 7.38143262e-02 4.76782157e+01 2.79234876e+00
+ 4.39389573e-03 6.17380047e-01 3.19353392e+00 5.50689918e-04
+ 6.97190502e-02 5.98654934e-01 1.79628882e-01 7.11298088e-02
+ 1.04352306e-01]., hyparam_x0_index: 2
+2021-10-30 09:30:22,502 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:30:23,812 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:30:24,517 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:30:24,517 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:32:20,811 | 	calculated ll: -2508888.6576499804. (SR = 0.9165562691495677), hyparam_x0_index: 2
+2021-10-30 09:32:20,813 | 	obj and grad eval took 119.21454590186477s., hyparam_x0_index: 2
+2021-10-30 09:32:20,813 | 	Current pt: [2.44709053e-01 1.92480103e+00 1.49884949e+00 1.65269237e+00
+ 1.94311166e-02 1.81058589e+00 1.01916078e+00 9.95583932e-01
+ 1.10214682e+00 3.88152764e-02 4.76758508e+01 2.79075420e+00
+ 5.80485080e-03 6.01256878e-01 3.17439724e+00 4.30957044e-04
+ 5.53992734e-02 5.99480186e-01 1.81409065e-01 6.87422880e-02
+ 1.06928804e-01]., hyparam_x0_index: 2
+2021-10-30 09:32:20,817 | Objective value at iteration #91 is - -2508888.657649981. Running time: 19110s, hyparam_x0_index: 2
+2021-10-30 09:32:21,388 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:32:22,713 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:32:23,420 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:32:23,420 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:34:19,155 | 	calculated ll: -2493001.5733715077. (SR = 0.8015508367990298), hyparam_x0_index: 2
+2021-10-30 09:34:19,156 | 	obj and grad eval took 118.33759708702564s., hyparam_x0_index: 2
+2021-10-30 09:34:19,156 | 	Current pt: [2.70666348e-01 1.91309992e+00 1.48894455e+00 1.66970682e+00
+ 2.86218740e-02 1.82186626e+00 1.01942826e+00 9.95690340e-01
+ 1.10293534e+00 6.07608729e-02 4.76838554e+01 2.79657313e+00
+ 6.79386080e-05 7.97177701e-01 3.24490962e+00 1.43685406e-03
+ 7.78176931e-03 5.97593578e-01 1.74666025e-01 8.14724498e-02
+ 9.68007921e-02]., hyparam_x0_index: 2
+2021-10-30 09:34:19,160 | Objective value at iteration #92 is - -2493001.5733715077. Running time: 19229s, hyparam_x0_index: 2
+2021-10-30 09:34:19,851 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:34:21,186 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:34:21,903 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:34:21,903 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:36:18,294 | 	calculated ll: -2501030.675482885. (SR = 0.8763613072947295), hyparam_x0_index: 2
+2021-10-30 09:36:18,296 | 	obj and grad eval took 119.13433157280087s., hyparam_x0_index: 2
+2021-10-30 09:36:18,296 | 	Current pt: [2.88906642e-01 1.90737029e+00 1.48492710e+00 1.67591192e+00
+ 2.65495330e-02 1.83177722e+00 1.01959274e+00 9.95723329e-01
+ 1.10318527e+00 4.08066803e-02 4.76848756e+01 2.79861318e+00
+ 1.68805717e-03 7.80024343e-01 3.24650362e+00 2.42586406e-05
+ 2.37141125e-02 5.96288640e-01 1.71210213e-01 8.55772918e-02
+ 9.00744505e-02]., hyparam_x0_index: 2
+2021-10-30 09:36:18,300 | Objective value at iteration #93 is - -2501030.6754828854. Running time: 19348s, hyparam_x0_index: 2
+2021-10-30 09:36:18,979 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:36:20,277 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:36:20,986 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:36:20,986 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:38:17,645 | 	calculated ll: -2506503.506493761. (SR = 0.9371832372280822), hyparam_x0_index: 2
+2021-10-30 09:38:17,646 | 	obj and grad eval took 119.34465447440743s., hyparam_x0_index: 2
+2021-10-30 09:38:17,646 | 	Current pt: [3.49233071e-01 1.89526509e+00 1.47032077e+00 1.69858095e+00
+ 2.42744830e-02 1.86087224e+00 1.02012945e+00 9.95834692e-01
+ 1.10416953e+00 5.61164467e-02 4.76992655e+01 2.80920080e+00
+ 1.51594627e-03 8.55112815e-01 3.39936557e+00 3.29245839e-04
+ 4.48657865e-03 5.93678286e-01 1.61144187e-01 9.76540942e-02
+ 7.61060338e-02]., hyparam_x0_index: 2
+2021-10-30 09:38:17,650 | Objective value at iteration #94 is - -2506503.506493761. Running time: 19467s, hyparam_x0_index: 2
+2021-10-30 09:38:18,317 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:38:19,643 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:38:20,360 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:38:20,361 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:40:17,286 | 	calculated ll: -2509849.4707867084. (SR = 0.9622965506465928), hyparam_x0_index: 2
+2021-10-30 09:40:17,287 | 	obj and grad eval took 119.63563552126288s., hyparam_x0_index: 2
+2021-10-30 09:40:17,287 | 	Current pt: [4.19533458e-01 1.88369648e+00 1.45296737e+00 1.72030172e+00
+ 2.14427115e-02 1.89230975e+00 1.02087859e+00 9.95958478e-01
+ 1.10524317e+00 1.11847407e-01 4.77168218e+01 2.82144636e+00
+ 1.01838764e-03 9.05157071e-01 3.58215228e+00 1.31825584e-05
+ 5.05166159e-03 5.93622550e-01 1.50153788e-01 1.08524692e-01
+ 6.79876528e-02]., hyparam_x0_index: 2
+2021-10-30 09:40:17,291 | Objective value at iteration #95 is - -2509849.4707867084. Running time: 19587s, hyparam_x0_index: 2
+2021-10-30 09:40:18,353 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:40:19,659 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:40:20,364 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:40:20,364 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:42:16,710 | 	calculated ll: -2501676.445827611. (SR = 0.8319689061408799), hyparam_x0_index: 2
+2021-10-30 09:42:16,711 | 	obj and grad eval took 119.41905128210783s., hyparam_x0_index: 2
+2021-10-30 09:42:16,711 | 	Current pt: [6.31097285e-01 1.86738254e+00 1.43019903e+00 1.72462317e+00
+ 6.89753820e-02 1.92062254e+00 1.02080199e+00 9.96086909e-01
+ 1.10689133e+00 1.12836417e-03 4.77197326e+01 2.83610053e+00
+ 6.29782594e-03 4.70250196e-01 3.55605472e+00 1.41021070e-04
+ 1.82033807e-02 6.36201011e-01 1.39138960e-01 9.07884195e-02
+ 7.43904741e-02]., hyparam_x0_index: 2
+2021-10-30 09:42:16,716 | Objective value at iteration #96 is - -2501676.4458276103. Running time: 19706s, hyparam_x0_index: 2
+2021-10-30 09:42:17,807 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:42:19,120 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:42:19,819 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:42:19,819 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:44:15,868 | 	calculated ll: -2503278.0706610493. (SR = 0.7305877827015825), hyparam_x0_index: 2
+2021-10-30 09:44:15,869 | 	obj and grad eval took 119.15087059512734s., hyparam_x0_index: 2
+2021-10-30 09:44:15,869 | 	Current pt: [8.04921960e-01 1.86067098e+00 1.41222152e+00 1.72844222e+00
+ 1.05427543e-01 1.93320074e+00 1.02078474e+00 9.96168789e-01
+ 1.10815426e+00 1.06178953e-02 4.77230684e+01 2.84890235e+00
+ 1.09508554e-02 4.71239206e-03 3.53844222e+00 2.10100482e-04
+ 2.72578066e-02 6.65479271e-01 1.32944366e-01 8.20419868e-02
+ 7.56364415e-02]., hyparam_x0_index: 2
+2021-10-30 09:44:16,946 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:44:18,295 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:44:19,001 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:44:19,001 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:46:15,044 | 	calculated ll: -2503277.846325957. (SR = 0.7305758924030381), hyparam_x0_index: 2
+2021-10-30 09:46:15,045 | 	obj and grad eval took 119.17316922917962s., hyparam_x0_index: 2
+2021-10-30 09:46:15,046 | 	Current pt: [8.04956365e-01 1.86066799e+00 1.41221611e+00 1.72844995e+00
+ 1.05431177e-01 1.93320995e+00 1.02078512e+00 9.96168828e-01
+ 1.10815447e+00 1.05884055e-02 4.77230763e+01 2.84890754e+00
+ 1.09509419e-02 4.71239206e-03 3.53859208e+00 2.09662991e-04
+ 2.72061962e-02 6.65474806e-01 1.32941327e-01 8.20485710e-02
+ 7.56337990e-02]., hyparam_x0_index: 2
+2021-10-30 09:46:16,096 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:46:17,434 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:46:18,163 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:46:18,163 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:48:14,052 | 	calculated ll: -2503277.846681519. (SR = 0.7305758648389645), hyparam_x0_index: 2
+2021-10-30 09:48:14,053 | 	obj and grad eval took 119.0042639002204s., hyparam_x0_index: 2
+2021-10-30 09:48:14,053 | 	Current pt: [8.04956513e-01 1.86066798e+00 1.41221609e+00 1.72844999e+00
+ 1.05431192e-01 1.93321000e+00 1.02078512e+00 9.96168828e-01
+ 1.10815447e+00 1.05882935e-02 4.77230763e+01 2.84890757e+00
+ 1.09509428e-02 4.71239206e-03 3.53859271e+00 2.09660786e-04
+ 2.72059334e-02 6.65474787e-01 1.32941312e-01 8.20485979e-02
+ 7.56337868e-02]., hyparam_x0_index: 2
+2021-10-30 09:48:15,138 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:48:16,494 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:48:17,216 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:48:17,216 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:50:13,168 | 	calculated ll: -2506521.3923985013. (SR = 0.7735791993057322), hyparam_x0_index: 2
+2021-10-30 09:50:13,169 | 	obj and grad eval took 119.1136819049716s., hyparam_x0_index: 2
+2021-10-30 09:50:13,169 | 	Current pt: [7.18009623e-01 1.86402676e+00 1.42121028e+00 1.72653269e+00
+ 8.72014625e-02 1.92691164e+00 1.02079336e+00 9.96127849e-01
+ 1.10752280e+00 5.87312972e-03 4.77214005e+01 2.84250144e+00
+ 8.62434069e-03 2.37481294e-01 3.54724847e+00 1.75560776e-04
+ 2.27305936e-02 6.50840141e-01 1.36041663e-01 8.64152032e-02
+ 7.50134578e-02]., hyparam_x0_index: 2
+2021-10-30 09:50:13,173 | Objective value at iteration #97 is - -2506521.3923985013. Running time: 20183s, hyparam_x0_index: 2
+2021-10-30 09:50:13,759 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:50:15,083 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:50:15,782 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:50:15,782 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:52:12,929 | 	calculated ll: -2473464.4539708034. (SR = 0.3887867888045946), hyparam_x0_index: 2
+2021-10-30 09:52:12,929 | 	obj and grad eval took 119.75488748773932s., hyparam_x0_index: 2
+2021-10-30 09:52:12,930 | 	Current pt: [6.60389018e-01 1.86459662e+00 1.43005095e+00 1.72681654e+00
+ 1.34622608e-01 1.90606712e+00 1.02027814e+00 9.96106204e-01
+ 1.10719298e+00 8.89385820e-03 4.77091456e+01 2.83499536e+00
+ 9.61335069e-05 3.76713788e-01 3.39741441e+00 3.97190233e-04
+ 2.40179401e-02 6.39954387e-01 1.40845665e-01 9.60210849e-02
+ 6.49400787e-02]., hyparam_x0_index: 2
+2021-10-30 09:52:13,515 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:52:14,833 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:52:15,542 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:52:15,542 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:54:12,029 | 	calculated ll: -2473431.49050243. (SR = 0.38852174285291396), hyparam_x0_index: 2
+2021-10-30 09:54:12,030 | 	obj and grad eval took 119.09711322188377s., hyparam_x0_index: 2
+2021-10-30 09:54:12,030 | 	Current pt: [6.60614933e-01 1.86457327e+00 1.43001375e+00 1.72686422e+00
+ 1.34681875e-01 1.90611659e+00 1.02027908e+00 9.96106442e-01
+ 1.10719553e+00 8.89426682e-03 4.77091739e+01 2.83502386e+00
+ 9.61335069e-05 3.76440293e-01 3.39768272e+00 3.95094302e-04
+ 2.38247298e-02 6.39960380e-01 1.40825571e-01 9.60393884e-02
+ 6.49126645e-02]., hyparam_x0_index: 2
+2021-10-30 09:54:12,626 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:54:13,964 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:54:14,667 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:54:14,667 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:56:10,927 | 	calculated ll: -2473430.6238963245. (SR = 0.3885147678203302), hyparam_x0_index: 2
+2021-10-30 09:56:10,928 | 	obj and grad eval took 118.89576730877161s., hyparam_x0_index: 2
+2021-10-30 09:56:10,929 | 	Current pt: [6.60620975e-01 1.86457261e+00 1.43001275e+00 1.72686550e+00
+ 1.34683453e-01 1.90611799e+00 1.02027910e+00 9.96106448e-01
+ 1.10719560e+00 8.89411082e-03 4.77091747e+01 2.83502463e+00
+ 9.61335069e-05 3.76433101e-01 3.39769039e+00 3.95036285e-04
+ 2.38195475e-02 6.39960523e-01 1.40825020e-01 9.60398871e-02
+ 6.49119156e-02]., hyparam_x0_index: 2
+2021-10-30 09:56:11,748 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:56:13,107 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:56:13,816 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:56:13,816 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 09:58:10,748 | 	calculated ll: -2500531.7472607503. (SR = 0.6373519954372961), hyparam_x0_index: 2
+2021-10-30 09:58:10,749 | 	obj and grad eval took 119.81761553138494s., hyparam_x0_index: 2
+2021-10-30 09:58:10,749 | 	Current pt: [6.89199321e-01 1.86431169e+00 1.42563062e+00 1.72667462e+00
+ 1.10912035e-01 1.91648938e+00 1.02053575e+00 9.96117026e-01
+ 1.10735789e+00 7.38349396e-03 4.77152731e+01 2.83874840e+00
+ 4.36023710e-03 3.07097541e-01 3.47233144e+00 2.86375505e-04
+ 2.33742669e-02 6.45397264e-01 1.38443664e-01 9.12181440e-02
+ 6.99767683e-02]., hyparam_x0_index: 2
+2021-10-30 09:58:11,707 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 09:58:13,077 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 09:58:13,785 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 09:58:13,785 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 10:00:10,371 | 	calculated ll: -2507707.8062862772. (SR = 0.7116871264250811), hyparam_x0_index: 2
+2021-10-30 10:00:10,371 | 	obj and grad eval took 119.62014878541231s., hyparam_x0_index: 2
+2021-10-30 10:00:10,372 | 	Current pt: [7.03604472e-01 1.86416922e+00 1.42342045e+00 1.72660366e+00
+ 9.90567489e-02 1.92170051e+00 1.02066456e+00 9.96122438e-01
+ 1.10744034e+00 6.62831184e-03 4.77183368e+01 2.84062492e+00
+ 6.49228889e-03 2.72289418e-01 3.50978995e+00 2.30968140e-04
+ 2.30524303e-02 6.48118702e-01 1.37242663e-01 8.88166736e-02
+ 7.24951130e-02]., hyparam_x0_index: 2
+2021-10-30 10:00:10,376 | Objective value at iteration #98 is - -2507707.8062862777. Running time: 20780s, hyparam_x0_index: 2
+2021-10-30 10:00:11,112 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 10:00:12,444 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 10:00:13,177 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 10:00:13,177 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 10:02:08,868 | 	calculated ll: -2497494.9026768506. (SR = 0.5729374186859164), hyparam_x0_index: 2
+2021-10-30 10:02:08,869 | 	obj and grad eval took 118.4923359118402s., hyparam_x0_index: 2
+2021-10-30 10:02:08,869 | 	Current pt: [5.79645796e-01 1.88095231e+00 1.44404999e+00 1.70724997e+00
+ 1.06633798e-01 1.88263716e+00 1.02001512e+00 9.95990865e-01
+ 1.10616388e+00 4.06809463e-02 4.77060347e+01 2.82702373e+00
+ 1.46133885e-03 4.41957927e-01 3.40198338e+00 1.38731831e-03
+ 2.40414403e-04 6.37668326e-01 1.50473280e-01 8.46901015e-02
+ 8.30855100e-02]., hyparam_x0_index: 2
+2021-10-30 10:02:08,873 | Objective value at iteration #99 is - -2497494.9026768506. Running time: 20898s, hyparam_x0_index: 2
+2021-10-30 10:02:09,630 | 	calculated h & H. calculating h_grad..., hyparam_x0_index: 2
+2021-10-30 10:02:10,955 | 	calculated h_grad. calculating H_grad..., hyparam_x0_index: 2
+2021-10-30 10:02:11,740 | 	calculated H_grad, hyparam_x0_index: 2
+2021-10-30 10:02:11,740 | 	calculating ll..., hyparam_x0_index: 2
+2021-10-30 10:04:07,761 | 	calculated ll: -2506030.1595277796. (SR = 0.6082806316453249), hyparam_x0_index: 2
+2021-10-30 10:04:07,762 | 	obj and grad eval took 118.88785145059228s., hyparam_x0_index: 2
+2021-10-30 10:04:07,763 | 	Current pt: [6.97225841e-01 1.87293887e+00 1.42097842e+00 1.73521390e+00
+ 9.49746397e-02 1.90566419e+00 1.02081440e+00 9.96143491e-01
+ 1.10769085e+00 1.74115370e-01 4.77211853e+01 2.84287065e+00
+ 2.99104491e-03 2.79520547e-01 3.52899325e+00 1.51507420e-03
+ 2.12527457e-02 6.37109618e-01 1.39623831e-01 1.01870178e-01
+ 6.92749448e-02]., hyparam_x0_index: 2
+2021-10-30 10:04:07,767 | Objective value at iteration #100 is - -2506030.1595277796. Running time: 21017s, hyparam_x0_index: 2
