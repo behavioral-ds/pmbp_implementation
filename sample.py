@@ -14,15 +14,26 @@ pmbp.initialize(*pickle.load(open(data_file, "rb")))
 # pmbp.fit()
 
 # do hyperparameter tuning, then fit the PMBP model to data
+# (3,2) hyperparameters
 pmbp.fit(
     perform_hyperparameter_tuning=True,
     grid=[
         [[1, 1, 1], 1000, "start"],
         [[1, 1, 1000], 1000, "start"],
         [[1, 1, 1], 1000, "max"],
-        [[1, 1, 1000], 1000, "max"],
+        [[1, 1, 1000], 1000, "max"]
     ],
 )
+# (3,3) hyperparameters
+# pmbp.fit(
+#     perform_hyperparameter_tuning=True,
+#     grid=[
+#         [[1000,1,1], 10, "start"],
+#         [[1000,1,1], 1000, "start"],
+#         [[1000,1,1], 10, "max"],
+#         [[1000,1,1], 1000, "max"]
+#     ],
+# )
 
 # evaluate PMBP model performance
 pmbp.evaluate()

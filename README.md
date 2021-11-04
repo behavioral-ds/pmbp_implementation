@@ -59,6 +59,16 @@ This saves a PDF plot to the `output/` folder.
 
 ![png](util/sample_E12.png)
 
+## Example
+
+An example Python script is provided to run the entire fitting pipeline for a PMBP(3,2) or PMBP(3,3) model on sample data.
+
+To run the example, go to the command line and run the Python script.
+
+```
+python sample.py
+```
+on the same directory. Ideally, run the script on a tmux or screen tab so that the entire procedure runs in the background.
 
 ## License
 
