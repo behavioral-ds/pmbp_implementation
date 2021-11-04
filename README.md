@@ -2,7 +2,9 @@
 
 ## Description 
 
-Implementation of the PMBP(D,E) model introduced in "Partial Multivariate Interval-censored Hawkes Processes" by Pio Calderon, Alexander Soen, and Marian-Andrei Rizoiu. (Preprint out soon.)
+Implementation of the PMBP(D,E) model introduced in "Partial Multivariate Interval-censored Hawkes Processes" by Pio Calderon, Alexander Soen, and Marian-Andrei Rizoiu. (Preprint out soon.) 
+
+Current implementation focuses on the D=3 case. Other cases are left for future work.
 
 ## Usage
 
